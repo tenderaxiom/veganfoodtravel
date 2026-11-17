@@ -1,0 +1,25 @@
+name: Fetch free-licensed photos
+on:
+  push:
+    branches: [main]
+    paths: ["data/photos.json", "scripts/fetch_photos.py"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Download, compress and credit photos
+        run: python scripts/fetch_photos.py
+      - name: Commit photos
+        run: |
+          git config user.name "Vegan Food Travel bot"
+          git config user.email "hello@veganfoodtravel.com"
+          git add static/img data/photo_credits.json
+          git diff --cached --quiet || (git commit -m "Add free-licensed photos and credits" && git push)

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 64" role="img" aria-label="Vegan Food Travel">
+  <g>
+    <rect width="64" height="64" rx="16" fill="#2F6B45"/>
+    <path d="M14 50C14 30 28 15 52 12C50 36 36 50 18 50Z" fill="#FBFAF6"/>
+    <path d="M18 46C26 38 34 30 44 20" fill="none" stroke="#2F6B45" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 6"/>
+    <circle cx="44.5" cy="19.5" r="4.2" fill="#E9A23B"/>
+    <circle cx="44.5" cy="19.5" r="1.6" fill="#FBFAF6"/>
+  </g>
+  <text x="80" y="29" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="#1D2A22" letter-spacing="-0.3">Vegan <tspan fill="#2F6B45">Food</tspan> Travel</text>
+  <text x="81" y="50" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#5B6B60" letter-spacing="1.6">EAT LIKE A LOCAL · STAY VEGAN</text>
+</svg>

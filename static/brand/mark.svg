@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vegan Food Travel">
+  <rect width="64" height="64" rx="16" fill="#2F6B45"/>
+  <path d="M14 50C14 30 28 15 52 12C50 36 36 50 18 50Z" fill="#FBFAF6"/>
+  <path d="M18 46C26 38 34 30 44 20" fill="none" stroke="#2F6B45" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 6"/>
+  <circle cx="44.5" cy="19.5" r="4.2" fill="#E9A23B"/>
+  <circle cx="44.5" cy="19.5" r="1.6" fill="#FBFAF6"/>
+</svg>

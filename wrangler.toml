@@ -1,0 +1,8 @@
+name = "veganfoodtravel"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "veganfoodtravel"
+database_id = "60ab8608-e603-475e-8396-097b36017d06"
