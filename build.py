@@ -220,7 +220,7 @@ def page(*, path, title, description, body, jsonld=(), indexable=True, og=None, 
 </div>
 </main>
 <footer class="site"><div class="wrap"><div class="cols">
-<div><img src="/brand/logo-light.svg" alt="{BRAND}" width="230" height="45"><p style="margin-top:12px">{e(DESCRIPTOR)} Written from nearly 30 years of travel and {YEARS_VEGAN} years vegan.</p></div>
+<div><img src="/brand/logo-light.svg" alt="{BRAND}" width="230" height="45"><p style="margin-top:12px">{e(DESCRIPTOR)} Written from over 30 years of travel and {YEARS_VEGAN} years vegan.</p></div>
 <div><h4>Explore</h4><ul><li><a href="/#countries">All countries</a></li><li><a href="/phrase-cards/">Phrase cards</a></li><li><a href="/free-guide/">Free pack</a></li></ul></div>
 <div><h4>About</h4><ul><li><a href="/about/">About &amp; how I check</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms &amp; disclosure</a></li><li><a href="/photo-credits/">Photo credits</a></li></ul></div>
 </div><p class="fine">© {YEAR} {BRAND}. Nobody pays to be included. Photos are free-licensed from Wikimedia Commons and credited on each page.</p></div></footer>
@@ -316,7 +316,7 @@ def home(countries):
 <div class="body"><span class="kicker">#{c['rank']} most visited · {e(c['ease'])}</span><span class="name">Vegan food in {e(c['name'])}</span><span class="muted" style="font-size:15px">Try first: {e(c['first_dish'])}</span></div></a></li>""" for c in countries)
     hero = hero_block("home/hero", "Fresh vegetables and chillies at a market", f"""<p class="eyebrow" style="color:#bfe3c9">Vegan food travel guides</p>
 <h1>Eat like a local.<br>Stay vegan.</h1>
-<p class="lead">The traditional dishes of every country that are already vegan, the ones you can ask for, and exactly how to ask. From nearly 30 years of travel and {YEARS_VEGAN} years vegan.</p>
+<p class="lead">The traditional dishes of every country that are already vegan, the ones you can ask for, and exactly how to ask. From over 30 years of travel and {YEARS_VEGAN} years vegan.</p>
 <p style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px"><a class="btn" href="/free-guide/">Get the free phrase cards</a><a class="btn ghost" style="color:#fff!important" href="#countries">Browse countries</a></p>""")
     body = f"""<h2 id="countries">Start with the world's 10 most-visited countries</h2>
 <p class="muted">Ranked by international arrivals in 2024 (UN Tourism). Each guide covers the local dishes, what to watch for, and a phrase card.</p>
@@ -327,7 +327,7 @@ def home(countries):
 <li><b>Show the phrase card.</b><br>One sentence in the local language that tells the kitchen exactly what you eat.</li></ol>
 {cta_block("/")}
 <div class="founder"><img class="mono" src="/brand/mark.svg" alt="" width="84" height="84"><div><p class="eyebrow">From the founder</p>
-<p style="margin:4px 0 8px;font-family:var(--serif);font-size:22px;line-height:1.35">“I've been eating my way around the world for nearly 30 years. For the last {YEARS_VEGAN}, I've done it vegan. The food is still the best part.”</p>
+<p style="margin:4px 0 8px;font-family:var(--serif);font-size:22px;line-height:1.35">“I've been eating my way around the world for over 30 years. For the last {YEARS_VEGAN}, I've done it vegan. The food is still the best part.”</p>
 <p class="meta">{AUTHOR} · <a href="/about/">Read the story</a></p></div></div>"""
     website = {"@context": "https://schema.org", "@type": "WebSite", "@id": SITE + "/#website", "name": BRAND,
                "url": SITE + "/", "description": DESCRIPTOR, "inLanguage": "en", "publisher": {"@id": SITE + "/#org"}}
@@ -383,7 +383,7 @@ def unsubscribed():
 
 def about():
     body = f"""<div class="prose" style="padding-top:40px"><p class="crumbs"><a href="/">Home</a> / About</p>
-<h1>I've been eating my way around the world for nearly 30 years. For the last {YEARS_VEGAN}, I've done it vegan.</h1>
+<h1>I've been eating my way around the world for over 30 years. For the last {YEARS_VEGAN}, I've done it vegan.</h1>
 <p class="lead">I'm {AUTHOR}. I started travelling with the Royal New Zealand Navy and never really stopped. Food was always the reason to go. When I went vegan in {VEGAN_SINCE}, people assumed that part of travel was over. It wasn't. In most countries, some of the best traditional dishes are already vegan. You just need to know which ones, and how to ask.</p>
 <p>That gap, between what vegan travellers fear and what is actually on the table, is what {BRAND} closes. Each guide covers one country: the dishes that are vegan by tradition, the ones you can ask for vegan, what to watch for, and a card in the local language to show your server.</p>
 <h2>How each guide is checked</h2>
@@ -394,8 +394,8 @@ def about():
 <li>If something has changed, <a href="/contact/">tell me</a>. Corrections are dated on the page.</li></ul></div>
 {cta_block("/about/")}"""
     p = {"@context": "https://schema.org", "@type": "AboutPage", "url": SITE + "/about/", "mainEntity": person(), "publisher": org()}
-    return "/about/", page(path="/about/", title=f"About {BRAND}: Nearly 30 Years of Travel, {YEARS_VEGAN} Years Vegan",
-                           description=f"{AUTHOR} has travelled to dozens of countries over nearly 30 years and has been vegan since {VEGAN_SINCE}. How each guide is checked.",
+    return "/about/", page(path="/about/", title=f"About {BRAND}: Over 30 Years of Travel, {YEARS_VEGAN} Years Vegan",
+                           description=f"{AUTHOR} has travelled to dozens of countries for over 30 years and has been vegan since {VEGAN_SINCE}. How each guide is checked.",
                            body=body, jsonld=[p], narrow=True)
 
 
