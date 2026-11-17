@@ -384,7 +384,7 @@ def unsubscribed():
 def about():
     body = f"""<div class="prose" style="padding-top:40px"><p class="crumbs"><a href="/">Home</a> / About</p>
 <h1>I've been eating my way around the world for over 30 years. For the last {YEARS_VEGAN}, I've done it vegan.</h1>
-<p class="lead">I'm {AUTHOR}, a New Zealander and a lifelong foodie. Travel has been part of my working life from the start, and food has always been my favourite part of it.</p>
+<p class="lead">I'm {AUTHOR}, a New Zealander and a foodie. Travel has been part of my working life from the start, and food has always been my favourite part of it.</p>
 <h2>How I got here</h2>
 <p>I started travelling with the Royal New Zealand Navy. Later I worked on cruise ships and superyachts, and since then I've kept travelling for work and on holiday. Over 30 years that has added up to dozens of countries, and in every one of them I've gone looking for what the locals eat.</p>
 <p>When I went vegan in {VEGAN_SINCE}, people assumed that part of travel was over for me. It wasn't. In most countries, some of the best traditional dishes are already vegan. Others are one simple request away. You just need to know which ones, and how to ask.</p>
