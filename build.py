@@ -390,7 +390,6 @@ def about():
 <ul><li>I eat the dishes in the country, and each guide shows the month I last checked it.</li>
 <li>Guides I haven't checked first-hand are marked as drafts and hidden from search engines.</li>
 <li>Nobody pays to be included. Some links may earn a commission; they never decide what I recommend.</li>
-<li>Photos are free-licensed from Wikimedia Commons until my own replace them, and every one is credited.</li>
 <li>If something has changed, <a href="/contact/">tell me</a>. Corrections are dated on the page.</li></ul></div>
 {cta_block("/about/")}"""
     p = {"@context": "https://schema.org", "@type": "AboutPage", "url": SITE + "/about/", "mainEntity": person(), "publisher": org()}
