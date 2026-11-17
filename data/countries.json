@@ -56,6 +56,199 @@
         "status": "no",
         "note": "Onion tart topped with anchovies. Ask for a version without."
       }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Layered baked vegetables",
+        "local": "Tian provençal",
+        "status": "usually",
+        "note": "Courgette, aubergine, tomato and onion baked with olive oil and herbs. Some cooks add cheese on top."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Leeks in vinaigrette",
+        "local": "Poireaux vinaigrette",
+        "status": "usually",
+        "note": "A bistro starter of soft leeks in mustard vinaigrette. Some versions add chopped egg."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Grated carrot salad",
+        "local": "Carottes râpées",
+        "status": "usually",
+        "note": "Dressed with oil, lemon or vinegar. A standard starter and deli salad."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Mushrooms Greek-style",
+        "local": "Champignons à la grecque",
+        "status": "usually",
+        "note": "Mushrooms cooked in olive oil, white wine, lemon and coriander seed, served cold."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Potatoes in oil dressing",
+        "local": "Pommes de terre à l'huile",
+        "status": "usually",
+        "note": "Warm potato salad with oil, vinegar, shallot and parsley. Check it isn't mayonnaise-based."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Basque pepper stew",
+        "local": "Piperade",
+        "status": "ask",
+        "note": "Peppers, tomato and onion. Usually served with egg or ham, so ask for it plain."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Buckwheat crêpe",
+        "local": "Galette de sarrasin",
+        "status": "ask",
+        "note": "Brittany's buckwheat galette can be just flour, water and salt, but ask about egg in the batter, butter on the pan and a vegetable filling."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Chickpea fries",
+        "local": "Panisse",
+        "status": "vegan",
+        "note": "Marseille's chickpea-flour fries, cut into sticks and fried in olive oil."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Raw vegetable plate",
+        "local": "Crudités",
+        "status": "usually",
+        "note": "Raw vegetables with vinaigrette. Ask for no mayonnaise or aioli, which contain egg."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Market olives",
+        "local": "Olives de Provence",
+        "status": "vegan",
+        "note": "Sold loose at every Provençal market. Avoid tapenade unless it says no anchovy."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Sugar-roasted peanuts",
+        "local": "Chouchous",
+        "status": "usually",
+        "note": "Caramelised peanuts sold at markets and beaches."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Country sourdough",
+        "local": "Pain de campagne",
+        "status": "usually",
+        "note": "Flour, water, salt and leaven. Most bakery country loaves are vegan."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Provençal flatbread",
+        "local": "Fougasse",
+        "status": "usually",
+        "note": "Olive-oil bread with herbs or olives. Skip the versions with lardons or cheese."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fruit sorbet",
+        "local": "Sorbet",
+        "status": "usually",
+        "note": "Usually fruit, sugar and water. A few add egg white or milk, so ask in an ice-cream shop."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Candied chestnuts",
+        "local": "Marrons glacés",
+        "status": "usually",
+        "note": "Chestnuts candied in sugar syrup, a winter treat."
+      },
+      {
+        "group": "Drinks",
+        "name": "Wine",
+        "local": "Vin",
+        "status": "ask",
+        "note": "Many wines are fined with egg white, milk protein or gelatin. Look for 'vin végan' on the label."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Provence and the Côte d'Azur",
+        "text": "The easiest part of France. The cooking is built on olive oil, vegetables and chickpeas: socca and pissaladière in Nice, panisse in Marseille, ratatouille and tian everywhere."
+      },
+      {
+        "region": "Paris",
+        "text": "Has more vegan restaurants than anywhere else in France, plus Lebanese, North African, Vietnamese and Indian food. Classic bistros are harder, but most will make a vegetable plate."
+      },
+      {
+        "region": "Brittany and Normandy",
+        "text": "Butter and cream country. Buckwheat galettes are your best bet, and crêperies are used to changing fillings."
+      },
+      {
+        "region": "Alsace and the north",
+        "text": "Heavy on pork, cheese and cream. Tarte flambée has crème fraîche and bacon. Big towns such as Strasbourg and Lille have vegan cafés."
+      },
+      {
+        "region": "The south-west",
+        "text": "Duck fat is the default cooking fat, including for potatoes. Bordeaux and Toulouse have vegan options; villages are harder."
+      }
+    ],
+    "eating_out": [
+      "Weekly markets (marchés) are the best place to eat vegan by tradition: bread, olives, fruit, roasted chestnuts and, in the south, socca.",
+      "Bakeries: a baguette or country loaf is usually vegan. Croissants and pains au chocolat are made with butter.",
+      "In bistros, ask for the seasonal vegetables (légumes de saison) without butter. Side dishes are often the easiest way to build a meal.",
+      "Lebanese and North African restaurants are reliable. Ask whether the couscous broth is vegetable or meat.",
+      "'Végétarien' on a menu usually means cheese or egg. Look for 'végan', 'végétalien' or '100% végétal'."
+    ],
+    "shopping": [
+      "Supermarkets carry plant milks, tofu, hummus and vegan ready meals. Organic chains such as Biocoop have the widest range.",
+      "Look for 'végétal', 'végan' or the V-Label on packs.",
+      "A picnic from a market and a bakery is one of the best meals in France, and fully vegan."
+    ],
+    "phrases": [
+      {
+        "en": "Without butter, please.",
+        "local": "Sans beurre, s'il vous plaît.",
+        "roman": ""
+      },
+      {
+        "en": "Without cheese or cream, please.",
+        "local": "Sans fromage ni crème, s'il vous plaît.",
+        "roman": ""
+      },
+      {
+        "en": "Is there meat or fish stock in it?",
+        "local": "Est-ce qu'il y a du bouillon de viande ou de poisson dedans ?",
+        "roman": ""
+      },
+      {
+        "en": "Is it made with egg?",
+        "local": "Est-ce que c'est fait avec des œufs ?",
+        "roman": ""
+      },
+      {
+        "en": "Do you have a vegan dish?",
+        "local": "Avez-vous un plat végan ?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it hard to be vegan in France?",
+        "a": "Not in the big cities. Paris, Lyon, Marseille and Bordeaux all have vegan restaurants. In rural areas, rely on markets, bakeries and vegetable sides, and ask for no butter."
+      },
+      {
+        "q": "Is a French baguette vegan?",
+        "a": "Usually. French rules for a 'baguette de tradition' allow only flour, water, salt, and yeast or leaven, so no milk, butter or egg."
+      },
+      {
+        "q": "Are French fries vegan in France?",
+        "a": "Usually they are fried in vegetable oil, but some places, especially in the north, use beef fat. Ask: 'Huile végétale ?'"
+      },
+      {
+        "q": "Is French wine vegan?",
+        "a": "Not always. Many wines are fined with egg white, milk protein or gelatin. Wines labelled 'vin végan' are not."
+      }
     ]
   },
   {
@@ -115,6 +308,181 @@
         "status": "ask",
         "note": "Ask whether it was cooked with fish or chicken stock."
       }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Wrinkled potatoes with mojo",
+        "local": "Papas arrugadas con mojo",
+        "status": "vegan",
+        "note": "Canary Islands potatoes boiled in salty water, with red (picón) or green mojo sauce made from oil, garlic, peppers and herbs."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Roasted vegetables",
+        "local": "Escalivada",
+        "status": "usually",
+        "note": "Catalan roasted peppers, aubergine and onion in olive oil. Sometimes topped with anchovies."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Grilled spring onions",
+        "local": "Calçots con romesco",
+        "status": "usually",
+        "note": "A Catalan winter feast (roughly January to April). Romesco sauce is peppers, nuts, garlic, bread and oil."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Spanish ratatouille",
+        "local": "Pisto manchego",
+        "status": "ask",
+        "note": "Peppers, courgette and tomato cooked in olive oil. Often served with a fried egg on top."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Cold almond soup",
+        "local": "Ajoblanco",
+        "status": "usually",
+        "note": "Andalusian cold soup of almonds, garlic, bread, olive oil and vinegar, often with grapes."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Thick tomato soup",
+        "local": "Salmorejo",
+        "status": "ask",
+        "note": "Tomato, bread, garlic and olive oil, but normally topped with egg and ham. Ask for it without."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Poor man's potatoes",
+        "local": "Patatas a lo pobre",
+        "status": "usually",
+        "note": "Potatoes slow-fried in olive oil with peppers and onion. Sometimes served with egg."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Garlic mushrooms",
+        "local": "Champiñones al ajillo",
+        "status": "usually",
+        "note": "Mushrooms in olive oil with garlic and parsley. Some bars add ham."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Marinated olives",
+        "local": "Aceitunas aliñadas",
+        "status": "vegan",
+        "note": "Free with drinks in many bars. Stuffed olives may contain anchovy."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fried aubergine with cane syrup",
+        "local": "Berenjenas con miel de caña",
+        "status": "ask",
+        "note": "Cane syrup (miel de caña) is vegan, but some bars use bee honey. Ask which."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fried dough sticks",
+        "local": "Churros",
+        "status": "usually",
+        "note": "Usually flour, water and salt fried in oil. The hot chocolate for dipping usually contains milk."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Quince paste",
+        "local": "Membrillo",
+        "status": "vegan",
+        "note": "Quince and sugar. Good with bread."
+      },
+      {
+        "group": "Drinks",
+        "name": "Tiger nut milk",
+        "local": "Horchata de chufa",
+        "status": "usually",
+        "note": "Valencia's cold drink of tiger nuts, water and sugar."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Andalusia",
+        "text": "Cold soups, fried vegetables, olives and bread. Watch for lard (manteca) in pastries and for ham sprinkled on top of dishes."
+      },
+      {
+        "region": "Catalonia and Barcelona",
+        "text": "Barcelona has many vegan restaurants. Catalan home cooking gives you escalivada, calçots, pa amb tomàquet and romesco."
+      },
+      {
+        "region": "Valencia",
+        "text": "The home of paella, but traditional Valencian paella has chicken and rabbit. Ask for vegetable paella made with vegetable stock, and drink horchata."
+      },
+      {
+        "region": "Madrid",
+        "text": "A big, easy city for vegans, with plenty of vegan restaurants. Traditional taverns are harder."
+      },
+      {
+        "region": "The Basque Country and the north",
+        "text": "Famous for pintxos, most of which contain fish, ham or egg. Look for grilled peppers and mushrooms, and the vegan bars in Bilbao and San Sebastián."
+      },
+      {
+        "region": "The Canary Islands",
+        "text": "Papas arrugadas with mojo are vegan and everywhere. Gofio, toasted grain flour, is a local staple."
+      }
+    ],
+    "eating_out": [
+      "The set lunch (menú del día) usually has a vegetable first course. Ask whether it has ham or meat stock.",
+      "In tapas bars, build a meal from several small vegetable plates: pan con tomate, padrón peppers, olives, patatas bravas without aioli, garlic mushrooms.",
+      "'Vegetariano' often still means egg or cheese. Say 'vegano' and spell it out: no meat, fish, egg or dairy.",
+      "Spaniards eat late: lunch is around 2 to 4 pm and dinner after 9 pm. Kitchens may be closed in between.",
+      "Mixed salad (ensalada mixta) almost always comes with tuna and egg."
+    ],
+    "shopping": [
+      "Supermarkets stock soy and oat milk, tofu, hummus and vegan burgers, often with 'apto para veganos' on the label.",
+      "Food markets (mercados) have excellent fruit, vegetables, olives, nuts and bread for a picnic."
+    ],
+    "phrases": [
+      {
+        "en": "Without meat, fish or egg, please.",
+        "local": "Sin carne, sin pescado y sin huevo, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "Without ham, please.",
+        "local": "Sin jamón, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "Without cheese or butter, please.",
+        "local": "Sin queso ni mantequilla, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "Is there meat or fish stock in it?",
+        "local": "¿Lleva caldo de carne o de pescado?",
+        "roman": ""
+      },
+      {
+        "en": "Do you have a vegan dish?",
+        "local": "¿Tiene algún plato vegano?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is paella vegan?",
+        "a": "Not traditionally. Valencian paella has chicken and rabbit, and seafood paella has fish stock. Many restaurants make vegetable paella; ask that it uses vegetable stock."
+      },
+      {
+        "q": "Is gazpacho vegan?",
+        "a": "Usually. It is tomato, cucumber, pepper, garlic, olive oil, vinegar and bread. Some places garnish it with egg or ham."
+      },
+      {
+        "q": "Are patatas bravas vegan?",
+        "a": "The potatoes and spicy bravas sauce usually are. The garlic mayonnaise (alioli) often served with them contains egg."
+      },
+      {
+        "q": "Is it easy to be vegan in Spain?",
+        "a": "Easy in Barcelona, Madrid, Valencia and Seville. In small towns, tapas bars always have a few vegetable dishes, but you'll need to ask about ham and stock."
+      }
     ]
   },
   {
@@ -168,6 +536,176 @@
         "local": "PB&J",
         "status": "vegan",
         "note": "Usually vegan; some bread contains milk or honey."
+      }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Veggie burger",
+        "local": "Veggie burger",
+        "status": "ask",
+        "note": "Plant-based patties are on most menus, but the bun, cheese and sauce may not be vegan. Ask for a vegan bun and no cheese or mayo."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Pizza without cheese",
+        "local": "Vegan pizza",
+        "status": "ask",
+        "note": "The dough is usually vegan. Many pizzerias now offer vegan cheese."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Baked potato",
+        "local": "Baked potato",
+        "status": "ask",
+        "note": "Ask for it without butter or sour cream, and with chili, beans or vegetables."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Tofu poke bowl",
+        "local": "Poke bowl",
+        "status": "ask",
+        "note": "Hawaiian-style rice bowl. Choose tofu, and check the sauces for fish sauce and mayo."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Red beans and rice",
+        "local": "Red beans and rice",
+        "status": "ask",
+        "note": "New Orleans' Monday dish is usually cooked with sausage or ham. Some places make a vegan version."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Hoppin' John",
+        "local": "Hoppin' John",
+        "status": "ask",
+        "note": "Southern black-eyed peas and rice. Traditionally cooked with pork, so ask."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Avocado toast",
+        "local": "Avocado toast",
+        "status": "usually",
+        "note": "Café staple. Check the bread and skip any egg on top."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Chips and salsa",
+        "local": "Chips and salsa",
+        "status": "usually",
+        "note": "Corn tortilla chips with tomato salsa. Free at many Mexican restaurants."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Falafel pita",
+        "local": "Falafel",
+        "status": "usually",
+        "note": "Common in cities. The yoghurt sauce isn't vegan; tahini is."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Avocado roll",
+        "local": "Avocado roll",
+        "status": "vegan",
+        "note": "Sushi rice, avocado and nori. Cucumber and sweet potato rolls are also common."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Bagel",
+        "local": "Bagel",
+        "status": "usually",
+        "note": "Plain bagels are usually vegan. Egg bagels aren't, and some use honey. Many New York delis sell tofu cream cheese."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Açaí bowl",
+        "local": "Açaí bowl",
+        "status": "usually",
+        "note": "Frozen açaí with fruit and granola. Ask for no honey."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Soft pretzel",
+        "local": "Soft pretzel",
+        "status": "usually",
+        "note": "Philadelphia and mall classic. Some are brushed with butter."
+      }
+    ],
+    "regions": [
+      {
+        "region": "The West Coast",
+        "text": "Los Angeles, San Francisco, Portland and Seattle are among the easiest cities in the world for vegans, with fully vegan restaurants, bakeries and doughnut shops."
+      },
+      {
+        "region": "New York",
+        "text": "Every cuisine on earth, many fully vegan restaurants, and delis that sell tofu cream cheese."
+      },
+      {
+        "region": "The South",
+        "text": "Vegetable side dishes are often cooked with pork or butter, even greens and beans. Atlanta, Austin, Nashville and New Orleans have good vegan restaurants."
+      },
+      {
+        "region": "The Midwest",
+        "text": "Harder outside the cities. Chicago and Minneapolis are easy; elsewhere rely on Mexican, Indian, Thai and chain restaurants with allergen menus."
+      },
+      {
+        "region": "The Southwest",
+        "text": "Tex-Mex and New Mexican food is bean- and chilli-based. Ask whether the beans and tortillas are made with lard."
+      }
+    ],
+    "eating_out": [
+      "American servers expect requests for changes. Say 'vegan' and spell it out: no meat, dairy, eggs or honey.",
+      "Big chain restaurants publish allergen and ingredient menus online, which makes checking quick.",
+      "Ethiopian restaurants are excellent for vegans: lentil and vegetable stews on injera. Ask for no spiced butter (niter kibbeh).",
+      "Thai, Indian and Mexican restaurants are easy fallbacks. Ask about fish sauce, ghee and lard."
+    ],
+    "shopping": [
+      "Whole Foods and Trader Joe's have big vegan ranges. Regular supermarkets stock plant milks, tofu and vegan meat.",
+      "US food labels must name major allergens, including milk and egg, often in a bold 'Contains:' line. It's the quickest first check."
+    ],
+    "phrases": [
+      {
+        "en": "Is there butter or dairy in this?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is the bun vegan? Some contain milk or egg.",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Are the beans or greens cooked with meat?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is it fried in the same oil as meat or fish?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Does the dressing contain honey, cheese or anchovies?",
+        "local": "",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it easy to be vegan in the USA?",
+        "a": "Very easy in big cities, especially on the West Coast and in New York. It's harder in rural areas and the South, where vegetables are often cooked with meat."
+      },
+      {
+        "q": "Are refried beans vegan?",
+        "a": "Often not: many are made with lard. Ask, or choose black or pinto beans that are cooked whole."
+      },
+      {
+        "q": "Are bagels vegan?",
+        "a": "Plain, sesame and everything bagels usually are. Egg bagels aren't, and some bakeries use honey."
+      },
+      {
+        "q": "Is a plant-based burger always vegan?",
+        "a": "The patty is, but the bun may contain milk or egg, and cheese and mayo are often added. Ask for it vegan."
       }
     ]
   },
@@ -227,6 +765,191 @@
         "local": "Pasta al pomodoro",
         "status": "ask",
         "note": "Vegan with dried pasta; ask for no Parmesan."
+      }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Garlic, oil and chilli spaghetti",
+        "local": "Spaghetti aglio, olio e peperoncino",
+        "status": "vegan",
+        "note": "Rome's late-night pasta. Just garlic, olive oil, chilli and parsley."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Fava purée with chicory",
+        "local": "Fave e cicoria",
+        "status": "vegan",
+        "note": "Puglia's classic: dried broad beans cooked to a purée with bitter greens and olive oil."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Tuscan bread soup",
+        "local": "Ribollita",
+        "status": "usually",
+        "note": "Cavolo nero, beans, vegetables and stale bread. Some cooks add a parmesan rind or pancetta."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Tomato and bread soup",
+        "local": "Pappa al pomodoro",
+        "status": "usually",
+        "note": "Tuscan tomato, bread, garlic and basil soup. Ask about stock and cheese."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegetable soup",
+        "local": "Minestrone",
+        "status": "ask",
+        "note": "Often vegan, but may use meat stock or come with parmesan. Ask."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Pasta with aubergine",
+        "local": "Pasta alla Norma",
+        "status": "ask",
+        "note": "Sicilian tomato and aubergine pasta, finished with salted ricotta. Ask for it without."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Southern vegetable stew",
+        "local": "Ciambotta",
+        "status": "usually",
+        "note": "Peppers, aubergine, potato and tomato in olive oil, from the south."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Tomato bruschetta",
+        "local": "Bruschetta al pomodoro",
+        "status": "vegan",
+        "note": "Toasted bread with tomato, garlic, basil and olive oil."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Roman artichokes",
+        "local": "Carciofi alla romana",
+        "status": "usually",
+        "note": "Artichokes braised in olive oil with mint and garlic, in season roughly November to April."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fried sweet peppers",
+        "local": "Friggitelli",
+        "status": "vegan",
+        "note": "Small green peppers fried in olive oil, a southern side dish."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Tuscan bread salad",
+        "local": "Panzanella",
+        "status": "usually",
+        "note": "Bread, tomato, onion, basil and olive oil. Occasionally with tuna or anchovy."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Focaccia",
+        "local": "Focaccia",
+        "status": "usually",
+        "note": "Genoese and Pugliese focaccia use olive oil. Focaccia di Recco is filled with cheese."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Olive-oil rings",
+        "local": "Taralli",
+        "status": "usually",
+        "note": "Puglia's crunchy rings of flour, white wine and olive oil."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Sicilian granita",
+        "local": "Granita",
+        "status": "usually",
+        "note": "Lemon, almond and coffee granita are usually vegan. In Sicily it's breakfast, with a brioche (which contains butter)."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Sorbet and dark chocolate gelato",
+        "local": "Sorbetto, gelato al cioccolato fondente",
+        "status": "usually",
+        "note": "Fruit sorbets are usually vegan, and many gelaterie mark vegan flavours."
+      }
+    ],
+    "regions": [
+      {
+        "region": "The south and Sicily",
+        "text": "The easiest part of Italy: olive-oil cooking, vegetables and legumes. Caponata, panelle, granita and pasta with tomato and aubergine."
+      },
+      {
+        "region": "Puglia",
+        "text": "Fave e cicoria, orecchiette with greens (ask about anchovies), taralli, friselle and some of Italy's best vegetables."
+      },
+      {
+        "region": "Rome and Lazio",
+        "text": "Pizza bianca, artichokes, chicory, beans and aglio e olio. Rome has a good number of vegan restaurants."
+      },
+      {
+        "region": "Tuscany",
+        "text": "Tuscans are called 'bean-eaters' (mangiafagioli). Ribollita, pappa al pomodoro, panzanella and white beans with olive oil."
+      },
+      {
+        "region": "The north",
+        "text": "Butter, cheese, egg pasta and risotto make it harder. Milan, Turin and Bologna have vegan restaurants; in the countryside ask for vegetable sides."
+      }
+    ],
+    "eating_out": [
+      "Vegetable side dishes (contorni) are your friend: grilled vegetables, greens with garlic, roast potatoes, beans.",
+      "Pizzerias will make most pizzas without cheese ('senza formaggio'). The marinara is vegan as standard.",
+      "Dried pasta is usually egg-free. Fresh pasta (pasta fresca, pasta all'uovo) and tagliatelle usually contain egg.",
+      "Many bars now sell a vegan croissant (cornetto vegano) for breakfast.",
+      "If you're staying at a farm stay (agriturismo), tell them in advance and they'll often cook specially."
+    ],
+    "shopping": [
+      "Supermarkets stock plant milks (look for 'bevanda di soia' or 'bevanda d'avena'), tofu, and vegan ranges.",
+      "Markets are excellent for fruit, vegetables, olives and bread. A bakery (forno) sells pizza by the slice."
+    ],
+    "phrases": [
+      {
+        "en": "Without cheese, please.",
+        "local": "Senza formaggio, per favore.",
+        "roman": ""
+      },
+      {
+        "en": "Without butter, please.",
+        "local": "Senza burro, per favore.",
+        "roman": ""
+      },
+      {
+        "en": "Is the stock made from vegetables?",
+        "local": "Il brodo è vegetale?",
+        "roman": ""
+      },
+      {
+        "en": "Is the pasta made with egg?",
+        "local": "La pasta è all'uovo?",
+        "roman": ""
+      },
+      {
+        "en": "Is there a vegan dish?",
+        "local": "C'è un piatto vegano?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is pasta in Italy vegan?",
+        "a": "Dried pasta made from durum wheat and water usually is. Fresh pasta, especially in the north, usually contains egg."
+      },
+      {
+        "q": "Is pizza in Italy vegan?",
+        "a": "The pizza marinara is: tomato, garlic, oregano and olive oil. Most other pizzas can be made without cheese."
+      },
+      {
+        "q": "Is pesto vegan?",
+        "a": "Classic pesto genovese contains parmesan and pecorino, so no. Some shops sell vegan pesto."
+      },
+      {
+        "q": "Is gelato vegan?",
+        "a": "Milk-based gelato isn't, but fruit sorbets and granita usually are, and many gelaterie mark vegan flavours."
       }
     ]
   },
@@ -288,6 +1011,191 @@
         "status": "usually",
         "note": "Usually flour, water, yeast, molasses and sesame."
       }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Bulgur salad",
+        "local": "Kısır",
+        "status": "vegan",
+        "note": "Fine bulgur with tomato and pepper paste, herbs, lemon and pomegranate molasses."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Borlotti beans in olive oil",
+        "local": "Barbunya pilaki",
+        "status": "vegan",
+        "note": "Beans cooked with carrot, tomato and olive oil, served cold."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Green beans in olive oil",
+        "local": "Zeytinyağlı taze fasulye",
+        "status": "vegan",
+        "note": "Green beans stewed with tomato and onion in olive oil, served cold."
+      },
+      {
+        "group": "Main dishes",
+        "name": "White bean salad",
+        "local": "Piyaz",
+        "status": "usually",
+        "note": "Beans, onion, parsley and lemon. Antalya's version adds tahini. Some add egg."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Filled flatbread",
+        "local": "Gözleme",
+        "status": "ask",
+        "note": "Ask for potato (patatesli) or spinach without cheese, and no butter brushed on top."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Rice pilaf",
+        "local": "Pilav",
+        "status": "ask",
+        "note": "Usually cooked with butter. Bulgur pilaf sometimes uses oil; ask."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Spicy tomato dip",
+        "local": "Ezme",
+        "status": "vegan",
+        "note": "Finely chopped tomato, pepper, onion and parsley with pomegranate molasses."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Red pepper and walnut dip",
+        "local": "Muhammara",
+        "status": "usually",
+        "note": "Roasted peppers, walnuts, breadcrumbs and pomegranate molasses."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Smoked aubergine salad",
+        "local": "Közlenmiş patlıcan salatası",
+        "status": "usually",
+        "note": "Smoky aubergine with olive oil, garlic and lemon. The yoghurt version (yoğurtlu) isn't vegan."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Grilled corn",
+        "local": "Mısır",
+        "status": "vegan",
+        "note": "Grilled or boiled corn from street carts."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Roasted chestnuts",
+        "local": "Kestane kebap",
+        "status": "vegan",
+        "note": "Street carts in Istanbul, especially in winter."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Turkish delight",
+        "local": "Lokum",
+        "status": "usually",
+        "note": "Starch, sugar and flavourings, often with nuts. A few contain honey or milk."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Tahini halva",
+        "local": "Tahin helvası",
+        "status": "usually",
+        "note": "Sesame paste and sugar. Breakfast with bread, or a snack."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Noah's pudding",
+        "local": "Aşure",
+        "status": "usually",
+        "note": "Grains, beans, dried fruit and nuts, traditionally made without milk."
+      },
+      {
+        "group": "Drinks",
+        "name": "Turkish tea",
+        "local": "Çay",
+        "status": "vegan",
+        "note": "Black tea, served everywhere without milk."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Istanbul",
+        "text": "The widest choice, with vegan restaurants, meze in every meyhane, and tradesmen's restaurants serving olive-oil dishes."
+      },
+      {
+        "region": "The Aegean coast and İzmir",
+        "text": "The easiest region: olive-oil cooking, wild greens (ot) and vegetable meze."
+      },
+      {
+        "region": "The south-east",
+        "text": "Gaziantep and Şanlıurfa are kebab country, but also the home of çiğ köfte, ezme and pistachios."
+      },
+      {
+        "region": "The Black Sea",
+        "text": "Corn bread, beans and kale soup, often cooked with meat or butter. Anchovy is everywhere."
+      },
+      {
+        "region": "Cappadocia and central Anatolia",
+        "text": "Harder, but pilaf, lentil soup, bulgur dishes and gözleme are easy to find. Ask about butter."
+      }
+    ],
+    "eating_out": [
+      "Learn two words. 'Zeytinyağlı' means cooked in olive oil, which usually means meat-free. 'Etli' means with meat.",
+      "Tradesmen's restaurants (esnaf lokantası) show the day's dishes in trays. Point and ask 'Etsiz mi?' ('Is it without meat?').",
+      "Meze restaurants (meyhane) serve dozens of cold vegetable and bean dishes.",
+      "Çiğ köfte shops sell a bulgur and spice mix wrapped in lettuce or flatbread. Shop-bought çiğ köfte is normally made without meat.",
+      "Soups and rice are where meat stock and butter hide, so ask."
+    ],
+    "shopping": [
+      "Weekly street markets (pazar) have fruit, vegetables, olives, dried fruit and nuts.",
+      "Supermarkets stock plant milks and hummus. Check labels for süt (milk), yumurta (egg), tereyağı (butter) and bal (honey)."
+    ],
+    "phrases": [
+      {
+        "en": "Without meat, please.",
+        "local": "Etsiz, lütfen.",
+        "roman": ""
+      },
+      {
+        "en": "Without butter, please.",
+        "local": "Tereyağı olmadan, lütfen.",
+        "roman": ""
+      },
+      {
+        "en": "Is there meat or chicken stock in it?",
+        "local": "İçinde et suyu ya da tavuk suyu var mı?",
+        "roman": ""
+      },
+      {
+        "en": "Without cheese or yoghurt, please.",
+        "local": "Peynirsiz ve yoğurtsuz, lütfen.",
+        "roman": ""
+      },
+      {
+        "en": "Is there any meat, milk or egg in it?",
+        "local": "İçinde et, süt ya da yumurta var mı?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Turkey good for vegans?",
+        "a": "Yes, if you know what to order. Olive-oil vegetable dishes, bean stews, meze and bulgur dishes are traditional and widespread. Watch for butter and meat stock."
+      },
+      {
+        "q": "Is Turkish lentil soup vegan?",
+        "a": "Often not. Many restaurants make mercimek çorbası with butter, and some use meat or chicken stock. Ask."
+      },
+      {
+        "q": "Is simit vegan?",
+        "a": "Usually. It's flour, water, yeast and salt, dipped in grape molasses and sesame."
+      },
+      {
+        "q": "What does zeytinyağlı mean?",
+        "a": "Cooked in olive oil. These dishes are usually served cold and are usually meat-free."
+      }
     ]
   },
   {
@@ -347,6 +1255,180 @@
         "status": "ask",
         "note": "The dough is usually made with lard; vegan versions exist."
       }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Masa cakes with beans",
+        "local": "Tlacoyos",
+        "status": "ask",
+        "note": "Oval corn cakes filled with beans or fava beans, topped with nopales and salsa. Ask for no cheese, and whether the masa has lard."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Mushroom tacos",
+        "local": "Tacos de hongos",
+        "status": "usually",
+        "note": "Mushrooms cooked with onion, garlic and chilli. Ask for no cheese."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Potato tacos",
+        "local": "Tacos de papa",
+        "status": "ask",
+        "note": "Often fried until crisp. Usually topped with cream and cheese, so ask without."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Tortillas in bean sauce",
+        "local": "Enfrijoladas",
+        "status": "ask",
+        "note": "Tortillas dipped in bean sauce. Normally topped with cheese and cream, and the beans may contain lard."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Tortilla chips in salsa",
+        "local": "Chilaquiles",
+        "status": "ask",
+        "note": "Fried tortillas simmered in salsa. Ask for no cream, cheese, egg or chicken."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Mole",
+        "local": "Mole",
+        "status": "ask",
+        "note": "Complex chilli sauces, usually served over chicken and sometimes made with lard or chicken stock. Ask for it with vegetables."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Squash blossom tacos",
+        "local": "Tacos de flor de calabaza",
+        "status": "ask",
+        "note": "Squash blossoms with onion and chilli. Often made as a quesadilla with cheese."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Pumpkin seed dip",
+        "local": "Sikil pak",
+        "status": "vegan",
+        "note": "Yucatán dip of toasted pumpkin seeds, tomato, chilli and herbs."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Salsas",
+        "local": "Salsa verde, salsa roja",
+        "status": "vegan",
+        "note": "Tomatillo or tomato with chilli, onion and coriander."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fruit with chilli and lime",
+        "local": "Fruta con chile y limón",
+        "status": "vegan",
+        "note": "Mango, cucumber, jícama or pineapple from street carts."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Corn on the cob",
+        "local": "Elote",
+        "status": "ask",
+        "note": "Normally spread with mayonnaise and cheese. Ask for just lime, salt and chilli."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Corn tortillas",
+        "local": "Tortillas de maíz",
+        "status": "vegan",
+        "note": "Nixtamalised corn, water and lime. Flour tortillas may contain lard."
+      },
+      {
+        "group": "Drinks",
+        "name": "Hibiscus water",
+        "local": "Agua de jamaica",
+        "status": "vegan",
+        "note": "Chilled hibiscus tea, sweetened. Horchata may contain milk."
+      },
+      {
+        "group": "Drinks",
+        "name": "Oaxacan maize and cacao drink",
+        "local": "Tejate",
+        "status": "usually",
+        "note": "A pre-Hispanic drink of maize, cacao and seeds, sold in Oaxaca's markets."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Mexico City",
+        "text": "One of the best cities in the Americas for vegans, with vegan taquerías and market stalls. Street food like tlacoyos and esquites is easy to adapt."
+      },
+      {
+        "region": "Oaxaca",
+        "text": "Tlayudas, moles, tejate and huge markets. Tlayudas are often spread with asiento (pork lard), so ask for them without."
+      },
+      {
+        "region": "The Yucatán",
+        "text": "The Mayan kitchen is pork-heavy, but sikil pak, black beans and fresh fruit are easy. Tulum and Mérida have vegan cafés."
+      },
+      {
+        "region": "The Pacific coast",
+        "text": "Beach towns such as Puerto Escondido and Sayulita have many vegan and vegetarian cafés."
+      }
+    ],
+    "eating_out": [
+      "Lard (manteca) is the big one. Ask about it in beans, tamales, masa and fried snacks.",
+      "Rice and soups are often made with chicken stock (caldo de pollo).",
+      "Cheese and cream go on almost everything. 'Sin queso y sin crema' is the most useful phrase you'll learn.",
+      "Market food halls (fondas) serve a set lunch (comida corrida) and will often make a vegetable version."
+    ],
+    "shopping": [
+      "Supermarkets stock soy and almond milk, tofu and vegan products in the big cities.",
+      "Packaged refried beans may contain lard. Check for 'manteca' on the label.",
+      "Markets have superb fruit, avocados, tortillas, salsas and fresh herbs."
+    ],
+    "phrases": [
+      {
+        "en": "Without cheese or cream, please.",
+        "local": "Sin queso y sin crema, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "Are the beans made with lard?",
+        "local": "¿Los frijoles llevan manteca?",
+        "roman": ""
+      },
+      {
+        "en": "Is the rice made with chicken stock?",
+        "local": "¿El arroz lleva caldo de pollo?",
+        "roman": ""
+      },
+      {
+        "en": "Without meat, please.",
+        "local": "Sin carne, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "I'm vegan.",
+        "local": "Soy vegano. / Soy vegana.",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Mexico good for vegans?",
+        "a": "Yes. Mexican food is built on corn, beans, chillies and squash. The things to watch for are lard, chicken stock, cheese and cream."
+      },
+      {
+        "q": "Are refried beans in Mexico vegan?",
+        "a": "Often not: lard is traditional. Whole boiled beans (frijoles de olla) are more often lard-free. Ask."
+      },
+      {
+        "q": "Are corn tortillas vegan?",
+        "a": "Yes. They're made from corn treated with lime, and water. Flour tortillas sometimes contain lard."
+      },
+      {
+        "q": "Is guacamole vegan?",
+        "a": "Yes: avocado, onion, chilli, lime, coriander and salt."
+      }
     ]
   },
   {
@@ -400,6 +1482,193 @@
         "local": "Mushy peas",
         "status": "usually",
         "note": "Marrowfat peas; check for butter."
+      }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Vegan full breakfast",
+        "local": "Full English breakfast",
+        "status": "ask",
+        "note": "Many cafés and pubs offer a vegan version with plant-based sausages, beans, mushrooms, tomatoes and hash browns.",
+        "label": "Vegan versions are widespread"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Jacket potato with beans",
+        "local": "Jacket potato",
+        "status": "ask",
+        "note": "Baked potato with baked beans. Ask for no butter or cheese."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegan sausage roll",
+        "local": "Sausage roll",
+        "status": "ask",
+        "note": "Vegan sausage rolls are sold by high-street bakery chains and supermarkets.",
+        "label": "Vegan versions are widespread"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegan haggis",
+        "local": "Haggis",
+        "status": "ask",
+        "note": "Scotland's oats, lentils and spice. Vegetarian haggis is often vegan; check.",
+        "label": "Vegan versions are widespread"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Fried potato and cabbage",
+        "local": "Bubble and squeak",
+        "status": "ask",
+        "note": "Leftover vegetables fried until crisp. Ask that it's fried in oil, not butter or dripping."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Split-pea pudding",
+        "local": "Pease pudding",
+        "status": "ask",
+        "note": "North-east England's yellow split peas, sometimes cooked with ham."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Indian restaurant classics",
+        "local": "Chana masala, aloo gobi, tarka dal",
+        "status": "ask",
+        "note": "Usually easy to make vegan. Ask for no ghee, cream or butter."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Welsh seaweed",
+        "local": "Laverbread",
+        "status": "ask",
+        "note": "Cooked seaweed purée, traditionally fried in bacon fat. Ask for it in oil."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Falafel wrap",
+        "local": "Falafel wrap",
+        "status": "usually",
+        "note": "Sold everywhere. Skip the yoghurt sauce."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Bombay mix",
+        "local": "Bombay mix",
+        "status": "usually",
+        "note": "Spiced lentil, chickpea and peanut snack."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Toast with Marmite",
+        "local": "Marmite on toast",
+        "status": "vegan",
+        "note": "Marmite is vegan. Ask for no butter."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Crumpets",
+        "local": "Crumpets",
+        "status": "usually",
+        "note": "Most supermarket crumpets are vegan. Toast them and add jam."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Porridge",
+        "local": "Porridge",
+        "status": "ask",
+        "note": "Ask for it made with water or oat milk."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fruit crumble",
+        "local": "Crumble",
+        "status": "ask",
+        "note": "The topping is usually butter, but vegan crumbles with custard are common."
+      },
+      {
+        "group": "Drinks",
+        "name": "Beer and cider",
+        "local": "Beer, cider",
+        "status": "ask",
+        "note": "Many are vegan. Some cask ales are fined with isinglass, made from fish."
+      }
+    ],
+    "regions": [
+      {
+        "region": "London",
+        "text": "One of the easiest cities in the world for vegans, with hundreds of vegan restaurants and a vegan option almost everywhere."
+      },
+      {
+        "region": "Brighton and Bristol",
+        "text": "Both have long-standing vegan scenes and many fully vegan cafés and pubs."
+      },
+      {
+        "region": "Scotland",
+        "text": "Edinburgh and Glasgow are very vegan-friendly. Vegan haggis is widely available."
+      },
+      {
+        "region": "Northern England",
+        "text": "Manchester, Leeds and Liverpool are easy. Some fish and chip shops fry in beef dripping."
+      },
+      {
+        "region": "Wales",
+        "text": "Cardiff has plenty. Laverbread and Welsh cakes are traditionally made with bacon fat and butter."
+      }
+    ],
+    "eating_out": [
+      "Menus usually mark dishes VE or VG for vegan and V for vegetarian.",
+      "Restaurants must tell you if a dish contains milk, egg, fish or crustaceans if you ask. Staff can show you the allergen information.",
+      "Many pubs serve a vegan Sunday roast. Check the gravy and Yorkshire pudding, which usually contain meat juices, egg and milk.",
+      "Chains and high-street bakeries have clearly labelled vegan ranges."
+    ],
+    "shopping": [
+      "Every major supermarket has its own vegan range, and labels often say 'Suitable for vegans'.",
+      "Supermarket 'meal deals' (sandwich, snack and drink) usually include vegan choices."
+    ],
+    "phrases": [
+      {
+        "en": "Are the chips fried in beef dripping, or with fish?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is the gravy made with meat juices?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is there butter on the toast or vegetables?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is this beer vegan?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Can I see the allergen information?",
+        "local": "",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is it easy to be vegan in the UK?",
+        "a": "Very. It's one of the easiest countries in the world, with vegan options in supermarkets, chains, pubs and cafés."
+      },
+      {
+        "q": "Are chips vegan in the UK?",
+        "a": "Usually, but some fish and chip shops fry in beef dripping or share fryers with fish. Ask."
+      },
+      {
+        "q": "Is Marmite vegan?",
+        "a": "Yes."
+      },
+      {
+        "q": "Is British beer vegan?",
+        "a": "Many beers are, but some cask ales are fined with isinglass, which comes from fish. Ask at the bar."
       }
     ]
   },
@@ -455,6 +1724,180 @@
         "status": "ask",
         "note": "Usually with bacon; ask for ohne Speck."
       }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Vegan currywurst",
+        "local": "Currywurst",
+        "status": "ask",
+        "note": "Berlin's sausage with curry ketchup. Vegan sausages are common at currywurst stands.",
+        "label": "Vegan versions are widespread"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Lentil stew",
+        "local": "Linseneintopf",
+        "status": "ask",
+        "note": "Lentils, potato and vegetables, but usually cooked with sausage or bacon."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Sauerkraut",
+        "local": "Sauerkraut",
+        "status": "usually",
+        "note": "Fermented cabbage. Sometimes cooked with lard or bacon."
+      },
+      {
+        "group": "Main dishes",
+        "name": "White asparagus",
+        "local": "Spargel",
+        "status": "ask",
+        "note": "A spring obsession (roughly April to June). Usually served with butter or hollandaise; ask for oil instead."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Potato pancakes",
+        "local": "Kartoffelpuffer, Reibekuchen",
+        "status": "ask",
+        "note": "Grated potato fried crisp, served with apple sauce. The batter often contains egg."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Kale with potatoes",
+        "local": "Grünkohl",
+        "status": "ask",
+        "note": "A northern winter dish, nearly always served with sausage."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Falafel",
+        "local": "Falafel",
+        "status": "usually",
+        "note": "Sold at most döner shops."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Chips",
+        "local": "Pommes",
+        "status": "usually",
+        "note": "Usually fried in vegetable oil. The mayonnaise isn't vegan; ketchup is."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Candied almonds",
+        "local": "Gebrannte Mandeln",
+        "status": "usually",
+        "note": "Sold hot at Christmas markets and fairs."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Rye bread",
+        "local": "Roggenbrot, Vollkornbrot, Pumpernickel",
+        "status": "usually",
+        "note": "Germany's dark breads are usually flour, water, salt and sourdough."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Bread rolls",
+        "local": "Brötchen",
+        "status": "usually",
+        "note": "Usually vegan. Some contain milk."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Red berry pudding",
+        "local": "Rote Grütze",
+        "status": "usually",
+        "note": "Berries thickened with starch. Usually served with cream or vanilla sauce."
+      },
+      {
+        "group": "Drinks",
+        "name": "Beer",
+        "local": "Bier",
+        "status": "usually",
+        "note": "Most German beer is brewed from water, malt, hops and yeast, and is vegan."
+      },
+      {
+        "group": "Drinks",
+        "name": "Mulled wine",
+        "local": "Glühwein",
+        "status": "usually",
+        "note": "Red wine with spices. Some wines are fined with animal products."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Berlin",
+        "text": "One of the best vegan cities in the world, with vegan döner, currywurst, bakeries and fine dining."
+      },
+      {
+        "region": "Hamburg, Leipzig and Cologne",
+        "text": "All very easy, with many vegan cafés and restaurants."
+      },
+      {
+        "region": "Bavaria",
+        "text": "Pork, dumplings and cheese dominate, but pretzels, potato salad and red cabbage help. Munich has plenty of vegan places."
+      },
+      {
+        "region": "Rural Germany",
+        "text": "Harder. Bakeries, supermarkets and the many drugstore food sections fill the gaps."
+      }
+    ],
+    "eating_out": [
+      "Menus often mark dishes 'vegan'. Bakeries usually label vegan products.",
+      "Döner shops are everywhere and usually have falafel. Many cities have vegan döner.",
+      "At Christmas markets, look for roasted chestnuts, candied almonds and potato pancakes (ask about egg).",
+      "Many potato salads, soups and stews use meat stock. Ask 'Ist da Fleischbrühe drin?'"
+    ],
+    "shopping": [
+      "Supermarkets have their own vegan ranges, and drugstores such as dm and Rossmann have large vegan food sections.",
+      "Look for the word 'vegan' or the V-Label on packs."
+    ],
+    "phrases": [
+      {
+        "en": "Without butter, please.",
+        "local": "Ohne Butter, bitte.",
+        "roman": ""
+      },
+      {
+        "en": "Without meat or cheese, please.",
+        "local": "Ohne Fleisch und ohne Käse, bitte.",
+        "roman": ""
+      },
+      {
+        "en": "Is there meat stock in it?",
+        "local": "Ist da Fleischbrühe drin?",
+        "roman": ""
+      },
+      {
+        "en": "Is there egg in it?",
+        "local": "Ist da Ei drin?",
+        "roman": ""
+      },
+      {
+        "en": "Do you have something vegan?",
+        "local": "Haben Sie etwas Veganes?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Germany good for vegans?",
+        "a": "Yes. Berlin is one of the world's top vegan cities, and supermarkets and drugstores everywhere have large vegan ranges."
+      },
+      {
+        "q": "Are German pretzels vegan?",
+        "a": "Usually. They're flour, water, yeast and salt, dipped in lye. Butter pretzels (Butterbrezel) are not."
+      },
+      {
+        "q": "Is German beer vegan?",
+        "a": "Most is, because it's brewed from water, malt, hops and yeast."
+      },
+      {
+        "q": "Is German potato salad vegan?",
+        "a": "Sometimes. The southern vinegar style can be, but it's often made with meat stock or bacon. Northern versions usually use mayonnaise."
+      }
     ]
   },
   {
@@ -507,6 +1950,191 @@
         "local": "Yasai tenpura",
         "status": "ask",
         "note": "Batter may contain egg; the dipping sauce contains dashi."
+      }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Simmered tofu",
+        "local": "Yudōfu (湯豆腐)",
+        "status": "ask",
+        "note": "Kyoto's tofu simmered in kelp broth. The dipping sauce may contain bonito."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Cold buckwheat noodles",
+        "local": "Zaru soba (ざるそば)",
+        "status": "ask",
+        "note": "The noodles are fine, but the dipping sauce is almost always made with bonito dashi."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegetable and tofu soup",
+        "local": "Kenchin-jiru (けんちん汁)",
+        "status": "ask",
+        "note": "Temple-origin soup of root vegetables and tofu. Traditionally kelp stock, but often made with fish dashi now."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Japanese curry",
+        "local": "Karē raisu (カレーライス)",
+        "status": "ask",
+        "note": "Standard curry roux usually contains meat extract or animal fat. Look for restaurants with a vegan menu."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Sesame tofu",
+        "local": "Goma-dōfu (胡麻豆腐)",
+        "status": "usually",
+        "note": "Sesame paste set with kudzu starch. A Koyasan speciality."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Edamame",
+        "local": "Edamame (枝豆)",
+        "status": "vegan",
+        "note": "Salted young soybeans, on every izakaya menu."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Chilled tofu",
+        "local": "Hiyayakko (冷奴)",
+        "status": "ask",
+        "note": "Usually topped with bonito flakes. Ask for it without."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fermented soybeans",
+        "local": "Nattō (納豆)",
+        "status": "usually",
+        "note": "The beans are vegan. The sauce sachet sometimes contains bonito extract."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Spinach with sesame",
+        "local": "Goma-ae (胡麻和え)",
+        "status": "ask",
+        "note": "The sesame dressing sometimes contains dashi."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Pickles",
+        "local": "Tsukemono (漬物)",
+        "status": "usually",
+        "note": "Most are vegetables, salt, rice bran or vinegar. Some use fish sauce or dashi."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Roasted sweet potato",
+        "local": "Yaki-imo (焼き芋)",
+        "status": "vegan",
+        "note": "Sold from trucks and supermarkets in the cooler months."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Candied sweet potato",
+        "local": "Daigaku-imo (大学芋)",
+        "status": "usually",
+        "note": "Fried sweet potato in sugar syrup with sesame."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Red bean rice cake",
+        "local": "Daifuku (大福)",
+        "status": "usually",
+        "note": "Mochi filled with sweet red bean paste."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Rice dumplings",
+        "local": "Mitarashi dango (みたらし団子)",
+        "status": "usually",
+        "note": "Grilled rice dumplings with a sweet soy glaze."
+      },
+      {
+        "group": "Drinks",
+        "name": "Matcha and green tea",
+        "local": "Matcha, ocha (抹茶, お茶)",
+        "status": "vegan",
+        "note": "Served without milk unless it's a matcha latte."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Tokyo",
+        "text": "The most vegan restaurants in Japan, including vegan ramen, and Indian and Nepali curry houses with clear vegetable options."
+      },
+      {
+        "region": "Kyoto",
+        "text": "The easiest city for traditional vegan food: temple cuisine, yudōfu and tofu restaurants, and many vegan cafés."
+      },
+      {
+        "region": "Koyasan",
+        "text": "Temple lodgings (shukubō) serve shōjin ryōri for dinner and breakfast, fully plant-based."
+      },
+      {
+        "region": "Osaka",
+        "text": "Street food such as takoyaki and okonomiyaki contains octopus, egg and bonito. Look for the city's vegan restaurants instead."
+      },
+      {
+        "region": "Rural Japan",
+        "text": "Hard. Fish dashi is in almost everything. Convenience stores and supermarkets are your back-up."
+      }
+    ],
+    "eating_out": [
+      "Restaurants rarely change dishes, so it's easier to choose vegan, temple-cuisine (shōjin ryōri) or Indian restaurants than to ask for changes.",
+      "Kelp (konbu) dashi is vegan. Fish (katsuo) dashi isn't. Ask what the dashi is made from.",
+      "Ramen broth is usually pork, chicken or fish, but cities have dedicated vegan ramen shops.",
+      "In a temple lodging, the meals are traditionally plant-based. Mention you're vegan when booking."
+    ],
+    "shopping": [
+      "Convenience stores (konbini) sell umeboshi and kelp rice balls, edamame, roasted sweet potato and fruit.",
+      "Japanese labels must list egg and milk as allergens, but fish isn't always flagged. Look for かつお (bonito), だし (dashi) and エキス (extract).",
+      "Supermarkets have excellent tofu, nattō, seaweed, konnyaku and soy milk (豆乳, tōnyū)."
+    ],
+    "phrases": [
+      {
+        "en": "I can't eat meat or fish.",
+        "local": "肉と魚は食べられません。",
+        "roman": "Niku to sakana wa taberaremasen."
+      },
+      {
+        "en": "What is the dashi made from?",
+        "local": "だしは何から取っていますか？",
+        "roman": "Dashi wa nani kara totte imasu ka?"
+      },
+      {
+        "en": "Without bonito flakes, please.",
+        "local": "かつおぶしなしでお願いします。",
+        "roman": "Katsuobushi nashi de onegaishimasu."
+      },
+      {
+        "en": "Does it contain egg or dairy?",
+        "local": "卵と乳製品は入っていますか？",
+        "roman": "Tamago to nyūseihin wa haitte imasu ka?"
+      },
+      {
+        "en": "Kelp stock is fine.",
+        "local": "昆布だしなら大丈夫です。",
+        "roman": "Konbu dashi nara daijōbu desu."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is miso soup vegan in Japan?",
+        "a": "Almost never. It's usually made with dashi from bonito fish. Temple and vegan restaurants make it with kelp."
+      },
+      {
+        "q": "Is Japan hard for vegans?",
+        "a": "Yes, without planning, because fish stock is in most savoury food. Tokyo and Kyoto are much easier, and temple cuisine is fully vegan."
+      },
+      {
+        "q": "Is sushi vegan?",
+        "a": "Some is: cucumber (kappa maki), pickled gourd (kanpyō maki), nattō and avocado rolls."
+      },
+      {
+        "q": "Is tofu in Japan vegan?",
+        "a": "Tofu itself is. Dishes made with it are often topped with bonito flakes or cooked in fish dashi."
       }
     ]
   },
@@ -566,6 +2194,186 @@
         "local": "Gemista",
         "status": "ask",
         "note": "Rice-filled versions are vegan; some include mince."
+      }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Wild greens",
+        "local": "Horta (χόρτα)",
+        "status": "vegan",
+        "note": "Boiled wild or cultivated greens with olive oil and lemon."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Chickpea stew",
+        "local": "Revithada (ρεβιθάδα)",
+        "status": "vegan",
+        "note": "Sifnos's chickpeas slow-baked with onion, olive oil and herbs."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Lentil soup",
+        "local": "Fakes (φακές)",
+        "status": "usually",
+        "note": "Lentils with tomato, garlic, bay and olive oil. A splash of vinegar at the table."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Spinach rice",
+        "local": "Spanakorizo (σπανακόρυζο)",
+        "status": "usually",
+        "note": "Rice and spinach with dill, lemon and olive oil. Feta is often served on the side."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Green beans in tomato",
+        "local": "Fasolakia ladera (φασολάκια λαδερά)",
+        "status": "vegan",
+        "note": "Green beans stewed with tomato, potato and olive oil."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Lemon roast potatoes",
+        "local": "Patates lemonates (πατάτες λεμονάτες)",
+        "status": "usually",
+        "note": "Potatoes roasted with lemon, oregano and olive oil. Sometimes roasted alongside meat."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Cretan rusk salad",
+        "local": "Dakos (ντάκος)",
+        "status": "ask",
+        "note": "Barley rusk topped with tomato and olive oil, usually with feta or mizithra. Ask without."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Aubergine dip",
+        "local": "Melitzanosalata (μελιτζανοσαλάτα)",
+        "status": "usually",
+        "note": "Smoky aubergine with garlic, olive oil and lemon. Some add mayonnaise or feta."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Garlic dip",
+        "local": "Skordalia (σκορδαλιά)",
+        "status": "usually",
+        "note": "Potato or bread with garlic and olive oil."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Tahini dip",
+        "local": "Tahinosalata (ταχινοσαλάτα)",
+        "status": "vegan",
+        "note": "Tahini, garlic and lemon."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Santorini tomato fritters",
+        "local": "Tomatokeftedes (ντοματοκεφτέδες)",
+        "status": "usually",
+        "note": "Tomato, herbs and flour, fried. Some recipes add cheese or egg."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Sesame bread ring",
+        "local": "Koulouri (κουλούρι)",
+        "status": "usually",
+        "note": "Thessaloniki's breakfast on the go."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Semolina halva",
+        "local": "Halvas (χαλβάς σιμιγδαλένιος)",
+        "status": "usually",
+        "note": "Semolina toasted in oil and simmered in syrup. A Lent classic."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Grape-must pudding",
+        "local": "Moustalevria (μουσταλευριά)",
+        "status": "vegan",
+        "note": "Grape must thickened with flour, made at harvest time."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Honey doughnuts",
+        "local": "Loukoumades (λουκουμάδες)",
+        "status": "ask",
+        "note": "The dough is usually vegan, but they're soaked in honey. Ask for syrup instead."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Athens",
+        "text": "Plenty of vegan restaurants, and tavernas full of olive-oil vegetable and bean dishes."
+      },
+      {
+        "region": "Crete",
+        "text": "Wild greens, dakos, olive oil and some of the healthiest traditional food in Europe."
+      },
+      {
+        "region": "The Cyclades",
+        "text": "Santorini fava, tomato fritters and Sifnos chickpea stew. Small islands rely on tavernas, which nearly always have vegetable dishes."
+      },
+      {
+        "region": "Thessaloniki",
+        "text": "Great street food, but bougatsa is filled with custard or cheese. Koulouri and Lenten dishes are safe."
+      }
+    ],
+    "eating_out": [
+      "Learn the word 'nistisimo' (fasting food). During Orthodox fasts, dishes are made without meat, dairy and eggs. They may still contain honey or seafood such as octopus.",
+      "The biggest fasts are Lent before Easter and the weeks before Christmas, but many bakeries and tavernas sell fasting food all year.",
+      "Ask for 'ladera': vegetables cooked slowly in olive oil and tomato.",
+      "Feta goes on almost every salad. Ask 'choris feta'."
+    ],
+    "shopping": [
+      "Weekly street markets (laiki agora) have superb fruit, vegetables, olives and herbs.",
+      "Supermarkets stock plant milks and products labelled 'nistisimo' (check them for honey and seafood)."
+    ],
+    "phrases": [
+      {
+        "en": "Without cheese, please.",
+        "local": "Χωρίς τυρί, παρακαλώ.",
+        "roman": "Chorís tirí, parakaló."
+      },
+      {
+        "en": "Without meat or fish, please.",
+        "local": "Χωρίς κρέας και χωρίς ψάρι, παρακαλώ.",
+        "roman": "Chorís kréas ke chorís psári, parakaló."
+      },
+      {
+        "en": "Is it fasting food?",
+        "local": "Είναι νηστίσιμο;",
+        "roman": "Íne nistísimo?"
+      },
+      {
+        "en": "Does it have butter or egg?",
+        "local": "Έχει βούτυρο ή αυγό;",
+        "roman": "Échi voútiro i avgó?"
+      },
+      {
+        "en": "Is there meat stock in it?",
+        "local": "Έχει ζωμό κρέατος;",
+        "roman": "Échi zomó kréatos?"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Greece good for vegans?",
+        "a": "Yes. Olive-oil vegetable dishes, beans and greens are everyday food, and the Orthodox fasting tradition means meat-, dairy- and egg-free dishes are common."
+      },
+      {
+        "q": "What does 'nistisimo' mean?",
+        "a": "Fasting food: no meat, dairy or eggs. It may still include honey, octopus or shellfish, so check."
+      },
+      {
+        "q": "Is Greek salad vegan?",
+        "a": "Not as served, because it comes with feta. Ask for it without."
+      },
+      {
+        "q": "Are dolmades vegan?",
+        "a": "The cold rice-filled vine leaves usually are. Hot dolmades are usually filled with meat and served with egg-lemon sauce."
       }
     ]
   }

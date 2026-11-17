@@ -133,6 +133,16 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(29,42,34,.08),
 .glance div{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
 .glance b{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .draft{background:var(--ask);color:var(--ask-ink);border-radius:12px;padding:12px 16px;font-size:14px;margin:22px 0}
+.more{list-style:none;padding:0;margin:10px 0 26px;background:var(--card);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
+.more li{display:grid;grid-template-columns:minmax(150px,210px) 1fr;gap:6px 18px;padding:14px 20px;border-top:1px solid rgba(0,0,0,.07)}.more li:first-child{border-top:0}
+.more h4{margin:0;font-size:17px}.more .local{font-size:14px;margin:2px 0 6px;opacity:.75}.more p{margin:0}
+@media (max-width:600px){.more li{grid-template-columns:1fr}}
+.regions{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:14px 0 8px}
+.regions div{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}.regions h3{margin:0 0 6px;font-size:18px}.regions p{margin:0}
+table.phrases{width:100%;border-collapse:collapse;margin:12px 0 8px;background:var(--card);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+table.phrases th,table.phrases td{text-align:left;padding:12px 16px;border-top:1px solid rgba(0,0,0,.07);vertical-align:top}table.phrases th{font-size:14px;border-top:0}
+table.phrases .roman{display:block;font-size:14px;opacity:.75;margin-top:2px}
+.faq h3{font-size:19px;margin:20px 0 4px}.faq p{margin:0}
 .watch{background:var(--card);border-left:5px solid var(--accent);border-radius:12px;padding:18px 22px 18px 40px;box-shadow:var(--shadow)}.watch li{margin:6px 0}
 .phrase{position:relative;background:#fffdf7;border:2px dashed var(--brand);border-radius:18px;padding:26px 26px 22px;font-size:clamp(19px,2.4vw,23px);line-height:1.55;box-shadow:var(--shadow)}
 .phrase .roman{display:block;font-size:15px;color:var(--muted);margin-top:10px}.phrase .tag{position:absolute;top:-13px;left:20px;background:var(--brand);color:#fff;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
@@ -258,8 +268,9 @@ def country_page(c, countries, i):
     name, slug = c["name"], c["slug"]
     tname = cap(name)
     path = country_path(c)
-    n_ok = sum(1 for d in c["dishes"] if d["status"] in ("vegan", "usually"))
-    title = f"Vegan Food in {c.get('short', name)}: {len(c['dishes'])} Local Dishes and What to Ask For ({YEAR})"
+    all_dishes = c["dishes"] + c.get("more_dishes", [])
+    n_ok = sum(1 for d in all_dishes if d["status"] in ("vegan", "usually"))
+    title = f"Vegan Food in {c.get('short', name)}: {len(all_dishes)} Local Dishes and What to Ask For ({YEAR})"
     description = (f"Vegan food in {name}: {n_ok} traditional dishes that are vegan or usually vegan, "
                    f"what to watch for, and a {c['phrase_lang']} phrase card to show your server.")[:158]
     lang = LANG[c["phrase_lang"]]
@@ -270,6 +281,33 @@ def country_page(c, countries, i):
 <div class="body"><span class="badge {STATUS[d['status']][1]}">{d.get('label') or STATUS[d['status']][0]}</span><h3>{e(d['name'])}</h3><p class="local">{e(d['local'])}</p><p style="margin:4px 0 0">{e(d['note'])}</p></div>{credit_line(f"{slug}/{d['name']}")}</article></li>"""
                       for d in c["dishes"])
     watch = "".join(f"<li>{e(w)}</li>" for w in c["watch"])
+    groups = []
+    for d in c.get("more_dishes", []):
+        if d["group"] not in groups:
+            groups.append(d["group"])
+    more_html = ""
+    if groups:
+        more_html = f'<h2 id="more-dishes">More dishes to try in {e(name)}</h2>'
+        for g in groups:
+            rows = "".join(f"""<li><div><span class="badge {STATUS[d['status']][1]}">{e(d.get('label') or STATUS[d['status']][0])}</span></div><div><h4>{e(d['name'])}</h4><p class="local">{e(d['local'])}</p><p>{e(d['note'])}</p></div></li>"""
+                           for d in c["more_dishes"] if d["group"] == g)
+            more_html += f'<h3>{e(g)}</h3><ul class="more">{rows}</ul>'
+    regions_html = ""
+    if c.get("regions"):
+        regions_html = f'<h2 id="regions">Region by region</h2><div class="regions">' + "".join(
+            f'<div><h3>{e(r["region"])}</h3><p>{e(r["text"])}</p></div>' for r in c["regions"]) + "</div>"
+    eat_html = (f'<h2 id="eating-out">Eating out in {e(name)}</h2><ul>' + "".join(f"<li>{e(t)}</li>" for t in c["eating_out"]) + "</ul>") if c.get("eating_out") else ""
+    shop_html = (f'<h2 id="shopping">Shopping and self-catering</h2><ul>' + "".join(f"<li>{e(t)}</li>" for t in c["shopping"]) + "</ul>") if c.get("shopping") else ""
+    phr_html = ""
+    if c.get("phrases"):
+        if c["phrase_lang"].startswith("English"):
+            phr_html = '<h2 id="phrases">Questions worth asking</h2><ul>' + "".join(f"<li>{e(x['en'])}</li>" for x in c["phrases"]) + "</ul>"
+        else:
+            rows = "".join(f"""<tr><td>{e(x['en'])}</td><td lang="{lang}">{e(x['local'])}{f'<span class="roman" lang="{lang}-Latn">{e(x["roman"])}</span>' if x.get('roman') else ''}</td></tr>""" for x in c["phrases"])
+            phr_html = f'<h2 id="phrases">More useful phrases in {e(c["phrase_lang"])}</h2><table class="phrases"><thead><tr><th>English</th><th>{e(c["phrase_lang"])}</th></tr></thead><tbody>{rows}</tbody></table>'
+    faq_html = ""
+    if c.get("faqs"):
+        faq_html = f'<h2 id="quick-answers">Quick answers</h2><div class="faq">' + "".join(f"<h3>{e(q['q'])}</h3><p>{e(q['a'])}</p>" for q in c["faqs"]) + "</div>"
     prev_c = countries[i - 1] if i > 0 else None
     next_c = countries[i + 1] if i + 1 < len(countries) else None
     pager = ('<nav class="pager" aria-label="More countries">' +
@@ -290,7 +328,13 @@ def country_page(c, countries, i):
 <h2 id="phrase">How to ask for vegan food in {e(c['phrase_lang'])}</h2>
 <p>Show this to your server, or save it to your phone. All 10 countries are on the <a href="/phrase-cards/">phrase cards page</a>.</p>
 <p class="phrase" lang="{lang}"><span class="tag">{e(c['phrase_lang'])}</span>{e(c['phrase'])}{roman}</p>
+{more_html}
 {cta_block(path, slug)}
+{regions_html}
+{eat_html}
+{shop_html}
+{phr_html}
+{faq_html}
 <h2 id="why">Why {e(name)}</h2>
 <p>{e(tname)} is the number {c['rank']} most-visited country in the world, with {c['arrivals_m']} million international arrivals in 2024 (UN Tourism).</p>
 </article>
@@ -299,7 +343,7 @@ def country_page(c, countries, i):
                  "itemListElement": [{"@type": "ListItem", "position": k + 1,
                                       "item": {"@type": "Thing", "name": d["name"], "alternateName": d["local"],
                                                "description": f"{d.get('label') or STATUS[d['status']][0]}. {d['note']}"}}
-                                     for k, d in enumerate(c["dishes"])]}
+                                     for k, d in enumerate(all_dishes)]}
     article = {"@context": "https://schema.org", "@type": "Article", "headline": f"Vegan Food in {tname}",
                "description": description, "inLanguage": "en", "dateModified": TODAY, "image": og_image(f"{slug}/hero"),
                "mainEntityOfPage": SITE + path, "author": person(), "publisher": org(),
