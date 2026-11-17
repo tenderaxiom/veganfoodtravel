@@ -267,7 +267,7 @@ def country_page(c, countries, i):
     draft = "" if c["verified"] else ('<p class="draft" role="note"><b>Draft guide.</b> Not yet checked on the ground, '
                                       'so it is hidden from search engines until it is. Always confirm ingredients locally.</p>')
     cards = "\n".join(f"""<li><article class="card"><div class="media">{picture(f"{slug}/{d['name']}", f"{d['name']} ({d['local']})", '(max-width:600px) 100vw, 360px', credit=False)}</div>
-<div class="body"><span class="badge {STATUS[d['status']][1]}">{STATUS[d['status']][0]}</span><h3>{e(d['name'])}</h3><p class="local">{e(d['local'])}</p><p style="margin:4px 0 0">{e(d['note'])}</p></div>{credit_line(f"{slug}/{d['name']}")}</article></li>"""
+<div class="body"><span class="badge {STATUS[d['status']][1]}">{d.get('label') or STATUS[d['status']][0]}</span><h3>{e(d['name'])}</h3><p class="local">{e(d['local'])}</p><p style="margin:4px 0 0">{e(d['note'])}</p></div>{credit_line(f"{slug}/{d['name']}")}</article></li>"""
                       for d in c["dishes"])
     watch = "".join(f"<li>{e(w)}</li>" for w in c["watch"])
     prev_c = countries[i - 1] if i > 0 else None
@@ -298,7 +298,7 @@ def country_page(c, countries, i):
     item_list = {"@type": "ItemList", "name": f"Traditional dishes in {name} that are vegan or can be",
                  "itemListElement": [{"@type": "ListItem", "position": k + 1,
                                       "item": {"@type": "Thing", "name": d["name"], "alternateName": d["local"],
-                                               "description": f"{STATUS[d['status']][0]}. {d['note']}"}}
+                                               "description": f"{d.get('label') or STATUS[d['status']][0]}. {d['note']}"}}
                                      for k, d in enumerate(c["dishes"])]}
     article = {"@context": "https://schema.org", "@type": "Article", "headline": f"Vegan Food in {tname}",
                "description": description, "inLanguage": "en", "dateModified": TODAY, "image": og_image(f"{slug}/hero"),

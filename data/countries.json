@@ -428,7 +428,8 @@
     "name": "Vegan döner",
     "local": "Veganer Döner",
     "status": "vegan",
-    "note": "Widely available in Berlin and other large cities."
+    "note": "Widely available in Berlin and other large cities.",
+    "label": "Vegan versions are widespread"
    },
    {
     "name": "Soft pretzel",
