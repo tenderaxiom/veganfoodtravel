@@ -113,7 +113,8 @@ nav.main a{text-decoration:none;color:var(--ink);font-weight:500;padding:8px 12p
 @media(max-width:720px){nav.main a:not(.btn){display:none}}
 .hero{position:relative;min-height:min(78vh,680px);display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#24553a}
 .hero img,.hero .ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 30%,rgba(10,25,16,.78))}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,25,16,.72),rgba(10,25,16,.25) 70%),linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(10,25,16,.7))}
+.hero h1,.hero .lead{text-shadow:0 2px 14px rgba(0,0,0,.35)}
 .hero .wrap{position:relative;z-index:2;padding-bottom:56px;padding-top:120px}.hero .lead{max-width:640px;color:#f3f6f2}
 .hero .credit{position:absolute;right:10px;bottom:6px;z-index:3;color:#dfe7e1}.hero .credit a{color:#dfe7e1}
 .hero.short{min-height:min(62vh,540px)}.hero .crumbs,.hero .crumbs a{color:#e6efe8}
@@ -276,7 +277,7 @@ def country_page(c, countries, i):
              (f'<a href="{country_path(next_c)}">Vegan food in {e(next_c["name"])} &rarr;</a>' if next_c else "<span></span>") + "</nav>")
     hero = hero_block(f"{slug}/hero", f"{tname}", f"""<p class="crumbs"><a href="/">Home</a> / <a href="/#countries">Countries</a> / {e(tname)}</p>
 <p class="eyebrow" style="color:#bfe3c9">#{c['rank']} most-visited country</p><h1>Vegan Food in {e(name)}</h1>
-<p class="lead">{e(c['summary'].split('. ')[0].rstrip('.'))}.</p>""", short=True)
+<p class="lead">How easy: {e(c['ease'])} · Try first: {e(c['first_dish'])}</p>""", short=True)
     body = f"""<article>
 <p class="meta" style="margin-top:22px">By <a href="/about/">{AUTHOR}</a> · {('Checked in ' + e(checked)) if checked else 'Not yet checked on the ground'} · Updated {TODAY}</p>
 {draft}
