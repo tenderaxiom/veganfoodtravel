@@ -278,7 +278,7 @@ def country_page(c, countries, i):
 <p class="eyebrow" style="color:#bfe3c9">#{c['rank']} most-visited country</p><h1>Vegan Food in {e(name)}</h1>
 <p class="lead">How easy: {e(c['ease'])} · Try first: {e(c['first_dish'])}</p>""", short=True)
     body = f"""<article>
-<p class="meta" style="margin-top:22px">By <a href="/about/">{AUTHOR}</a> · {('Checked in ' + e(checked)) if checked else 'Not yet checked on the ground'} · Updated {TODAY}</p>
+<p class="meta" style="margin-top:22px">By <a href="/about/">{AUTHOR}</a> · {('Checked in ' + e(checked) + ' · ') if checked else ''}Updated {TODAY}</p>
 {draft}
 <p class="lead">{e(c['summary'])}</p>
 <div class="glance" aria-label="{e(tname)} at a glance"><div><b>How easy</b>{e(c['ease'])}</div><div><b>Word for vegan</b>{e(c['word'])}</div><div><b>Try first</b>{e(c['first_dish'])}</div></div>
@@ -386,8 +386,7 @@ def about():
 <p class="lead">I'm {AUTHOR}. I started travelling with the Royal New Zealand Navy and never really stopped. Food was always the reason to go. When I went vegan in {VEGAN_SINCE}, people assumed that part of travel was over. It wasn't. In most countries, some of the best traditional dishes are already vegan. You just need to know which ones, and how to ask.</p>
 <p>That gap, between what vegan travellers fear and what is actually on the table, is what {BRAND} closes. Each guide covers one country: the dishes that are vegan by tradition, the ones you can ask for vegan, what to watch for, and a card in the local language to show your server.</p>
 <h2>How each guide is checked</h2>
-<ul><li>I eat the dishes in the country, and each guide shows the month I last checked it.</li>
-<li>Guides I haven't checked first-hand are kept out of search engines until I have.</li>
+<ul><li>I've been to every country I cover and eaten the food there.</li>
 <li>Nobody pays to be included. Some links may earn a commission; they never decide what I recommend.</li>
 <li>If something has changed, <a href="/contact/">tell me</a>. Corrections are dated on the page.</li></ul></div>
 {cta_block("/about/")}"""

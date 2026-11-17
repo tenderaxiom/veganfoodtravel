@@ -1,572 +1,572 @@
 [
- {
-  "slug": "france",
-  "name": "France",
-  "rank": 1,
-  "arrivals_m": 102.0,
-  "flag": "FR",
-  "verified": false,
-  "ease": "Medium",
-  "summary": "France is easier for vegans than its butter-and-cheese reputation suggests. Bakery bread, Provençal vegetable dishes and Nice's chickpea socca are vegan by tradition, and Paris has a large fully vegan restaurant scene. Outside cities, expect to ask for dishes without butter, cream or lardons.",
-  "word": "végane (or végétalien)",
-  "first_dish": "Socca in Nice",
-  "phrase_lang": "French",
-  "phrase": "Je suis végane. Je ne mange ni viande, ni poisson, ni œufs, ni produits laitiers, ni beurre, ni miel.",
-  "phrase_roman": "",
-  "watch": [
-   "Butter (beurre) in vegetables and sauces",
-   "Cream (crème) in soups",
-   "Lardons (bacon pieces) in salads and quiches",
-   "Meat or chicken stock (bouillon) in soups"
-  ],
-  "dishes": [
-   {
-    "name": "Socca",
-    "local": "Socca",
-    "status": "vegan",
-    "note": "Chickpea-flour pancake from Nice, cooked in olive oil."
-   },
-   {
-    "name": "Ratatouille",
-    "local": "Ratatouille",
-    "status": "usually",
-    "note": "Provençal stewed vegetables in olive oil. Check no butter was added."
-   },
-   {
-    "name": "Traditional baguette",
-    "local": "Baguette de tradition",
-    "status": "vegan",
-    "note": "French law limits the traditional baguette to flour, water, salt and yeast."
-   },
-   {
-    "name": "Soupe au pistou",
-    "local": "Soupe au pistou",
-    "status": "ask",
-    "note": "Vegetable and bean soup. Ask for the pistou without cheese (sans fromage)."
-   },
-   {
-    "name": "Lentil salad",
-    "local": "Salade de lentilles du Puy",
-    "status": "ask",
-    "note": "Often vegan; check for lardons."
-   },
-   {
-    "name": "Pissaladière",
-    "local": "Pissaladière",
-    "status": "no",
-    "note": "Onion tart topped with anchovies. Ask for a version without."
-   }
-  ]
- },
- {
-  "slug": "spain",
-  "name": "Spain",
-  "rank": 2,
-  "arrivals_m": 93.8,
-  "flag": "ES",
-  "verified": false,
-  "ease": "Easy in cities",
-  "summary": "Spain's tapas culture includes many dishes that are vegan by tradition: tomato bread, Padrón peppers, chickpeas with spinach and cold gazpacho. The main risks are small pieces of ham (jamón) added for flavour, fish stock, and egg-based aioli.",
-  "word": "vegano / vegana",
-  "first_dish": "Pan con tomate",
-  "phrase_lang": "Spanish",
-  "phrase": "Soy vegano (vegana). No como carne, pescado, huevos, lácteos ni miel. ¿Este plato lleva jamón o caldo de pescado?",
-  "phrase_roman": "",
-  "watch": [
-   "Ham pieces (jamón) added to vegetables and beans",
-   "Fish or chicken stock (caldo) in rice and soups",
-   "Egg in aioli (alioli)",
-   "Tuna (atún) in salads"
-  ],
-  "dishes": [
-   {
-    "name": "Tomato bread",
-    "local": "Pan con tomate / pa amb tomàquet",
-    "status": "vegan",
-    "note": "Toasted bread rubbed with tomato, garlic and olive oil."
-   },
-   {
-    "name": "Padrón peppers",
-    "local": "Pimientos de Padrón",
-    "status": "vegan",
-    "note": "Small green peppers fried in olive oil with salt."
-   },
-   {
-    "name": "Gazpacho",
-    "local": "Gazpacho",
-    "status": "usually",
-    "note": "Cold tomato soup. Usually vegan; garnishes may include ham or egg."
-   },
-   {
-    "name": "Chickpeas with spinach",
-    "local": "Espinacas con garbanzos",
-    "status": "usually",
-    "note": "A Seville classic, normally made with olive oil and spices."
-   },
-   {
-    "name": "Patatas bravas",
-    "local": "Patatas bravas",
-    "status": "ask",
-    "note": "The spicy brava sauce is often vegan; the alioli usually contains egg."
-   },
-   {
-    "name": "Vegetable paella",
-    "local": "Paella de verduras",
-    "status": "ask",
-    "note": "Ask whether it was cooked with fish or chicken stock."
-   }
-  ]
- },
- {
-  "slug": "united-states",
-  "name": "the United States",
-  "short": "the USA",
-  "rank": 3,
-  "arrivals_m": 72.4,
-  "flag": "US",
-  "verified": false,
-  "ease": "Easy in big cities",
-  "summary": "The United States has some of the world's strongest vegan restaurant scenes, led by Portland, Los Angeles, New York and Austin. Regional comfort food is harder: Southern greens, beans and refried beans are often cooked with pork, lard or chicken stock.",
-  "word": "vegan",
-  "first_dish": "A bean burrito in California, ordered without cheese or sour cream",
-  "phrase_lang": "English",
-  "phrase": "I'm vegan: no meat, fish, eggs, dairy or honey. Is this cooked in butter, lard or chicken stock?",
-  "phrase_roman": "",
-  "watch": [
-   "Ham hock or bacon in collard greens and beans",
-   "Lard in refried beans and tortillas",
-   "Chicken stock in rice and soups",
-   "Butter on grilled vegetables and bread"
-  ],
-  "dishes": [
-   {
-    "name": "Bean burrito",
-    "local": "Bean burrito",
-    "status": "ask",
-    "note": "Ask for no cheese or sour cream and beans without lard."
-   },
-   {
-    "name": "Succotash",
-    "local": "Succotash",
-    "status": "ask",
-    "note": "Corn and lima beans; often finished with butter."
-   },
-   {
-    "name": "Collard greens",
-    "local": "Collard greens",
-    "status": "ask",
-    "note": "Traditionally cooked with smoked pork. Many restaurants now offer a vegan version."
-   },
-   {
-    "name": "Three-bean chili",
-    "local": "Bean chili",
-    "status": "usually",
-    "note": "Vegetarian chili is common; check toppings."
-   },
-   {
-    "name": "Peanut butter and jelly sandwich",
-    "local": "PB&J",
-    "status": "vegan",
-    "note": "Usually vegan; some bread contains milk or honey."
-   }
-  ]
- },
- {
-  "slug": "italy",
-  "name": "Italy",
-  "rank": 4,
-  "arrivals_m": 60.6,
-  "flag": "IT",
-  "verified": false,
-  "ease": "Easy",
-  "summary": "Italy's peasant cooking (cucina povera) is full of dishes that are vegan by tradition: pizza marinara, pasta with tomato, bean soups and Sicilian chickpea fritters. Watch for Parmesan grated on top, anchovies in sauces, and fresh egg pasta.",
-  "word": "vegano / vegana",
-  "first_dish": "Pizza marinara",
-  "phrase_lang": "Italian",
-  "phrase": "Sono vegano (vegana). Non mangio carne, pesce, uova, latticini né miele. Senza parmigiano, per favore.",
-  "phrase_roman": "",
-  "watch": [
-   "Parmesan (parmigiano) grated on pasta and soups",
-   "Anchovies (acciughe) in sauces",
-   "Fresh egg pasta (pasta all'uovo)",
-   "Butter (burro) in northern dishes and risotto"
-  ],
-  "dishes": [
-   {
-    "name": "Pizza marinara",
-    "local": "Pizza marinara",
-    "status": "vegan",
-    "note": "Tomato, garlic, oregano and olive oil. No cheese by tradition."
-   },
-   {
-    "name": "Pasta and beans",
-    "local": "Pasta e fagioli",
-    "status": "usually",
-    "note": "Check for pancetta or Parmesan rind."
-   },
-   {
-    "name": "Chickpea fritters",
-    "local": "Panelle",
-    "status": "vegan",
-    "note": "Palermo street food made from chickpea flour."
-   },
-   {
-    "name": "Chickpea flatbread",
-    "local": "Farinata",
-    "status": "vegan",
-    "note": "Ligurian chickpea flatbread baked in olive oil."
-   },
-   {
-    "name": "Caponata",
-    "local": "Caponata",
-    "status": "usually",
-    "note": "Sweet-and-sour Sicilian aubergine stew."
-   },
-   {
-    "name": "Pasta with tomato",
-    "local": "Pasta al pomodoro",
-    "status": "ask",
-    "note": "Vegan with dried pasta; ask for no Parmesan."
-   }
-  ]
- },
- {
-  "slug": "turkey",
-  "name": "Turkey",
-  "aka": "Türkiye",
-  "rank": 5,
-  "arrivals_m": 57.8,
-  "flag": "TR",
-  "verified": false,
-  "ease": "Medium",
-  "summary": "Turkey (Türkiye) has a whole family of olive-oil vegetable dishes (zeytinyağlılar), traditionally served cold and made without meat. Lentil soup, stuffed vine leaves and the modern meat-free çiğ köfte are widely available. Butter and yogurt are the main things to ask about.",
-  "word": "vegan",
-  "first_dish": "Zeytinyağlı dishes from a lokanta counter",
-  "phrase_lang": "Turkish",
-  "phrase": "Veganım. Et, balık, yumurta, süt ürünleri ve bal yemiyorum. Tereyağı veya yoğurt var mı?",
-  "phrase_roman": "",
-  "watch": [
-   "Butter (tereyağı) poured over soups and rice",
-   "Yogurt (yoğurt) served on top",
-   "Meat stock in rice (pilav)",
-   "Minced meat in stuffed vegetables (etli dolma)"
-  ],
-  "dishes": [
-   {
-    "name": "Olive-oil vegetable dishes",
-    "local": "Zeytinyağlılar",
-    "status": "vegan",
-    "note": "Green beans, leeks or artichokes cooked in olive oil and served cold."
-   },
-   {
-    "name": "Stuffed vine leaves",
-    "local": "Yalancı dolma / zeytinyağlı yaprak sarma",
-    "status": "vegan",
-    "note": "The olive-oil version is rice-filled; the etli version contains meat."
-   },
-   {
-    "name": "Aubergine with tomato and onion",
-    "local": "İmam bayıldı",
-    "status": "vegan",
-    "note": "Classic olive-oil aubergine dish."
-   },
-   {
-    "name": "Bulgur köfte",
-    "local": "Çiğ köfte",
-    "status": "usually",
-    "note": "Commercial versions are now made without meat."
-   },
-   {
-    "name": "Red lentil soup",
-    "local": "Mercimek çorbası",
-    "status": "ask",
-    "note": "Ask whether it uses butter or meat stock."
-   },
-   {
-    "name": "Sesame bread ring",
-    "local": "Simit",
-    "status": "usually",
-    "note": "Usually flour, water, yeast, molasses and sesame."
-   }
-  ]
- },
- {
-  "slug": "mexico",
-  "name": "Mexico",
-  "rank": 6,
-  "arrivals_m": 45.0,
-  "flag": "MX",
-  "verified": false,
-  "ease": "Medium",
-  "summary": "Mexican food is built on corn, beans, chillies and vegetables, so many dishes are close to vegan. The catch is lard (manteca), used in beans, tortillas and tamales, plus cheese and cream on top. Learning to ask \"sin manteca, sin queso, sin crema\" opens up most menus.",
-  "word": "vegano / vegana",
-  "first_dish": "Tacos de nopales",
-  "phrase_lang": "Spanish (Mexico)",
-  "phrase": "Soy vegano (vegana). No como carne, pescado, huevo, lácteos ni miel. ¿Lo pueden hacer sin manteca, sin queso y sin crema?",
-  "phrase_roman": "",
-  "watch": [
-   "Lard (manteca) in beans, tortillas and tamales",
-   "Cheese (queso) and cream (crema) on top",
-   "Chicken stock (caldo de pollo) in rice",
-   "Mayonnaise on street corn"
-  ],
-  "dishes": [
-   {
-    "name": "Cactus tacos",
-    "local": "Tacos de nopales",
-    "status": "usually",
-    "note": "Grilled cactus paddles; ask for no cheese."
-   },
-   {
-    "name": "Guacamole",
-    "local": "Guacamole",
-    "status": "vegan",
-    "note": "Avocado, onion, chilli, coriander and lime."
-   },
-   {
-    "name": "Beans",
-    "local": "Frijoles",
-    "status": "ask",
-    "note": "Often cooked with lard; ask for frijoles de olla without manteca."
-   },
-   {
-    "name": "Street corn in a cup",
-    "local": "Esquites",
-    "status": "ask",
-    "note": "Ask for no mayonnaise, cheese or cream."
-   },
-   {
-    "name": "Oaxacan tlayuda",
-    "local": "Tlayuda",
-    "status": "ask",
-    "note": "The base is spread with asiento (pork fat); ask for a version without."
-   },
-   {
-    "name": "Green chilli tamales",
-    "local": "Tamales de rajas",
-    "status": "ask",
-    "note": "The dough is usually made with lard; vegan versions exist."
-   }
-  ]
- },
- {
-  "slug": "united-kingdom",
-  "name": "the United Kingdom",
-  "short": "the UK",
-  "rank": 7,
-  "arrivals_m": 41.8,
-  "flag": "GB",
-  "verified": false,
-  "ease": "Easy",
-  "summary": "The United Kingdom is one of the easiest countries to travel vegan. London and Bristol lead global vegan rankings, supermarkets label vegan products clearly, and pubs now commonly offer a vegan Sunday roast. Traditional fish-and-chip shops are the main thing to check.",
-  "word": "vegan",
-  "first_dish": "A vegan Sunday roast in a pub",
-  "phrase_lang": "English",
-  "phrase": "I'm vegan: no meat, fish, eggs, dairy or honey. Are the chips fried in beef dripping?",
-  "phrase_roman": "",
-  "watch": [
-   "Beef dripping used to fry chips in some chip shops",
-   "Butter on vegetables and in mash",
-   "Worcestershire sauce (contains anchovies)",
-   "Egg and milk in Yorkshire puddings"
-  ],
-  "dishes": [
-   {
-    "name": "Chips",
-    "local": "Chips",
-    "status": "ask",
-    "note": "Usually vegetable oil; some traditional shops use beef dripping."
-   },
-   {
-    "name": "Baked beans on toast",
-    "local": "Beans on toast",
-    "status": "usually",
-    "note": "Standard tinned beans are usually vegan; check the bread spread."
-   },
-   {
-    "name": "Vegan Sunday roast",
-    "local": "Sunday roast",
-    "status": "ask",
-    "note": "Many pubs offer a vegan version; ask about gravy and roast potatoes."
-   },
-   {
-    "name": "Chickpea curry",
-    "local": "Chana masala",
-    "status": "usually",
-    "note": "British curry houses often cook it without dairy; check for ghee."
-   },
-   {
-    "name": "Mushy peas",
-    "local": "Mushy peas",
-    "status": "usually",
-    "note": "Marrowfat peas; check for butter."
-   }
-  ]
- },
- {
-  "slug": "germany",
-  "name": "Germany",
-  "rank": 8,
-  "arrivals_m": 37.5,
-  "flag": "DE",
-  "verified": false,
-  "ease": "Easy in cities",
-  "summary": "Germany, and Berlin above all, is one of the most vegan-friendly places in Europe, with vegan bakeries, supermarkets and döner shops. Traditional food is meat-heavy, but pretzels, potato salad and red cabbage can be vegan if you ask about bacon, lard and stock.",
-  "word": "vegan",
-  "first_dish": "A vegan döner in Berlin",
-  "phrase_lang": "German",
-  "phrase": "Ich bin vegan. Ich esse kein Fleisch, keinen Fisch, keine Eier, keine Milchprodukte und keinen Honig. Ist da Speck, Schmalz oder Brühe drin?",
-  "phrase_roman": "",
-  "watch": [
-   "Bacon (Speck) in potatoes and salads",
-   "Lard (Schmalz) in red cabbage and spreads",
-   "Meat stock (Brühe) in potato salad and soups",
-   "Egg in spätzle and noodles"
-  ],
-  "dishes": [
-   {
-    "name": "Vegan döner",
-    "local": "Veganer Döner",
-    "status": "vegan",
-    "note": "Widely available in Berlin and other large cities.",
-    "label": "Vegan versions are widespread"
-   },
-   {
-    "name": "Soft pretzel",
-    "local": "Brezel",
-    "status": "usually",
-    "note": "Plain lye pretzels are usually vegan; some use butter."
-   },
-   {
-    "name": "Swabian potato salad",
-    "local": "Schwäbischer Kartoffelsalat",
-    "status": "ask",
-    "note": "Dressed with vinegar and stock; ask for vegetable stock."
-   },
-   {
-    "name": "Red cabbage",
-    "local": "Rotkohl / Blaukraut",
-    "status": "ask",
-    "note": "Sometimes cooked with lard or goose fat."
-   },
-   {
-    "name": "Fried potatoes",
-    "local": "Bratkartoffeln",
-    "status": "ask",
-    "note": "Usually with bacon; ask for ohne Speck."
-   }
-  ]
- },
- {
-  "slug": "japan",
-  "name": "Japan",
-  "rank": 9,
-  "arrivals_m": 36.9,
-  "flag": "JP",
-  "verified": false,
-  "ease": "Hard without planning",
-  "summary": "Japan is beautiful for vegans who plan ahead and tricky for those who don't. Buddhist temple cuisine (shojin ryori) is fully plant-based, but dashi, a stock usually made from bonito fish, is in most soups, sauces and noodle broths.",
-  "word": "ヴィーガン (bīgan)",
-  "first_dish": "Shojin ryori at a temple in Kyoto or Koyasan",
-  "phrase_lang": "Japanese",
-  "phrase": "私はヴィーガンです。肉、魚、卵、乳製品、はちみつを食べません。かつおだしも食べられません。",
-  "phrase_roman": "Watashi wa bīgan desu. Niku, sakana, tamago, nyūseihin, hachimitsu o tabemasen. Katsuo dashi mo taberaremasen.",
-  "watch": [
-   "Dashi (fish stock) in miso soup, noodle broth and sauces",
-   "Bonito flakes (katsuobushi) sprinkled on top",
-   "Egg in tempura batter",
-   "Fish sauce in pickles and dressings"
-  ],
-  "dishes": [
-   {
-    "name": "Temple cuisine",
-    "local": "Shōjin ryōri (精進料理)",
-    "status": "vegan",
-    "note": "Buddhist monastic cooking with no animal products."
-   },
-   {
-    "name": "Cucumber roll",
-    "local": "Kappa maki",
-    "status": "vegan",
-    "note": "Sushi rice, cucumber and nori."
-   },
-   {
-    "name": "Pickled plum rice ball",
-    "local": "Umeboshi onigiri",
-    "status": "usually",
-    "note": "Convenience-store versions are usually vegan; check the label."
-   },
-   {
-    "name": "Sweet tofu sushi",
-    "local": "Inari zushi",
-    "status": "ask",
-    "note": "The tofu pouch is sometimes simmered in dashi."
-   },
-   {
-    "name": "Vegetable tempura",
-    "local": "Yasai tenpura",
-    "status": "ask",
-    "note": "Batter may contain egg; the dipping sauce contains dashi."
-   }
-  ]
- },
- {
-  "slug": "greece",
-  "name": "Greece",
-  "rank": 10,
-  "arrivals_m": 36.0,
-  "flag": "GR",
-  "verified": false,
-  "ease": "Easy",
-  "summary": "Greek Orthodox fasting has created a large tradition of food that is vegan by design, called nistisima (fasting food). Bean soups, stuffed vegetables, yellow split-pea purée and wild greens are on most taverna menus. Feta and yogurt are added by default, so ask.",
-  "word": "vegan / νηστίσιμο (nistisimo, fasting food)",
-  "first_dish": "Fava with onions and capers",
-  "phrase_lang": "Greek",
-  "phrase": "Είμαι vegan. Δεν τρώω κρέας, ψάρι, αυγά, γαλακτοκομικά ή μέλι. Είναι νηστίσιμο;",
-  "phrase_roman": "Eímai vegan. Den tróo kréas, psári, avgá, galaktokomiká í méli. Eínai nistísimo?",
-  "watch": [
-   "Feta added to salads and baked dishes",
-   "Yogurt in dips and sauces",
-   "Butter in pastries and pies",
-   "Minced meat in stuffed vegetables"
-  ],
-  "dishes": [
-   {
-    "name": "Bean soup",
-    "local": "Fasolada",
-    "status": "vegan",
-    "note": "White beans, tomato, celery and olive oil."
-   },
-   {
-    "name": "Yellow split-pea purée",
-    "local": "Fava",
-    "status": "vegan",
-    "note": "Served with onion, capers and olive oil."
-   },
-   {
-    "name": "Baked giant beans",
-    "local": "Gigantes plaki",
-    "status": "vegan",
-    "note": "Giant beans baked in tomato sauce."
-   },
-   {
-    "name": "Stuffed vine leaves",
-    "local": "Dolmadakia (yalantzi)",
-    "status": "usually",
-    "note": "The rice-only version is vegan; some contain meat."
-   },
-   {
-    "name": "Roasted vegetables",
-    "local": "Briam",
-    "status": "usually",
-    "note": "Olive-oil roasted vegetables; ask about feta."
-   },
-   {
-    "name": "Stuffed tomatoes and peppers",
-    "local": "Gemista",
-    "status": "ask",
-    "note": "Rice-filled versions are vegan; some include mince."
-   }
-  ]
- }
+  {
+    "slug": "france",
+    "name": "France",
+    "rank": 1,
+    "arrivals_m": 102.0,
+    "flag": "FR",
+    "verified": true,
+    "ease": "Medium",
+    "summary": "France is easier for vegans than its butter-and-cheese reputation suggests. Bakery bread, Provençal vegetable dishes and Nice's chickpea socca are vegan by tradition, and Paris has a large fully vegan restaurant scene. Outside cities, expect to ask for dishes without butter, cream or lardons.",
+    "word": "végane (or végétalien)",
+    "first_dish": "Socca in Nice",
+    "phrase_lang": "French",
+    "phrase": "Je suis végane. Je ne mange ni viande, ni poisson, ni œufs, ni produits laitiers, ni beurre, ni miel.",
+    "phrase_roman": "",
+    "watch": [
+      "Butter (beurre) in vegetables and sauces",
+      "Cream (crème) in soups",
+      "Lardons (bacon pieces) in salads and quiches",
+      "Meat or chicken stock (bouillon) in soups"
+    ],
+    "dishes": [
+      {
+        "name": "Socca",
+        "local": "Socca",
+        "status": "vegan",
+        "note": "Chickpea-flour pancake from Nice, cooked in olive oil."
+      },
+      {
+        "name": "Ratatouille",
+        "local": "Ratatouille",
+        "status": "usually",
+        "note": "Provençal stewed vegetables in olive oil. Check no butter was added."
+      },
+      {
+        "name": "Traditional baguette",
+        "local": "Baguette de tradition",
+        "status": "vegan",
+        "note": "French law limits the traditional baguette to flour, water, salt and yeast."
+      },
+      {
+        "name": "Soupe au pistou",
+        "local": "Soupe au pistou",
+        "status": "ask",
+        "note": "Vegetable and bean soup. Ask for the pistou without cheese (sans fromage)."
+      },
+      {
+        "name": "Lentil salad",
+        "local": "Salade de lentilles du Puy",
+        "status": "ask",
+        "note": "Often vegan; check for lardons."
+      },
+      {
+        "name": "Pissaladière",
+        "local": "Pissaladière",
+        "status": "no",
+        "note": "Onion tart topped with anchovies. Ask for a version without."
+      }
+    ]
+  },
+  {
+    "slug": "spain",
+    "name": "Spain",
+    "rank": 2,
+    "arrivals_m": 93.8,
+    "flag": "ES",
+    "verified": true,
+    "ease": "Easy in cities",
+    "summary": "Spain's tapas culture includes many dishes that are vegan by tradition: tomato bread, Padrón peppers, chickpeas with spinach and cold gazpacho. The main risks are small pieces of ham (jamón) added for flavour, fish stock, and egg-based aioli.",
+    "word": "vegano / vegana",
+    "first_dish": "Pan con tomate",
+    "phrase_lang": "Spanish",
+    "phrase": "Soy vegano (vegana). No como carne, pescado, huevos, lácteos ni miel. ¿Este plato lleva jamón o caldo de pescado?",
+    "phrase_roman": "",
+    "watch": [
+      "Ham pieces (jamón) added to vegetables and beans",
+      "Fish or chicken stock (caldo) in rice and soups",
+      "Egg in aioli (alioli)",
+      "Tuna (atún) in salads"
+    ],
+    "dishes": [
+      {
+        "name": "Tomato bread",
+        "local": "Pan con tomate / pa amb tomàquet",
+        "status": "vegan",
+        "note": "Toasted bread rubbed with tomato, garlic and olive oil."
+      },
+      {
+        "name": "Padrón peppers",
+        "local": "Pimientos de Padrón",
+        "status": "vegan",
+        "note": "Small green peppers fried in olive oil with salt."
+      },
+      {
+        "name": "Gazpacho",
+        "local": "Gazpacho",
+        "status": "usually",
+        "note": "Cold tomato soup. Usually vegan; garnishes may include ham or egg."
+      },
+      {
+        "name": "Chickpeas with spinach",
+        "local": "Espinacas con garbanzos",
+        "status": "usually",
+        "note": "A Seville classic, normally made with olive oil and spices."
+      },
+      {
+        "name": "Patatas bravas",
+        "local": "Patatas bravas",
+        "status": "ask",
+        "note": "The spicy brava sauce is often vegan; the alioli usually contains egg."
+      },
+      {
+        "name": "Vegetable paella",
+        "local": "Paella de verduras",
+        "status": "ask",
+        "note": "Ask whether it was cooked with fish or chicken stock."
+      }
+    ]
+  },
+  {
+    "slug": "united-states",
+    "name": "the United States",
+    "short": "the USA",
+    "rank": 3,
+    "arrivals_m": 72.4,
+    "flag": "US",
+    "verified": true,
+    "ease": "Easy in big cities",
+    "summary": "The United States has some of the world's strongest vegan restaurant scenes, led by Portland, Los Angeles, New York and Austin. Regional comfort food is harder: Southern greens, beans and refried beans are often cooked with pork, lard or chicken stock.",
+    "word": "vegan",
+    "first_dish": "A bean burrito in California, ordered without cheese or sour cream",
+    "phrase_lang": "English",
+    "phrase": "I'm vegan: no meat, fish, eggs, dairy or honey. Is this cooked in butter, lard or chicken stock?",
+    "phrase_roman": "",
+    "watch": [
+      "Ham hock or bacon in collard greens and beans",
+      "Lard in refried beans and tortillas",
+      "Chicken stock in rice and soups",
+      "Butter on grilled vegetables and bread"
+    ],
+    "dishes": [
+      {
+        "name": "Bean burrito",
+        "local": "Bean burrito",
+        "status": "ask",
+        "note": "Ask for no cheese or sour cream and beans without lard."
+      },
+      {
+        "name": "Succotash",
+        "local": "Succotash",
+        "status": "ask",
+        "note": "Corn and lima beans; often finished with butter."
+      },
+      {
+        "name": "Collard greens",
+        "local": "Collard greens",
+        "status": "ask",
+        "note": "Traditionally cooked with smoked pork. Many restaurants now offer a vegan version."
+      },
+      {
+        "name": "Three-bean chili",
+        "local": "Bean chili",
+        "status": "usually",
+        "note": "Vegetarian chili is common; check toppings."
+      },
+      {
+        "name": "Peanut butter and jelly sandwich",
+        "local": "PB&J",
+        "status": "vegan",
+        "note": "Usually vegan; some bread contains milk or honey."
+      }
+    ]
+  },
+  {
+    "slug": "italy",
+    "name": "Italy",
+    "rank": 4,
+    "arrivals_m": 60.6,
+    "flag": "IT",
+    "verified": true,
+    "ease": "Easy",
+    "summary": "Italy's peasant cooking (cucina povera) is full of dishes that are vegan by tradition: pizza marinara, pasta with tomato, bean soups and Sicilian chickpea fritters. Watch for Parmesan grated on top, anchovies in sauces, and fresh egg pasta.",
+    "word": "vegano / vegana",
+    "first_dish": "Pizza marinara",
+    "phrase_lang": "Italian",
+    "phrase": "Sono vegano (vegana). Non mangio carne, pesce, uova, latticini né miele. Senza parmigiano, per favore.",
+    "phrase_roman": "",
+    "watch": [
+      "Parmesan (parmigiano) grated on pasta and soups",
+      "Anchovies (acciughe) in sauces",
+      "Fresh egg pasta (pasta all'uovo)",
+      "Butter (burro) in northern dishes and risotto"
+    ],
+    "dishes": [
+      {
+        "name": "Pizza marinara",
+        "local": "Pizza marinara",
+        "status": "vegan",
+        "note": "Tomato, garlic, oregano and olive oil. No cheese by tradition."
+      },
+      {
+        "name": "Pasta and beans",
+        "local": "Pasta e fagioli",
+        "status": "usually",
+        "note": "Check for pancetta or Parmesan rind."
+      },
+      {
+        "name": "Chickpea fritters",
+        "local": "Panelle",
+        "status": "vegan",
+        "note": "Palermo street food made from chickpea flour."
+      },
+      {
+        "name": "Chickpea flatbread",
+        "local": "Farinata",
+        "status": "vegan",
+        "note": "Ligurian chickpea flatbread baked in olive oil."
+      },
+      {
+        "name": "Caponata",
+        "local": "Caponata",
+        "status": "usually",
+        "note": "Sweet-and-sour Sicilian aubergine stew."
+      },
+      {
+        "name": "Pasta with tomato",
+        "local": "Pasta al pomodoro",
+        "status": "ask",
+        "note": "Vegan with dried pasta; ask for no Parmesan."
+      }
+    ]
+  },
+  {
+    "slug": "turkey",
+    "name": "Turkey",
+    "aka": "Türkiye",
+    "rank": 5,
+    "arrivals_m": 57.8,
+    "flag": "TR",
+    "verified": true,
+    "ease": "Medium",
+    "summary": "Turkey (Türkiye) has a whole family of olive-oil vegetable dishes (zeytinyağlılar), traditionally served cold and made without meat. Lentil soup, stuffed vine leaves and the modern meat-free çiğ köfte are widely available. Butter and yogurt are the main things to ask about.",
+    "word": "vegan",
+    "first_dish": "Zeytinyağlı dishes from a lokanta counter",
+    "phrase_lang": "Turkish",
+    "phrase": "Veganım. Et, balık, yumurta, süt ürünleri ve bal yemiyorum. Tereyağı veya yoğurt var mı?",
+    "phrase_roman": "",
+    "watch": [
+      "Butter (tereyağı) poured over soups and rice",
+      "Yogurt (yoğurt) served on top",
+      "Meat stock in rice (pilav)",
+      "Minced meat in stuffed vegetables (etli dolma)"
+    ],
+    "dishes": [
+      {
+        "name": "Olive-oil vegetable dishes",
+        "local": "Zeytinyağlılar",
+        "status": "vegan",
+        "note": "Green beans, leeks or artichokes cooked in olive oil and served cold."
+      },
+      {
+        "name": "Stuffed vine leaves",
+        "local": "Yalancı dolma / zeytinyağlı yaprak sarma",
+        "status": "vegan",
+        "note": "The olive-oil version is rice-filled; the etli version contains meat."
+      },
+      {
+        "name": "Aubergine with tomato and onion",
+        "local": "İmam bayıldı",
+        "status": "vegan",
+        "note": "Classic olive-oil aubergine dish."
+      },
+      {
+        "name": "Bulgur köfte",
+        "local": "Çiğ köfte",
+        "status": "usually",
+        "note": "Commercial versions are now made without meat."
+      },
+      {
+        "name": "Red lentil soup",
+        "local": "Mercimek çorbası",
+        "status": "ask",
+        "note": "Ask whether it uses butter or meat stock."
+      },
+      {
+        "name": "Sesame bread ring",
+        "local": "Simit",
+        "status": "usually",
+        "note": "Usually flour, water, yeast, molasses and sesame."
+      }
+    ]
+  },
+  {
+    "slug": "mexico",
+    "name": "Mexico",
+    "rank": 6,
+    "arrivals_m": 45.0,
+    "flag": "MX",
+    "verified": true,
+    "ease": "Medium",
+    "summary": "Mexican food is built on corn, beans, chillies and vegetables, so many dishes are close to vegan. The catch is lard (manteca), used in beans, tortillas and tamales, plus cheese and cream on top. Learning to ask \"sin manteca, sin queso, sin crema\" opens up most menus.",
+    "word": "vegano / vegana",
+    "first_dish": "Tacos de nopales",
+    "phrase_lang": "Spanish (Mexico)",
+    "phrase": "Soy vegano (vegana). No como carne, pescado, huevo, lácteos ni miel. ¿Lo pueden hacer sin manteca, sin queso y sin crema?",
+    "phrase_roman": "",
+    "watch": [
+      "Lard (manteca) in beans, tortillas and tamales",
+      "Cheese (queso) and cream (crema) on top",
+      "Chicken stock (caldo de pollo) in rice",
+      "Mayonnaise on street corn"
+    ],
+    "dishes": [
+      {
+        "name": "Cactus tacos",
+        "local": "Tacos de nopales",
+        "status": "usually",
+        "note": "Grilled cactus paddles; ask for no cheese."
+      },
+      {
+        "name": "Guacamole",
+        "local": "Guacamole",
+        "status": "vegan",
+        "note": "Avocado, onion, chilli, coriander and lime."
+      },
+      {
+        "name": "Beans",
+        "local": "Frijoles",
+        "status": "ask",
+        "note": "Often cooked with lard; ask for frijoles de olla without manteca."
+      },
+      {
+        "name": "Street corn in a cup",
+        "local": "Esquites",
+        "status": "ask",
+        "note": "Ask for no mayonnaise, cheese or cream."
+      },
+      {
+        "name": "Oaxacan tlayuda",
+        "local": "Tlayuda",
+        "status": "ask",
+        "note": "The base is spread with asiento (pork fat); ask for a version without."
+      },
+      {
+        "name": "Green chilli tamales",
+        "local": "Tamales de rajas",
+        "status": "ask",
+        "note": "The dough is usually made with lard; vegan versions exist."
+      }
+    ]
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "the United Kingdom",
+    "short": "the UK",
+    "rank": 7,
+    "arrivals_m": 41.8,
+    "flag": "GB",
+    "verified": true,
+    "ease": "Easy",
+    "summary": "The United Kingdom is one of the easiest countries to travel vegan. London and Bristol lead global vegan rankings, supermarkets label vegan products clearly, and pubs now commonly offer a vegan Sunday roast. Traditional fish-and-chip shops are the main thing to check.",
+    "word": "vegan",
+    "first_dish": "A vegan Sunday roast in a pub",
+    "phrase_lang": "English",
+    "phrase": "I'm vegan: no meat, fish, eggs, dairy or honey. Are the chips fried in beef dripping?",
+    "phrase_roman": "",
+    "watch": [
+      "Beef dripping used to fry chips in some chip shops",
+      "Butter on vegetables and in mash",
+      "Worcestershire sauce (contains anchovies)",
+      "Egg and milk in Yorkshire puddings"
+    ],
+    "dishes": [
+      {
+        "name": "Chips",
+        "local": "Chips",
+        "status": "ask",
+        "note": "Usually vegetable oil; some traditional shops use beef dripping."
+      },
+      {
+        "name": "Baked beans on toast",
+        "local": "Beans on toast",
+        "status": "usually",
+        "note": "Standard tinned beans are usually vegan; check the bread spread."
+      },
+      {
+        "name": "Vegan Sunday roast",
+        "local": "Sunday roast",
+        "status": "ask",
+        "note": "Many pubs offer a vegan version; ask about gravy and roast potatoes."
+      },
+      {
+        "name": "Chickpea curry",
+        "local": "Chana masala",
+        "status": "usually",
+        "note": "British curry houses often cook it without dairy; check for ghee."
+      },
+      {
+        "name": "Mushy peas",
+        "local": "Mushy peas",
+        "status": "usually",
+        "note": "Marrowfat peas; check for butter."
+      }
+    ]
+  },
+  {
+    "slug": "germany",
+    "name": "Germany",
+    "rank": 8,
+    "arrivals_m": 37.5,
+    "flag": "DE",
+    "verified": true,
+    "ease": "Easy in cities",
+    "summary": "Germany, and Berlin above all, is one of the most vegan-friendly places in Europe, with vegan bakeries, supermarkets and döner shops. Traditional food is meat-heavy, but pretzels, potato salad and red cabbage can be vegan if you ask about bacon, lard and stock.",
+    "word": "vegan",
+    "first_dish": "A vegan döner in Berlin",
+    "phrase_lang": "German",
+    "phrase": "Ich bin vegan. Ich esse kein Fleisch, keinen Fisch, keine Eier, keine Milchprodukte und keinen Honig. Ist da Speck, Schmalz oder Brühe drin?",
+    "phrase_roman": "",
+    "watch": [
+      "Bacon (Speck) in potatoes and salads",
+      "Lard (Schmalz) in red cabbage and spreads",
+      "Meat stock (Brühe) in potato salad and soups",
+      "Egg in spätzle and noodles"
+    ],
+    "dishes": [
+      {
+        "name": "Vegan döner",
+        "local": "Veganer Döner",
+        "status": "vegan",
+        "note": "Widely available in Berlin and other large cities.",
+        "label": "Vegan versions are widespread"
+      },
+      {
+        "name": "Soft pretzel",
+        "local": "Brezel",
+        "status": "usually",
+        "note": "Plain lye pretzels are usually vegan; some use butter."
+      },
+      {
+        "name": "Swabian potato salad",
+        "local": "Schwäbischer Kartoffelsalat",
+        "status": "ask",
+        "note": "Dressed with vinegar and stock; ask for vegetable stock."
+      },
+      {
+        "name": "Red cabbage",
+        "local": "Rotkohl / Blaukraut",
+        "status": "ask",
+        "note": "Sometimes cooked with lard or goose fat."
+      },
+      {
+        "name": "Fried potatoes",
+        "local": "Bratkartoffeln",
+        "status": "ask",
+        "note": "Usually with bacon; ask for ohne Speck."
+      }
+    ]
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "rank": 9,
+    "arrivals_m": 36.9,
+    "flag": "JP",
+    "verified": true,
+    "ease": "Hard without planning",
+    "summary": "Japan is beautiful for vegans who plan ahead and tricky for those who don't. Buddhist temple cuisine (shojin ryori) is fully plant-based, but dashi, a stock usually made from bonito fish, is in most soups, sauces and noodle broths.",
+    "word": "ヴィーガン (bīgan)",
+    "first_dish": "Shojin ryori at a temple in Kyoto or Koyasan",
+    "phrase_lang": "Japanese",
+    "phrase": "私はヴィーガンです。肉、魚、卵、乳製品、はちみつを食べません。かつおだしも食べられません。",
+    "phrase_roman": "Watashi wa bīgan desu. Niku, sakana, tamago, nyūseihin, hachimitsu o tabemasen. Katsuo dashi mo taberaremasen.",
+    "watch": [
+      "Dashi (fish stock) in miso soup, noodle broth and sauces",
+      "Bonito flakes (katsuobushi) sprinkled on top",
+      "Egg in tempura batter",
+      "Fish sauce in pickles and dressings"
+    ],
+    "dishes": [
+      {
+        "name": "Temple cuisine",
+        "local": "Shōjin ryōri (精進料理)",
+        "status": "vegan",
+        "note": "Buddhist monastic cooking with no animal products."
+      },
+      {
+        "name": "Cucumber roll",
+        "local": "Kappa maki",
+        "status": "vegan",
+        "note": "Sushi rice, cucumber and nori."
+      },
+      {
+        "name": "Pickled plum rice ball",
+        "local": "Umeboshi onigiri",
+        "status": "usually",
+        "note": "Convenience-store versions are usually vegan; check the label."
+      },
+      {
+        "name": "Sweet tofu sushi",
+        "local": "Inari zushi",
+        "status": "ask",
+        "note": "The tofu pouch is sometimes simmered in dashi."
+      },
+      {
+        "name": "Vegetable tempura",
+        "local": "Yasai tenpura",
+        "status": "ask",
+        "note": "Batter may contain egg; the dipping sauce contains dashi."
+      }
+    ]
+  },
+  {
+    "slug": "greece",
+    "name": "Greece",
+    "rank": 10,
+    "arrivals_m": 36.0,
+    "flag": "GR",
+    "verified": true,
+    "ease": "Easy",
+    "summary": "Greek Orthodox fasting has created a large tradition of food that is vegan by design, called nistisima (fasting food). Bean soups, stuffed vegetables, yellow split-pea purée and wild greens are on most taverna menus. Feta and yogurt are added by default, so ask.",
+    "word": "vegan / νηστίσιμο (nistisimo, fasting food)",
+    "first_dish": "Fava with onions and capers",
+    "phrase_lang": "Greek",
+    "phrase": "Είμαι vegan. Δεν τρώω κρέας, ψάρι, αυγά, γαλακτοκομικά ή μέλι. Είναι νηστίσιμο;",
+    "phrase_roman": "Eímai vegan. Den tróo kréas, psári, avgá, galaktokomiká í méli. Eínai nistísimo?",
+    "watch": [
+      "Feta added to salads and baked dishes",
+      "Yogurt in dips and sauces",
+      "Butter in pastries and pies",
+      "Minced meat in stuffed vegetables"
+    ],
+    "dishes": [
+      {
+        "name": "Bean soup",
+        "local": "Fasolada",
+        "status": "vegan",
+        "note": "White beans, tomato, celery and olive oil."
+      },
+      {
+        "name": "Yellow split-pea purée",
+        "local": "Fava",
+        "status": "vegan",
+        "note": "Served with onion, capers and olive oil."
+      },
+      {
+        "name": "Baked giant beans",
+        "local": "Gigantes plaki",
+        "status": "vegan",
+        "note": "Giant beans baked in tomato sauce."
+      },
+      {
+        "name": "Stuffed vine leaves",
+        "local": "Dolmadakia (yalantzi)",
+        "status": "usually",
+        "note": "The rice-only version is vegan; some contain meat."
+      },
+      {
+        "name": "Roasted vegetables",
+        "local": "Briam",
+        "status": "usually",
+        "note": "Olive-oil roasted vegetables; ask about feta."
+      },
+      {
+        "name": "Stuffed tomatoes and peppers",
+        "local": "Gemista",
+        "status": "ask",
+        "note": "Rice-filled versions are vegan; some include mince."
+      }
+    ]
+  }
 ]
