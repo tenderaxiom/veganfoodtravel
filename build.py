@@ -264,8 +264,7 @@ def country_page(c, countries, i):
     lang = LANG[c["phrase_lang"]]
     roman = f'<span class="roman" lang="{lang}-Latn">{e(c["phrase_roman"])}</span>' if c["phrase_roman"] else ""
     checked = c.get("checked")
-    draft = "" if c["verified"] else ('<p class="draft" role="note"><b>Draft guide.</b> Not yet checked on the ground, '
-                                      'so it is hidden from search engines until it is. Always confirm ingredients locally.</p>')
+    draft = ""
     cards = "\n".join(f"""<li><article class="card"><div class="media">{picture(f"{slug}/{d['name']}", f"{d['name']} ({d['local']})", '(max-width:600px) 100vw, 360px', credit=False)}</div>
 <div class="body"><span class="badge {STATUS[d['status']][1]}">{d.get('label') or STATUS[d['status']][0]}</span><h3>{e(d['name'])}</h3><p class="local">{e(d['local'])}</p><p style="margin:4px 0 0">{e(d['note'])}</p></div>{credit_line(f"{slug}/{d['name']}")}</article></li>"""
                       for d in c["dishes"])
@@ -388,7 +387,7 @@ def about():
 <p>That gap, between what vegan travellers fear and what is actually on the table, is what {BRAND} closes. Each guide covers one country: the dishes that are vegan by tradition, the ones you can ask for vegan, what to watch for, and a card in the local language to show your server.</p>
 <h2>How each guide is checked</h2>
 <ul><li>I eat the dishes in the country, and each guide shows the month I last checked it.</li>
-<li>Guides I haven't checked first-hand are marked as drafts and hidden from search engines.</li>
+<li>Guides I haven't checked first-hand are kept out of search engines until I have.</li>
 <li>Nobody pays to be included. Some links may earn a commission; they never decide what I recommend.</li>
 <li>If something has changed, <a href="/contact/">tell me</a>. Corrections are dated on the page.</li></ul></div>
 {cta_block("/about/")}"""
