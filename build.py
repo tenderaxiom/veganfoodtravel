@@ -238,7 +238,8 @@ def org():
 
 def person():
     return {"@type": "Person", "@id": SITE + "/about/#author", "name": AUTHOR, "url": SITE + "/about/",
-            "jobTitle": "Founder", "worksFor": {"@id": SITE + "/#org"}}
+            "jobTitle": "Founder", "nationality": "New Zealand", "worksFor": {"@id": SITE + "/#org"},
+            "description": f"Travelled for over 30 years, with the Royal New Zealand Navy, on cruise ships and superyachts. Vegan since {VEGAN_SINCE}."}
 
 
 def breadcrumb(items):
@@ -383,16 +384,25 @@ def unsubscribed():
 def about():
     body = f"""<div class="prose" style="padding-top:40px"><p class="crumbs"><a href="/">Home</a> / About</p>
 <h1>I've been eating my way around the world for over 30 years. For the last {YEARS_VEGAN}, I've done it vegan.</h1>
-<p class="lead">I'm {AUTHOR}. I started travelling with the Royal New Zealand Navy and never really stopped. Food was always the reason to go. When I went vegan in {VEGAN_SINCE}, people assumed that part of travel was over. It wasn't. In most countries, some of the best traditional dishes are already vegan. You just need to know which ones, and how to ask.</p>
-<p>That gap, between what vegan travellers fear and what is actually on the table, is what {BRAND} closes. Each guide covers one country: the dishes that are vegan by tradition, the ones you can ask for vegan, what to watch for, and a card in the local language to show your server.</p>
-<h2>How each guide is checked</h2>
+<p class="lead">I'm {AUTHOR}, a New Zealander and a lifelong foodie. Travel has been part of my working life from the start, and food has always been my favourite part of it.</p>
+<h2>How I got here</h2>
+<p>I started travelling with the Royal New Zealand Navy. Later I worked on cruise ships and superyachts, and since then I've kept travelling for work and on holiday. Over 30 years that has added up to dozens of countries, and in every one of them I've gone looking for what the locals eat.</p>
+<p>When I went vegan in {VEGAN_SINCE}, people assumed that part of travel was over for me. It wasn't. In most countries, some of the best traditional dishes are already vegan. Others are one simple request away. You just need to know which ones, and how to ask.</p>
+<h2>What this site is for</h2>
+<p>{BRAND} closes the gap between what vegan travellers worry about and what is actually on the table. Each guide covers one country:</p>
+<ul><li>the dishes that are vegan by tradition</li>
+<li>the ones you can ask for vegan, and exactly what to say</li>
+<li>the hidden ingredients to watch for, like fish stock or lard</li>
+<li>a phrase card in the local language to show your server</li></ul>
+<p>No lectures, and no sad side salads. Just the local food, eaten the local way.</p>
+<h2>My promises to you</h2>
 <ul><li>I've been to every country I cover and eaten the food there.</li>
 <li>Nobody pays to be included. Some links may earn a commission; they never decide what I recommend.</li>
 <li>If something has changed, <a href="/contact/">tell me</a>. Corrections are dated on the page.</li></ul></div>
 {cta_block("/about/")}"""
     p = {"@context": "https://schema.org", "@type": "AboutPage", "url": SITE + "/about/", "mainEntity": person(), "publisher": org()}
     return "/about/", page(path="/about/", title=f"About {BRAND}: Over 30 Years of Travel, {YEARS_VEGAN} Years Vegan",
-                           description=f"{AUTHOR} has travelled to dozens of countries for over 30 years and has been vegan since {VEGAN_SINCE}. How each guide is checked.",
+                           description=f"{AUTHOR} has travelled to dozens of countries for over 30 years, with the Navy, on cruise ships and superyachts, and has been vegan since {VEGAN_SINCE}.",
                            body=body, jsonld=[p], narrow=True)
 
 
