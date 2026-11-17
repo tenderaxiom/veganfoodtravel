@@ -366,7 +366,7 @@ def free_guide():
 
 def thanks():
     body = f"""<div style="padding:60px 0 10px"><p class="eyebrow">You're in</p><h1>Your phrase-card pack is ready</h1>
-<p class="lead">Thank you for signing up. Download the pack now and save it to your phone.</p>
+<p class="lead">Thank you for signing up. Download the pack now and save it to your phone. A copy with the link is also on its way to your inbox within the hour.</p>
 <p><a class="btn" href="{PDF_PATH}" download>Download the PDF</a></p>
 <p class="muted">The weekly email arrives on Sundays: one country, one dish, one phrase. Every email has a one-click unsubscribe link.</p>
 <h2>Where are you going next?</h2><p><a href="/#countries">Browse the country guides</a> or open the <a href="/phrase-cards/">phrase cards</a> on your phone.</p></div>"""
@@ -413,7 +413,7 @@ def privacy():
 <h2>If you sign up</h2><ul><li>I store your email address, the page you signed up on, the date, the country your connection came from (from Cloudflare), and the wording you agreed to.</li>
 <li>I use it only to send what you asked for: the phrase-card pack and the weekly email. I never sell or share your address.</li>
 <li>Every email has a one-click unsubscribe link. You can also email <a href="mailto:{EMAIL}">{EMAIL}</a> to have your details deleted.</li>
-<li>Signups are stored in a Cloudflare D1 database. Emails are sent through an email delivery provider that processes your address only to deliver them.</li></ul>
+<li>Signups are stored in a Cloudflare D1 database. Emails are sent through Resend, an email delivery provider that processes your address only to deliver them.</li></ul>
 <h2>Analytics</h2><p>The site uses Cloudflare Web Analytics, which counts visits without cookies and without tracking you across sites.</p>
 <h2>Cookies</h2><p>The site sets no cookies.</p>
 <h2>Your rights</h2><p>You can ask to see, correct or delete your information at any time by emailing <a href="mailto:{EMAIL}">{EMAIL}</a>. If you are in New Zealand, the Privacy Act 2020 applies; in the UK or EU, the GDPR. You can complain to your local privacy regulator.</p></div>"""
