@@ -21,6 +21,7 @@ DESCRIPTOR = "The local food of every country, vegan by tradition."
 AUTHOR = "Richard Prouse"
 TODAY = date.today().isoformat()
 YEAR = date.today().year
+INDEXNOW_KEY = "eb83adc9025d4966a4a86c9ed665cae4"
 
 STATUS = {
     "vegan": ("Vegan by tradition", "s-vegan"),
@@ -284,7 +285,7 @@ FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle
 HEADERS = """/*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Content-Security-Policy: default-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; script-src 'none'; base-uri 'self'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; script-src https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; base-uri 'self'; form-action 'self'
 """
 
 
@@ -305,6 +306,7 @@ def build():
     (OUT / "robots.txt").write_text(ROBOTS)
     (OUT / "favicon.svg").write_text(FAVICON)
     (OUT / "_headers").write_text(HEADERS)
+    (OUT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY)
     (OUT / "404.html").write_text(page(path="/404", title="Page not found", description="Page not found.",
                                        body='<h1>Page not found</h1><p><a href="/">See all countries</a></p>',
                                        jsonld=[], indexable=False))
