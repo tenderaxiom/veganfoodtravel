@@ -22,6 +22,15 @@ AUTHOR = "Richard Prouse"
 EMAIL = "hello@veganfoodtravel.com"
 VEGAN_SINCE = 2015
 TODAY = date.today().isoformat()
+# Date the content last really changed. Bump it (or set "updated" on a country) when you edit content,
+# so "Updated" dates and the sitemap stay honest instead of changing on every rebuild.
+CONTENT_UPDATED = "2026-11-17"
+
+
+def nice_date(iso):
+    y, m, d = map(int, iso.split("-"))
+    return f"{d} {['January','February','March','April','May','June','July','August','September','October','November','December'][m-1]} {y}"
+
 YEAR = date.today().year
 YEARS_VEGAN = YEAR - VEGAN_SINCE
 INDEXNOW_KEY = "eb83adc9025d4966a4a86c9ed665cae4"
@@ -200,6 +209,7 @@ def cta_block(source, country=""):
 def page(*, path, title, description, body, jsonld=(), indexable=True, og=None, hero="", narrow=False):
     canonical = SITE + path
     robots = "index,follow,max-image-preview:large" if indexable else "noindex,follow"
+    canon_tag = f'<link rel="canonical" href="{canonical}">' if indexable else ""
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(o, ensure_ascii=False)}</script>' for o in jsonld)
     og = og or f"{SITE}/brand/og.png"
     return f"""<!doctype html>
@@ -210,7 +220,7 @@ def page(*, path, title, description, body, jsonld=(), indexable=True, og=None, 
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
 <meta name="robots" content="{robots}">
-<link rel="canonical" href="{canonical}">
+{canon_tag}
 <meta property="og:type" content="website"><meta property="og:site_name" content="{BRAND}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}">
 <meta property="og:url" content="{canonical}"><meta property="og:image" content="{og}">
@@ -317,7 +327,7 @@ def country_page(c, countries, i):
 <p class="eyebrow" style="color:#bfe3c9">#{c['rank']} most-visited country</p><h1>Vegan Food in {e(name)}</h1>
 <p class="lead">How easy: {e(c['ease'])} · Try first: {e(c['first_dish'])}</p>""", short=True)
     body = f"""<article>
-<p class="meta" style="margin-top:22px">By <a href="/about/">{AUTHOR}</a> · {('Checked in ' + e(checked) + ' · ') if checked else ''}Updated {TODAY}</p>
+<p class="meta" style="margin-top:22px">By <a href="/about/">{AUTHOR}</a> · {('Checked in ' + e(checked) + ' · ') if checked else ''}Updated {nice_date(c.get('updated', CONTENT_UPDATED))}</p>
 {draft}
 <p class="lead">{e(c['summary'])}</p>
 <div class="glance" aria-label="{e(tname)} at a glance"><div><b>How easy</b>{e(c['ease'])}</div><div><b>Word for vegan</b>{e(c['word'])}</div><div><b>Try first</b>{e(c['first_dish'])}</div></div>
@@ -345,7 +355,7 @@ def country_page(c, countries, i):
                                                "description": f"{d.get('label') or STATUS[d['status']][0]}. {d['note']}"}}
                                      for k, d in enumerate(all_dishes)]}
     article = {"@context": "https://schema.org", "@type": "Article", "headline": f"Vegan Food in {tname}",
-               "description": description, "inLanguage": "en", "dateModified": TODAY, "image": og_image(f"{slug}/hero"),
+               "description": description, "inLanguage": "en", "dateModified": c.get("updated", CONTENT_UPDATED), "image": og_image(f"{slug}/hero"),
                "mainEntityOfPage": SITE + path, "author": person(), "publisher": org(),
                "about": {"@type": "Country", "name": c.get("aka") or tname.replace("The ", "")}, "mainEntity": item_list}
     if checked:
@@ -410,7 +420,7 @@ def free_guide():
 
 def thanks():
     body = f"""<div style="padding:60px 0 10px"><p class="eyebrow">You're in</p><h1>Your phrase-card pack is ready</h1>
-<p class="lead">Thank you for signing up. Download the pack now and save it to your phone. A copy with the link is also on its way to your inbox within the hour.</p>
+<p class="lead">Thank you for signing up. Download the pack now and save it to your phone. A copy with the link will also reach your inbox within a few hours.</p>
 <p><a class="btn" href="{PDF_PATH}" download>Download the PDF</a></p>
 <p class="muted">The weekly email arrives on Sundays: one country, one dish, one phrase. Every email has a one-click unsubscribe link.</p>
 <h2>Where are you going next?</h2><p><a href="/#countries">Browse the country guides</a> or open the <a href="/phrase-cards/">phrase cards</a> on your phone.</p></div>"""
@@ -459,7 +469,7 @@ def contact():
 
 
 def privacy():
-    body = f"""<div class="prose" style="padding-top:40px"><h1>Privacy</h1><p class="meta">Last updated {TODAY}</p>
+    body = f"""<div class="prose" style="padding-top:40px"><h1>Privacy</h1><p class="meta">Last updated {nice_date(CONTENT_UPDATED)}</p>
 <p>{BRAND} collects as little as possible. This page explains what, why, and your choices.</p>
 <h2>If you sign up</h2><ul><li>I store your email address, the page you signed up on, the date, the country your connection came from (from Cloudflare), and the wording you agreed to.</li>
 <li>I use it only to send what you asked for: the phrase-card pack and the weekly email. I never sell or share your address.</li>
@@ -472,7 +482,7 @@ def privacy():
 
 
 def terms():
-    body = f"""<div class="prose" style="padding-top:40px"><h1>Terms and disclosure</h1><p class="meta">Last updated {TODAY}</p>
+    body = f"""<div class="prose" style="padding-top:40px"><h1>Terms and disclosure</h1><p class="meta">Last updated {nice_date(CONTENT_UPDATED)}</p>
 <h2>Information, not a guarantee</h2><p>Recipes change between kitchens. The guides say what is traditional and what to ask about, but always confirm ingredients where you eat, especially if you have an allergy.</p>
 <h2>Independence</h2><p>Nobody pays to be included or to be ranked. Some links may be affiliate links, which earn a small commission at no cost to you. They are marked, and they never decide what is recommended.</p>
 <h2>Photos</h2><p>Photos are free-licensed from Wikimedia Commons under the licences shown beside each one, resized for the web. See <a href="/photo-credits/">photo credits</a>.</p>
@@ -541,7 +551,7 @@ def build():
         target.write_text(content)
     indexable = ["/", "/about/", "/phrase-cards/", "/free-guide/", "/contact/", "/privacy/", "/terms/"] + \
                 [country_path(c) for c in countries if c["verified"]]
-    sm = "\n".join(f"  <url><loc>{SITE}{p}</loc><lastmod>{TODAY}</lastmod></url>" for p in indexable)
+    sm = "\n".join(f"  <url><loc>{SITE}{p}</loc><lastmod>{CONTENT_UPDATED}</lastmod></url>" for p in indexable)
     (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sm}\n</urlset>\n')
     (OUT / "robots.txt").write_text(ROBOTS)
     (OUT / "_headers").write_text(HEADERS)

@@ -1,0 +1,18 @@
+name: New-year rebuild
+# Rebuilds the site on 1 January so the year in titles and "years vegan" stay current.
+on:
+  schedule:
+    - cron: "5 0 1 1 *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "veganfoodtravel-bot"
+          git config user.email "hello@veganfoodtravel.com"
+          git commit --allow-empty -m "New-year rebuild"
+          git push
