@@ -175,7 +175,7 @@ form.signup .btn{background:var(--accent);color:#1d2a22!important;box-shadow:non
 .prose h2{margin-top:40px}.prose li{margin:6px 0}
 .cards-print{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
 footer.site{background:#1d2a22;color:#c9d6cd;margin-top:80px;padding:44px 0 30px;font-size:15px}
-footer.site a{color:#e8f0ea}footer.site .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px}footer.site h4{color:#fff;margin:0 0 8px;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+footer.site a{color:#e8f0ea}footer.site .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px}footer.site h2{color:#fff;margin:0 0 8px;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
 footer.site ul{list-style:none;padding:0;margin:0}footer.site li{margin:5px 0}footer.site .fine{border-top:1px solid #2f3d34;margin-top:28px;padding-top:16px;font-size:13px;color:#9fb0a5}
 @media(max-width:720px){footer.site .cols{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
@@ -241,8 +241,8 @@ def page(*, path, title, description, body, jsonld=(), indexable=True, og=None, 
 </main>
 <footer class="site"><div class="wrap"><div class="cols">
 <div><img src="/brand/logo-light.svg" alt="{BRAND}" width="230" height="45"><p style="margin-top:12px">{e(DESCRIPTOR)} Written from over 30 years of travel and {YEARS_VEGAN} years vegan.</p></div>
-<div><h4>Explore</h4><ul><li><a href="/#countries">All countries</a></li><li><a href="/phrase-cards/">Phrase cards</a></li><li><a href="/free-guide/">Free pack</a></li></ul></div>
-<div><h4>About</h4><ul><li><a href="/about/">About &amp; how I check</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms &amp; disclosure</a></li><li><a href="/photo-credits/">Photo credits</a></li></ul></div>
+<div><h2>Explore</h2><ul><li><a href="/#countries">All countries</a></li><li><a href="/phrase-cards/">Phrase cards</a></li><li><a href="/free-guide/">Free pack</a></li></ul></div>
+<div><h2>About</h2><ul><li><a href="/about/">About &amp; how I check</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms &amp; disclosure</a></li><li><a href="/photo-credits/">Photo credits</a></li></ul></div>
 </div><p class="fine">© {YEAR} {BRAND}. Nobody pays to be included. Photos are free-licensed from Wikimedia Commons and credited on each page.</p></div></footer>
 {ERRORS_JS}
 </body>
