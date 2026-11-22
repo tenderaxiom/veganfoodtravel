@@ -146,6 +146,9 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(29,42,34,.08),
 .glance div{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
 .glance b{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .draft{background:var(--ask);color:var(--ask-ink);border-radius:12px;padding:12px 16px;font-size:14px;margin:22px 0}
+.founder img.face{border-radius:50%;object-fit:cover;flex:none;box-shadow:var(--shadow)}
+figure.portrait{float:right;width:min(300px,40%);margin:6px 0 18px 26px}figure.portrait img{width:100%;height:auto;border-radius:18px;box-shadow:var(--shadow)}
+@media (max-width:600px){figure.portrait{float:none;width:100%;margin:10px 0 18px}}
 .plan{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:14px 0 30px}
 .plan a{display:block;height:100%;background:var(--card);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);text-decoration:none;color:inherit}
 .plan a:hover{transform:translateY(-2px)}.plan b{display:block;font-family:var(--serif);font-size:19px;margin-bottom:6px;color:var(--brand)}.plan span{font-size:15px;opacity:.8}
@@ -266,7 +269,7 @@ def org():
 
 def person():
     return {"@type": "Person", "@id": SITE + "/about/#author", "name": AUTHOR, "url": SITE + "/about/",
-            "jobTitle": "Founder", "nationality": "New Zealand", "worksFor": {"@id": SITE + "/#org"},
+            "jobTitle": "Founder", "nationality": "New Zealand", "image": SITE + "/brand/richard-prouse-800.webp", "worksFor": {"@id": SITE + "/#org"},
             "description": f"Travelled for over 30 years, with the Royal New Zealand Navy, on cruise ships and superyachts. Vegan since {VEGAN_SINCE}."}
 
 
@@ -397,7 +400,7 @@ def home(countries):
 <li><b>Know what to watch for.</b><br>Fish sauce in Thailand, dashi in Japan, lard in Mexico. The hidden ingredients, named up front.</li>
 <li><b>Show the phrase card.</b><br>One sentence in the local language that tells the kitchen exactly what you eat.</li></ol>
 {cta_block("/")}
-<div class="founder"><img class="mono" src="/brand/mark.svg" alt="" width="84" height="84"><div><p class="eyebrow">From the founder</p>
+<div class="founder"><img class="face" src="/brand/richard-prouse-sq.webp" alt="Richard Prouse" width="96" height="96" loading="lazy"><div><p class="eyebrow">From the founder</p>
 <p style="margin:4px 0 8px;font-family:var(--serif);font-size:22px;line-height:1.35">“I've been eating my way around the world for over 30 years. For the last {YEARS_VEGAN}, I've done it vegan. The food is still the best part.”</p>
 <p class="meta">{AUTHOR} · <a href="/about/">Read the story</a></p></div></div>"""
     website = {"@context": "https://schema.org", "@type": "WebSite", "@id": SITE + "/#website", "name": BRAND,
@@ -455,6 +458,7 @@ def unsubscribed():
 def about():
     body = f"""<div class="prose" style="padding-top:40px"><p class="crumbs"><a href="/">Home</a> / About</p>
 <h1>I've been eating my way around the world for over 30 years. For the last {YEARS_VEGAN}, I've done it vegan.</h1>
+<figure class="portrait"><img src="/brand/richard-prouse-800.webp" srcset="/brand/richard-prouse-480.webp 480w, /brand/richard-prouse-800.webp 800w" sizes="(max-width:600px) 100vw, 300px" width="800" height="1000" alt="Richard Prouse, founder of Vegan Food Travel" fetchpriority="high"></figure>
 <p class="lead">I'm {AUTHOR}, a New Zealander and a foodie. Travel has been part of my working life from the start, and food has always been my favourite part of it.</p>
 <h2>How I got here</h2>
 <p>I started travelling with the Royal New Zealand Navy. Later I worked on cruise ships and superyachts, and since then I've kept travelling for work and on holiday. Over 30 years that has added up to dozens of countries, and in every one of them I've gone looking for what the locals eat.</p>
