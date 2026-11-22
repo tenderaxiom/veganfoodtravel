@@ -1,4 +1,54 @@
 {
+ "australia/Damper": {
+  "author": "Finbar.concaig",
+  "file": "Wattleseed Damper (cropped).jpg",
+  "h": 1575,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Wattleseed_Damper_(cropped).jpg",
+  "slug": "australia-damper",
+  "w": 1920
+ },
+ "australia/Mangoes": {
+  "author": "Dijaxavier",
+  "file": "Big mango species.jpg",
+  "h": 2560,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_mango_species.jpg",
+  "slug": "australia-mangoes",
+  "w": 1920
+ },
+ "australia/Smashed avocado": {
+  "author": "Andy Li",
+  "file": "Smashed Avocado on Sourdough Toast with Chai Latte - M&S cafe 2023-08-08.jpg",
+  "h": 1440,
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Smashed_Avocado_on_Sourdough_Toast_with_Chai_Latte_-_M%26S_cafe_2023-08-08.jpg",
+  "slug": "australia-smashed-avocado",
+  "w": 1920
+ },
+ "australia/Vegemite on toast": {
+  "author": "Hughessd01",
+  "file": "Vegemite and jelly.jpg",
+  "h": 1440,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vegemite_and_jelly.jpg",
+  "slug": "australia-vegemite-on-toast",
+  "w": 1920
+ },
+ "australia/hero": {
+  "author": "DXR",
+  "file": "Sydney Opera House and Harbour Bridge, southeast view 20230224 1.jpg",
+  "h": 1080,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge,_southeast_view_20230224_1.jpg",
+  "slug": "australia-hero",
+  "w": 1920
+ },
  "france/Lentil salad": {
   "author": "Jessica Spengler",
   "file": "Puy lentils wooden bowl.jpg",
@@ -209,6 +259,116 @@
   "slug": "home-hero",
   "w": 1920
  },
+ "india/Cauliflower and potato": {
+  "author": "Ifrasaifi12",
+  "file": "Gobi-aloo ki sabji by me, location - my kitchen, meerut, state - Uttar Pradesh, 0002.jpg",
+  "h": 2069,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gobi-aloo_ki_sabji_by_me,_location_-_my_kitchen,_meerut,_state_-_Uttar_Pradesh,_0002.jpg",
+  "slug": "india-cauliflower-and-potato",
+  "w": 1920
+ },
+ "india/Chickpea curry": {
+  "author": "Andy Li",
+  "file": "Chana Masala - Mohammed - Spice Of Life 2024-05-27.jpg",
+  "h": 1440,
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Chana_Masala_-_Mohammed_-_Spice_Of_Life_2024-05-27.jpg",
+  "slug": "india-chickpea-curry",
+  "w": 1920
+ },
+ "india/Idli with sambar": {
+  "author": "Dr. Raju Kasambe",
+  "file": "Idli Sambar Food by Ms Ujwala Kasambe DSCN9744 (2).jpg",
+  "h": 1393,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Idli_Sambar_Food_by_Ms_Ujwala_Kasambe_DSCN9744_(2).jpg",
+  "slug": "india-idli-with-sambar",
+  "w": 1920
+ },
+ "india/Kidney bean curry": {
+  "author": "Shreya151994",
+  "file": "Rajma Chawal by Rama Bhave.jpg",
+  "h": 2183,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rajma_Chawal_by_Rama_Bhave.jpg",
+  "slug": "india-kidney-bean-curry",
+  "w": 1920
+ },
+ "india/Masala dosa": {
+  "author": "Marajozkee",
+  "file": "Masala dosa 01.jpg",
+  "h": 1181,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Masala_dosa_01.jpg",
+  "slug": "india-masala-dosa",
+  "w": 1920
+ },
+ "india/hero": {
+  "author": "Chainwit.",
+  "file": "East facade Hawa Mahal Jaipur from ground level (July 2022) - img 01.jpg",
+  "h": 1440,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+  "slug": "india-hero",
+  "w": 1920
+ },
+ "indonesia/Banana fritters": {
+  "author": "Lalalalabpi",
+  "file": "Pisang tanduk goreng sepiring.jpg",
+  "h": 1920,
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pisang_tanduk_goreng_sepiring.jpg",
+  "slug": "indonesia-banana-fritters",
+  "w": 1920
+ },
+ "indonesia/Tempeh": {
+  "author": "Sentausa",
+  "file": "Indonesian fried tempeh.JPG",
+  "h": 1440,
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Indonesian_fried_tempeh.JPG",
+  "slug": "indonesia-tempeh",
+  "w": 1920
+ },
+ "indonesia/Vegetables in coconut milk": {
+  "author": "Midori",
+  "file": "Sayur lodeh.JPG",
+  "h": 1440,
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sayur_lodeh.JPG",
+  "slug": "indonesia-vegetables-in-coconut-milk",
+  "w": 1920
+ },
+ "indonesia/Vegetables with peanut sauce": {
+  "author": "Timothy A. Gonsalves",
+  "file": "Gado Gado PTG Gourmet IITMandi Nov17 D72 3256.jpg",
+  "h": 1280,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gado_Gado_PTG_Gourmet_IITMandi_Nov17_D72_3256.jpg",
+  "slug": "indonesia-vegetables-with-peanut-sauce",
+  "w": 1920
+ },
+ "indonesia/hero": {
+  "author": "Vyacheslav Argenberg",
+  "file": "Rice terraces, Bali.jpg",
+  "h": 1280,
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Rice_terraces,_Bali.jpg",
+  "slug": "indonesia-hero",
+  "w": 1920
+ },
  "italy/Caponata": {
   "author": "Karen and Brad Emerson",
   "file": "Caponata (14049113982).jpg",
@@ -409,6 +569,106 @@
   "slug": "mexico-hero",
   "w": 1214
  },
+ "new-zealand/Feijoas": {
+  "author": "Sarang",
+  "file": "Feijoa fruits.jpg",
+  "h": 1440,
+  "license": "Public domain",
+  "license_url": "",
+  "page": "https://commons.wikimedia.org/wiki/File:Feijoa_fruits.jpg",
+  "slug": "new-zealand-feijoas",
+  "w": 1920
+ },
+ "new-zealand/Hot chips": {
+  "author": "Tony Webster from Minneapolis, Minnesota, United States",
+  "file": "Truffle oil french fries (33024792848).jpg",
+  "h": 1281,
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Truffle_oil_french_fries_(33024792848).jpg",
+  "slug": "new-zealand-hot-chips",
+  "w": 1920
+ },
+ "new-zealand/Kiwifruit": {
+  "author": "Luc Viatour",
+  "file": "Kiwi (Actinidia chinensis) 1 Luc Viatour.jpg",
+  "h": 1311,
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Kiwi_(Actinidia_chinensis)_1_Luc_Viatour.jpg",
+  "slug": "new-zealand-kiwifruit",
+  "w": 1920
+ },
+ "new-zealand/Sweet potato fries": {
+  "author": "Thriving Vegetarian",
+  "file": "Baked Sweet Potato Fries With Rosemary and Parmesan - 8420845814.jpg",
+  "h": 1084,
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Baked_Sweet_Potato_Fries_With_Rosemary_and_Parmesan_-_8420845814.jpg",
+  "slug": "new-zealand-sweet-potato-fries",
+  "w": 1920
+ },
+ "new-zealand/hero": {
+  "author": "Krzysztof Golik",
+  "file": "Milford Sound in Fiordland National Park 04.jpg",
+  "h": 1280,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Milford_Sound_in_Fiordland_National_Park_04.jpg",
+  "slug": "new-zealand-hero",
+  "w": 1920
+ },
+ "portugal/Corn bread": {
+  "author": "María Alabau",
+  "file": "Broa de milho (Portugal), Brona de millo (Galicia).jpg",
+  "h": 1618,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Broa_de_milho_(Portugal),_Brona_de_millo_(Galicia).jpg",
+  "slug": "portugal-corn-bread",
+  "w": 1440
+ },
+ "portugal/Green soup": {
+  "author": "Therese C",
+  "file": "Caldo verde - Jul 2008.jpg",
+  "h": 1440,
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Caldo_verde_-_Jul_2008.jpg",
+  "slug": "portugal-green-soup",
+  "w": 1920
+ },
+ "portugal/Lupin beans": {
+  "author": "Wilfredor",
+  "file": "Olives and Portuguese lupini beans priced per kilo at a feira livre, São Paulo.jpg",
+  "h": 989,
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Olives_and_Portuguese_lupini_beans_priced_per_kilo_at_a_feira_livre,_S%C3%A3o_Paulo.jpg",
+  "slug": "portugal-lupin-beans",
+  "w": 1920
+ },
+ "portugal/Roasted chestnuts": {
+  "author": "Furkan Akkurt",
+  "file": "Roasted chestnuts and corn vendor Sultanahmet Istanbul 2026.jpg",
+  "h": 2560,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Roasted_chestnuts_and_corn_vendor_Sultanahmet_Istanbul_2026.jpg",
+  "slug": "portugal-roasted-chestnuts",
+  "w": 1920
+ },
+ "portugal/hero": {
+  "author": "Ingo Mehling",
+  "file": "Lissabon - Alfama - Largo Santa Luzia - Streetcar - 1.jpg",
+  "h": 1280,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lissabon_-_Alfama_-_Largo_Santa_Luzia_-_Streetcar_-_1.jpg",
+  "slug": "portugal-hero",
+  "w": 1920
+ },
  "spain/Chickpeas with spinach": {
   "author": "Miansari66",
   "file": "Nivik (Chickpea with Spinach).JPG",
@@ -477,6 +737,106 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg",
   "slug": "spain-hero",
+  "w": 1920
+ },
+ "sri-lanka/Coconut sambol": {
+  "author": "Dan arndt",
+  "file": "Pol Sambol.jpg",
+  "h": 1454,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pol_Sambol.jpg",
+  "slug": "sri-lanka-coconut-sambol",
+  "w": 1920
+ },
+ "sri-lanka/Hoppers": {
+  "author": "Connie Ma from United States of America",
+  "file": "Appam by Connie Ma.jpg",
+  "h": 1280,
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Appam_by_Connie_Ma.jpg",
+  "slug": "sri-lanka-hoppers",
+  "w": 1920
+ },
+ "sri-lanka/Jackfruit curry": {
+  "author": "Vis M",
+  "file": "Jackfruit curry, Kerala.jpg",
+  "h": 1440,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jackfruit_curry,_Kerala.jpg",
+  "slug": "sri-lanka-jackfruit-curry",
+  "w": 1920
+ },
+ "sri-lanka/String hoppers": {
+  "author": "Ramesh NG",
+  "file": "Idiyappam in plate 1.jpg",
+  "h": 1440,
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Idiyappam_in_plate_1.jpg",
+  "slug": "sri-lanka-string-hoppers",
+  "w": 1920
+ },
+ "sri-lanka/hero": {
+  "author": "Vyacheslav Argenberg",
+  "file": "Sri Lanka, Tea plantations near Nuwara Eliya.jpg",
+  "h": 1280,
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sri_Lanka,_Tea_plantations_near_Nuwara_Eliya.jpg",
+  "slug": "sri-lanka-hero",
+  "w": 1920
+ },
+ "thailand/Fresh fruit": {
+  "author": "JCHaywire",
+  "file": "Fruit stall in Det Udom.jpg",
+  "h": 853,
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fruit_stall_in_Det_Udom.jpg",
+  "slug": "thailand-fresh-fruit",
+  "w": 1280
+ },
+ "thailand/Green papaya salad": {
+  "author": "Andy Li",
+  "file": "Som Tom (Papaya Salad) - Little Thai 2024-06-14.jpg",
+  "h": 1440,
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "page": "https://commons.wikimedia.org/wiki/File:Som_Tom_(Papaya_Salad)_-_Little_Thai_2024-06-14.jpg",
+  "slug": "thailand-green-papaya-salad",
+  "w": 1920
+ },
+ "thailand/Mango sticky rice": {
+  "author": "Dennis Wong from Hong Kong, Hong Kong",
+  "file": "Mango sticy rice (3859549574).jpg",
+  "h": 1280,
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg",
+  "slug": "thailand-mango-sticky-rice",
+  "w": 1920
+ },
+ "thailand/Stir-fried morning glory": {
+  "author": "pelican from Tokyo, Japan",
+  "file": "Fried chinese green vegetable (5673670357).jpg",
+  "h": 1440,
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fried_chinese_green_vegetable_(5673670357).jpg",
+  "slug": "thailand-stir-fried-morning-glory",
+  "w": 1920
+ },
+ "thailand/hero": {
+  "author": "Diego Delso",
+  "file": "Templo Wat Arun, Bangkok, Tailandia, 2013-08-22, DD 37.jpg",
+  "h": 1483,
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Templo_Wat_Arun,_Bangkok,_Tailandia,_2013-08-22,_DD_37.jpg",
+  "slug": "thailand-hero",
   "w": 1920
  },
  "turkey/Aubergine with tomato and onion": {
@@ -667,6 +1027,46 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Marshall%E2%80%99s_Beach,_March_2018.jpg",
   "slug": "united-states-hero",
+  "w": 1920
+ },
+ "vietnam/Sticky rice": {
+  "author": "Hoang.thu02091989",
+  "file": "Xôi Cốm Hà Nội, Việt Nam.jpg",
+  "h": 1920,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:X%C3%B4i_C%E1%BB%91m_H%C3%A0_N%E1%BB%99i,_Vi%E1%BB%87t_Nam.jpg",
+  "slug": "vietnam-sticky-rice",
+  "w": 1920
+ },
+ "vietnam/Tofu in tomato sauce": {
+  "author": "Mickey Đại Phát",
+  "file": "Tomato-sauced tofu.jpg",
+  "h": 2560,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tomato-sauced_tofu.jpg",
+  "slug": "vietnam-tofu-in-tomato-sauce",
+  "w": 1920
+ },
+ "vietnam/Vegetarian pho": {
+  "author": "Sistak",
+  "file": "Vegetarian Pho (5541416031).jpg",
+  "h": 1440,
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Vegetarian_Pho_(5541416031).jpg",
+  "slug": "vietnam-vegetarian-pho",
+  "w": 1920
+ },
+ "vietnam/hero": {
+  "author": "Christophe95",
+  "file": "Lanterns in Hoi An 3.jpg",
+  "h": 1440,
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Hoi_An_3.jpg",
+  "slug": "vietnam-hero",
   "w": 1920
  }
 }
