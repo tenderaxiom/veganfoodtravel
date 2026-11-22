@@ -16,6 +16,8 @@ ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "dist"
 SITE = "https://veganfoodtravel.com"
 GUIDE_LIST = []
+N_COUNTRIES = 0
+N_LANGS = 0
 BRAND = "Vegan Food Travel"
 TAGLINE = "Eat like a local. Stay vegan."
 DESCRIPTOR = "The local food of every country, vegan by tradition."
@@ -44,7 +46,8 @@ STATUS = {
     "no": ("Not vegan as standard", "s-no"),
 }
 LANG = {"French": "fr", "Spanish": "es", "Spanish (Mexico)": "es-MX", "Italian": "it", "Turkish": "tr",
-        "German": "de", "Japanese": "ja", "Greek": "el", "English": "en"}
+        "German": "de", "Japanese": "ja", "Greek": "el", "English": "en", "Thai": "th",
+        "Sinhala": "si", "Hindi": "hi", "Portuguese": "pt-PT", "Vietnamese": "vi", "Indonesian": "id"}
 
 e = html.escape
 CREDITS = json.loads((ROOT / "data/photo_credits.json").read_text()) if (ROOT / "data/photo_credits.json").exists() else {}
@@ -205,7 +208,7 @@ def signup_form(source, country=""):
 def cta_block(source, country=""):
     return f"""<section class="cta" aria-labelledby="cta-{slugify(source)}">
 <div><p class="eyebrow" style="color:#bfe3c9">Free download</p><h2 id="cta-{slugify(source)}">Never go hungry abroad</h2>
-<p>Get the pocket phrase cards for all 10 countries: the vegan sentence in the local language, what to watch for, and the safest dishes to order. Plus one short email a week.</p>
+<p>Get the pocket phrase cards for all {N_COUNTRIES} countries: the vegan sentence in the local language, what to watch for, and the safest dishes to order. Plus one short email a week.</p>
 {signup_form(source, country)}</div>
 <div class="pack" aria-hidden="true"><b>Vegan phrase cards</b><ul><li>🇫🇷 Je suis végane…</li><li>🇯🇵 私はヴィーガンです…</li><li>🇲🇽 Sin manteca, por favor…</li><li>🇬🇷 Είναι νηστίσιμο;</li><li>+ 6 more countries</li></ul></div>
 </section>"""
@@ -329,7 +332,7 @@ def country_page(c, countries, i):
              (f'<a href="{country_path(prev_c)}">&larr; Vegan food in {e(prev_c["name"])}</a>' if prev_c else "<span></span>") +
              (f'<a href="{country_path(next_c)}">Vegan food in {e(next_c["name"])} &rarr;</a>' if next_c else "<span></span>") + "</nav>")
     hero = hero_block(f"{slug}/hero", f"{tname}", f"""<p class="crumbs"><a href="/">Home</a> / <a href="/#countries">Countries</a> / {e(tname)}</p>
-<p class="eyebrow" style="color:#bfe3c9">#{c['rank']} most-visited country</p><h1>Vegan Food in {e(name)}</h1>
+<p class="eyebrow" style="color:#bfe3c9">{f"#{c['rank']} most-visited country" if c.get('rank') else "Vegan food guide"}</p><h1>Vegan Food in {e(name)}</h1>
 <p class="lead">How easy: {e(c['ease'])} · Try first: {e(c['first_dish'])}</p>""", short=True)
     body = f"""<article>
 <p class="meta" style="margin-top:22px">By <a href="/about/">{AUTHOR}</a> · {('Checked in ' + e(checked) + ' · ') if checked else ''}Updated {nice_date(c.get('updated', CONTENT_UPDATED))}</p>
@@ -341,7 +344,7 @@ def country_page(c, countries, i):
 <h2 id="watch">What to watch for in {e(name)}</h2>
 <ul class="watch">{watch}</ul>
 <h2 id="phrase">How to ask for vegan food in {e(c['phrase_lang'])}</h2>
-<p>Show this to your server, or save it to your phone. All 10 countries are on the <a href="/phrase-cards/">phrase cards page</a>.</p>
+<p>Show this to your server, or save it to your phone. All {N_COUNTRIES} countries are on the <a href="/phrase-cards/">phrase cards page</a>.</p>
 <p class="phrase" lang="{lang}"><span class="tag">{e(c['phrase_lang'])}</span>{e(c['phrase'])}{roman}</p>
 {more_html}
 {cta_block(path, slug)}
@@ -352,8 +355,8 @@ def country_page(c, countries, i):
 {faq_html}
 <h2 id="plan">Plan your trip to {e(name)}</h2>
 <ul>{guide_links(GUIDE_LIST)}</ul>
-<h2 id="why">Why {e(name)}</h2>
-<p>{e(tname)} is the number {c['rank']} most-visited country in the world, with {c['arrivals_m']} million international arrivals in 2024 (UN Tourism).</p>
+{f"""<h2 id="why">Why {e(name)}</h2>
+<p>{e(tname)} is the number {c['rank']} most-visited country in the world, with {c['arrivals_m']} million international arrivals in 2024 (UN Tourism).</p>""" if c.get('rank') else ""}
 </article>
 {pager}"""
     item_list = {"@type": "ItemList", "name": f"Traditional dishes in {name} that are vegan or can be",
@@ -373,8 +376,12 @@ def country_page(c, countries, i):
 
 
 def home(countries):
-    cards = "\n".join(f"""<li><a class="card" href="{country_path(c)}"><div class="media">{picture(f"{c['slug']}/hero", cap(c['name']), '(max-width:600px) 100vw, 360px', credit=False)}</div>
-<div class="body"><span class="kicker">#{c['rank']} most visited · {e(c['ease'])}</span><span class="name">Vegan food in {e(c['name'])}</span><span class="muted" style="font-size:15px">Try first: {e(c['first_dish'])}</span></div></a></li>""" for c in countries)
+    def card(c):
+        kicker = f"#{c['rank']} most visited · {e(c['ease'])}" if c.get("rank") else e(c["ease"])
+        return f"""<li><a class="card" href="{country_path(c)}"><div class="media">{picture(f"{c['slug']}/hero", cap(c['name']), '(max-width:600px) 100vw, 360px', credit=False)}</div>
+<div class="body"><span class="kicker">{kicker}</span><span class="name">Vegan food in {e(c['name'])}</span><span class="muted" style="font-size:15px">Try first: {e(c['first_dish'])}</span></div></a></li>"""
+    cards = "\n".join(card(c) for c in countries if c.get("rank"))
+    more_cards = "\n".join(card(c) for c in countries if not c.get("rank"))
     hero = hero_block("home/hero", "Fresh vegetables and chillies at a market", f"""<p class="eyebrow" style="color:#bfe3c9">Vegan food travel guides</p>
 <h1>Eat like a local.<br>Stay vegan.</h1>
 <p class="lead">The traditional dishes of every country that are already vegan, the ones you can ask for, and exactly how to ask. From over 30 years of travel and {YEARS_VEGAN} years vegan.</p>
@@ -382,6 +389,7 @@ def home(countries):
     body = f"""<h2 id="countries">Start with the world's 10 most-visited countries</h2>
 <p class="muted">Ranked by international arrivals in 2024 (UN Tourism). Each guide covers the local dishes, what to watch for, and a phrase card.</p>
 <ul class="grid">{cards}</ul>
+{f'<h2 id="more-countries">More countries I know well</h2><p class="muted">Each one a country I have eaten my way around, including home, New Zealand.</p><ul class="grid">{more_cards}</ul>' if more_cards else ''}
 <h2 id="guides">Plan your trip</h2>
 <ul class="plan">{"".join(f'<li><a href="/{g["slug"]}/"><b>{e(g["h1"][0].upper() + g["h1"][1:])}</b><span>{e(g["description"])}</span></a></li>' for g in GUIDE_LIST)}</ul>
 <h2>How it works</h2>
@@ -395,7 +403,7 @@ def home(countries):
     website = {"@context": "https://schema.org", "@type": "WebSite", "@id": SITE + "/#website", "name": BRAND,
                "url": SITE + "/", "description": DESCRIPTOR, "inLanguage": "en", "publisher": {"@id": SITE + "/#org"}}
     return "/", page(path="/", title=f"{BRAND}: Eat Like a Local, Stay Vegan, in Every Country",
-                     description="The traditional dishes of every country that are already vegan, what to watch for, and free local-language phrase cards. Start with the 10 most-visited countries.",
+                     description=f"The traditional dishes of every country that are already vegan, what to watch for, and free local-language phrase cards. Guides to {N_COUNTRIES} countries.",
                      body=body, jsonld=[website, {"@context": "https://schema.org", **org()}], og=og_image("home/hero"), hero=hero)
 
 
@@ -403,27 +411,27 @@ def phrase_cards(countries):
     cards = "\n".join(f"""<div><p class="phrase" lang="{LANG[c['phrase_lang']]}"><span class="tag">{e(cap(c['name']))} · {e(c['phrase_lang'])}</span>{e(c['phrase'])}{f'<span class="roman">{e(c["phrase_roman"])}</span>' if c['phrase_roman'] else ''}</p>
 <p class="meta">Watch for: {e('; '.join(w.split(' (')[0].split(' in ')[0] for w in c['watch'][:3]))}. <a href="{country_path(c)}">Full guide</a></p></div>""" for c in countries)
     body = f"""<p class="crumbs" style="margin-top:28px"><a href="/">Home</a> / Phrase cards</p>
-<h1>Vegan phrase cards for 10 countries</h1>
+<h1>Vegan phrase cards for {N_COUNTRIES} countries</h1>
 <p class="lead">One sentence in the local language that tells the kitchen exactly what you don't eat. Show it on your phone or print it. Free to use.</p>
 <p class="no-print"><a class="btn" href="/free-guide/">Get the printable pocket pack (PDF)</a></p>
 <div class="cards-print">{cards}</div>
 {cta_block("/phrase-cards/")}"""
-    return "/phrase-cards/", page(path="/phrase-cards/", title="Vegan Phrase Cards in 9 Languages: How to Say 'I'm Vegan' Abroad",
-                                  description="How to say 'I am vegan, no meat, fish, eggs or dairy' in French, Spanish, Italian, Turkish, German, Japanese, Greek and more. Free phrase cards for 10 countries.",
+    return "/phrase-cards/", page(path="/phrase-cards/", title=f"Vegan Phrase Cards in {N_LANGS} Languages: How to Say 'I'm Vegan' Abroad",
+                                  description=f"How to say 'I am vegan' in Japanese, Thai, Hindi, Sinhala, Vietnamese, Greek, Turkish, French, Spanish and more. Free phrase cards for {N_COUNTRIES} countries.",
                                   body=body, jsonld=[breadcrumb([("Home", "/"), ("Phrase cards", "/phrase-cards/")])])
 
 
 def free_guide():
-    hero = hero_block("home/hero", "Fresh vegetables at a market", """<p class="eyebrow" style="color:#bfe3c9">Free download</p><h1>Never go hungry abroad</h1>
-<p class="lead">The pocket phrase-card pack for the world's 10 most-visited countries. Free, instantly.</p>""", short=True)
+    hero = hero_block("home/hero", "Fresh vegetables at a market", f"""<p class="eyebrow" style="color:#bfe3c9">Free download</p><h1>Never go hungry abroad</h1>
+<p class="lead">The pocket phrase-card pack for {N_COUNTRIES} countries. Free, instantly.</p>""", short=True)
     body = f"""<section class="cta" style="margin-top:-60px;position:relative;z-index:5">
 <div><h2>What's in the pack</h2><p>A printable PDF with one card per country: the vegan sentence in the local language, the three things that most often catch vegans out, and the safest traditional dishes to order.</p>
 {signup_form("/free-guide/")}</div>
-<div class="pack" aria-hidden="true"><b>Inside</b><ul><li>10 countries, 9 languages</li><li>Romanised Japanese and Greek</li><li>Hidden ingredients to ask about</li><li>Prints on one sheet per country</li></ul></div></section>
+<div class="pack" aria-hidden="true"><b>Inside</b><ul><li>{N_COUNTRIES} countries, {N_LANGS} languages</li><li>Romanised Japanese, Greek, Thai, Hindi and Sinhala</li><li>Hidden ingredients to ask about</li><li>Prints on one sheet per country</li></ul></div></section>
 <h2>Why people download it</h2>
 <ul class="steps"><li><b>It works without wifi.</b><br>Save the PDF to your phone before you fly.</li><li><b>No awkward explaining.</b><br>Show the card and the kitchen knows exactly what you eat.</li><li><b>One short email a week.</b><br>One country, one dish, one phrase. Unsubscribe in one click.</li></ul>"""
-    return "/free-guide/", page(path="/free-guide/", title="Free Vegan Phrase-Card Pack for 10 Countries (PDF)",
-                                description="Download the free pocket phrase cards: how to order vegan food in 10 countries, what to watch for, and the safest dishes.",
+    return "/free-guide/", page(path="/free-guide/", title=f"Free Vegan Phrase-Card Pack for {N_COUNTRIES} Countries (PDF)",
+                                description=f"Download the free pocket phrase cards: how to order vegan food in {N_COUNTRIES} countries, what to watch for, and the safest dishes.",
                                 body=body, hero=hero)
 
 
@@ -571,7 +579,7 @@ def guide_page(g, guides, countries):
 <p class="lead">{e(g['lead'])}</p>
 {secs}
 <h2 id="quick-answers">Quick answers</h2><div class="faq">{faqs}</div>
-<h2>More trip planning</h2><ul>{guide_links(guides, g['slug'])}<li><a href="/#countries">Country guides: vegan food in the 10 most-visited countries</a></li></ul></div>
+<h2>More trip planning</h2><ul>{guide_links(guides, g['slug'])}<li><a href="/#countries">Country guides: vegan food in {N_COUNTRIES} countries</a></li></ul></div>
 {cta_block(path)}"""
     article = {"@context": "https://schema.org", "@type": "Article", "headline": g["h1"][0].upper() + g["h1"][1:], "description": g["description"],
                "inLanguage": "en", "dateModified": g.get("updated", CONTENT_UPDATED), "mainEntityOfPage": SITE + path,
@@ -581,10 +589,13 @@ def guide_page(g, guides, countries):
 
 
 def build():
-    countries = sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: c["rank"])
+    countries = sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: (c.get("rank") or 99, c["name"]))
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "static", OUT)
+    global N_COUNTRIES, N_LANGS
+    N_COUNTRIES = len(countries)
+    N_LANGS = len({c["phrase_lang"].split(" (")[0] for c in countries})
     guides = load_guides()
     global GUIDE_LIST
     GUIDE_LIST = guides

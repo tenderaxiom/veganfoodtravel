@@ -20,7 +20,7 @@ STATUS = {"vegan": "Vegan by tradition", "usually": "Usually vegan: check", "ask
 
 
 def countries():
-    return sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: c["rank"])
+    return sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: (c.get("rank") or 99, c["name"]))
 
 
 def cap(s):
@@ -76,7 +76,7 @@ def welcome(step, token):
     if step == 1:
         s, pre = "Your vegan phrase cards are here", "Save the PDF to your phone before you fly."
         blocks = [p("Hi,"),
-                  p("Here's your free pocket pack: the vegan sentence in the local language for the world's 10 most-visited countries, what to watch for, and the safest dishes to order."),
+                  p(f"Here's your free pocket pack: the vegan sentence in the local language for {len(countries())} countries, what to watch for, and the safest dishes to order."),
                   btn("Download the phrase cards (PDF)", f"{SITE}/free/vegan-phrase-cards.pdf"),
                   p("<b>One tip:</b> save it to your phone now, so it works without wifi when you land."),
                   p("Where are you heading next? Just hit reply and tell me. I read every message, and it decides which countries I cover next."),
@@ -98,7 +98,7 @@ def welcome(step, token):
                   p("<b>1. What is already vegan here?</b> Most food cultures have dishes that never had meat in them: Greek fasting food, Buddhist temple cooking, Italian peasant dishes. Start there."),
                   p("<b>2. What's in the stock or the fat?</b> Butter, lard, fish sauce, meat stock. These are the hidden ingredients, not the obvious ones."),
                   p("<b>3. Can they leave one thing off?</b> Cheese on top, egg on the side, yogurt in the sauce. Asking for one change works far better than asking for a whole new dish."),
-                  p("I've written the full method up, with the word for vegan in 9 languages and the hidden ingredients to ask about."),
+                  p("I've written the full method up, with the word for vegan in 14 languages and the hidden ingredients to ask about."),
                   btn("How to ask for vegan food anywhere", f"{SITE}/how-to-ask-for-vegan-food/"),
                   p("Flying soon? Order the VGML meal at least a day ahead. More here: " + SITE + "/vegan-meals-on-flights/"),
                   p("Richard")]
@@ -107,7 +107,7 @@ def welcome(step, token):
         blocks = [p("Hi,"),
                   p("From this Sunday, you'll get one short email a week: one country, one traditional dish that's vegan or can be, and one phrase to order it. Two minutes to read, useful the next time you travel."),
                   p("If you'd rather not, the unsubscribe link is at the bottom of every email. No hard feelings."),
-                  btn("Start with the 10 most-visited countries", f"{SITE}/#countries"),
+                  btn("Browse all the country guides", f"{SITE}/#countries"),
                   p("Richard")]
     return wrap(s, pre, blocks, token)
 

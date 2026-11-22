@@ -2376,5 +2376,1613 @@
         "a": "The cold rice-filled vine leaves usually are. Hot dolmades are usually filled with meat and served with egg-lemon sauce."
       }
     ]
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "flag": "TH",
+    "verified": true,
+    "ease": "Easy if you learn one word",
+    "summary": "Thailand is easier than its reputation once you know the word 'jay' (เจ). Jay food is the Chinese-Thai Buddhist tradition: no meat, fish, eggs or dairy, and usually no garlic or onion either. Elsewhere, fish sauce, shrimp paste and oyster sauce are in almost everything, so ask.",
+    "word": "เจ (jay), มังสวิรัติ (mangsawirat, vegetarian)",
+    "first_dish": "Mango sticky rice from a street stall",
+    "phrase_lang": "Thai",
+    "phrase": "ฉันกินเจ ไม่กินเนื้อสัตว์ ปลา ไข่ และนม กรุณาไม่ใส่น้ำปลา กะปิ และน้ำมันหอย",
+    "phrase_roman": "Chan gin jay. Mai gin neua sat, pla, kai lae nom. Garuna mai sai nam pla, kapi lae nam man hoi.",
+    "watch": [
+      "Fish sauce (nam pla) in dressings, stir-fries and curries",
+      "Shrimp paste (kapi) in curry pastes",
+      "Oyster sauce in vegetable stir-fries",
+      "Dried shrimp in papaya salad",
+      "Egg in fried rice and noodles"
+    ],
+    "dishes": [
+      {
+        "name": "Mango sticky rice",
+        "local": "Khao niao mamuang (ข้าวเหนียวมะม่วง)",
+        "status": "usually",
+        "note": "Sticky rice, ripe mango and sweet coconut cream. Usually vegan."
+      },
+      {
+        "name": "Green papaya salad",
+        "local": "Som tam (ส้มตำ)",
+        "status": "ask",
+        "note": "Usually made with fish sauce and dried shrimp. Ask for it jay, with soy sauce instead."
+      },
+      {
+        "name": "Stir-fried morning glory",
+        "local": "Phak bung fai daeng (ผักบุ้งไฟแดง)",
+        "status": "ask",
+        "note": "Usually cooked with oyster sauce and fermented soybean paste. Ask for no oyster sauce."
+      },
+      {
+        "name": "Fresh fruit",
+        "local": "Phon la mai (ผลไม้)",
+        "status": "vegan",
+        "note": "Pineapple, mango, papaya and watermelon cut to order from carts."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Vegetarian jay food",
+        "local": "Ahan jay (อาหารเจ)",
+        "status": "vegan",
+        "note": "Look for the yellow flags with red lettering: jay shops serve plant-based curries, stir-fries and mock meats.",
+        "group": "Main dishes"
+      },
+      {
+        "name": "Green curry with tofu",
+        "local": "Gaeng kiao wan tao hu (แกงเขียวหวานเต้าหู้)",
+        "status": "ask",
+        "note": "Curry paste usually contains shrimp paste. Jay restaurants make it without.",
+        "group": "Main dishes"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Fried rice with vegetables",
+        "local": "Khao pad jay (ข้าวผัดเจ)",
+        "status": "ask",
+        "note": "Ask for no egg and no fish sauce, or order it at a jay shop."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Stir-fried noodles",
+        "local": "Pad thai jay (ผัดไทยเจ)",
+        "status": "ask",
+        "note": "Standard pad thai has egg, fish sauce and often dried shrimp. Jay versions are common in tourist areas."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Massaman curry with tofu",
+        "local": "Gaeng massaman (แกงมัสมั่น)",
+        "status": "ask",
+        "note": "A mild, peanut-rich curry. The paste usually contains shrimp paste."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Stir-fried mixed vegetables",
+        "local": "Pad pak ruam (ผัดผักรวม)",
+        "status": "ask",
+        "note": "Ask for no oyster sauce and no fish sauce."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fresh spring rolls",
+        "local": "Popia sot (ปอเปี๊ยะสด)",
+        "status": "ask",
+        "note": "Check the filling and the sauce."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Grilled corn and sweetcorn",
+        "local": "Khao pod ping (ข้าวโพดปิ้ง)",
+        "status": "usually",
+        "note": "Street-cart corn. Some are brushed with butter or margarine."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Sticky rice in bamboo",
+        "local": "Khao lam (ข้าวหลาม)",
+        "status": "usually",
+        "note": "Sticky rice with coconut milk and beans, roasted in bamboo."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Coconut pancakes",
+        "local": "Khanom krok (ขนมครก)",
+        "status": "usually",
+        "note": "Rice flour and coconut milk cooked in a dimpled pan."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Banana in coconut milk",
+        "local": "Kluay buat chee (กล้วยบวชชี)",
+        "status": "usually",
+        "note": "Bananas simmered in sweet coconut milk."
+      },
+      {
+        "group": "Drinks",
+        "name": "Fresh coconut",
+        "local": "Maprao on (มะพร้าวอ่อน)",
+        "status": "vegan",
+        "note": "Sold everywhere, cut open to drink."
+      },
+      {
+        "group": "Drinks",
+        "name": "Thai iced tea",
+        "local": "Cha yen (ชาเย็น)",
+        "status": "ask",
+        "note": "Made with condensed milk. Some cafés use plant milk."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Bangkok",
+        "text": "Hundreds of jay shops, Indian restaurants and vegan cafés. Chinatown is busiest during the Vegetarian Festival."
+      },
+      {
+        "region": "Chiang Mai and the north",
+        "text": "One of the most vegan-friendly cities in Asia, with many vegan cafés and cooking classes that teach plant-based Thai food."
+      },
+      {
+        "region": "The islands and beaches",
+        "text": "Phuket, Koh Samui and Koh Phangan have plenty of vegan and health-food cafés. Phuket's Vegetarian Festival is the biggest in the country."
+      },
+      {
+        "region": "The north-east (Isan)",
+        "text": "Som tam, sticky rice and grilled food. Fish sauce and fermented fish are central, so ask carefully or carry a card."
+      }
+    ],
+    "eating_out": [
+      "Learn the word 'jay' (เจ) and look for yellow flags with red Thai lettering. They mean a jay shop or menu: no animal products.",
+      "During the Vegetarian Festival (the ninth lunar month, usually in late September or October), jay food is everywhere.",
+      "'Mangsawirat' means vegetarian and may still include egg or dairy. 'Jay' is stricter.",
+      "Street vendors can usually leave out fish sauce and oyster sauce if you show them a card.",
+      "Thai cooking classes in Chiang Mai and Bangkok often offer vegan versions of every dish."
+    ],
+    "shopping": [
+      "Convenience stores sell soy milk, fresh fruit, nuts and some jay-labelled snacks.",
+      "Markets sell tofu, fruit, sticky rice and coconut desserts. Look for the เจ symbol on packaging."
+    ],
+    "phrases": [
+      {
+        "en": "Please don't add fish sauce.",
+        "local": "ไม่ใส่น้ำปลา",
+        "roman": "Mai sai nam pla."
+      },
+      {
+        "en": "No oyster sauce, please.",
+        "local": "ไม่ใส่น้ำมันหอย",
+        "roman": "Mai sai nam man hoi."
+      },
+      {
+        "en": "No egg, please.",
+        "local": "ไม่ใส่ไข่",
+        "roman": "Mai sai kai."
+      },
+      {
+        "en": "No shrimp paste, please.",
+        "local": "ไม่ใส่กะปิ",
+        "roman": "Mai sai kapi."
+      },
+      {
+        "en": "Is this jay?",
+        "local": "อันนี้เจไหม",
+        "roman": "An nee jay mai?"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Thailand good for vegans?",
+        "a": "Yes, once you know the word jay. Jay shops and menus are fully plant-based. In ordinary restaurants, ask for no fish sauce, oyster sauce or shrimp paste."
+      },
+      {
+        "q": "What does 'jay' mean in Thailand?",
+        "a": "Food from the Chinese-Thai Buddhist tradition with no meat, fish, eggs or dairy. It also usually leaves out garlic, onion and strong spices."
+      },
+      {
+        "q": "Is pad thai vegan?",
+        "a": "Not as standard: it has egg, fish sauce and often dried shrimp. Ask for a jay version."
+      },
+      {
+        "q": "Is mango sticky rice vegan?",
+        "a": "Usually. It's sticky rice, mango and coconut cream."
+      }
+    ]
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "flag": "LK",
+    "verified": true,
+    "ease": "Easy",
+    "summary": "Sri Lanka is one of the easiest countries in Asia for vegans. Rice and curry is built on lentils, vegetables and coconut milk rather than dairy. The one thing to watch for is Maldive fish, dried tuna flakes added to sambols and some curries.",
+    "word": "vegan (widely understood); නිර්මාංශ (nirmaansha, vegetarian)",
+    "first_dish": "Rice and curry with dhal and jackfruit",
+    "phrase_lang": "Sinhala",
+    "phrase": "මම මස්, මාළු, බිත්තර, කිරි කන්නේ නැහැ. කරුණාකර උම්බලකඩ දාන්න එපා.",
+    "phrase_roman": "Mama mas, maalu, biththara, kiri kanne naha. Karunakara umbalakada daanna epa.",
+    "watch": [
+      "Maldive fish (umbalakada) in sambols and some vegetable curries",
+      "Ghee in some sweets and rice",
+      "Egg in kottu and egg hoppers",
+      "Fish or meat stock in some curries"
+    ],
+    "dishes": [
+      {
+        "name": "Hoppers",
+        "local": "Appa",
+        "status": "usually",
+        "note": "Bowl-shaped pancakes of fermented rice flour and coconut milk. Egg hoppers have an egg cracked in."
+      },
+      {
+        "name": "String hoppers",
+        "local": "Indiappa",
+        "status": "vegan",
+        "note": "Steamed nests of rice-flour noodles, usually eaten with dhal and coconut sambol."
+      },
+      {
+        "name": "Jackfruit curry",
+        "local": "Polos curry",
+        "status": "usually",
+        "note": "Young jackfruit cooked in spices and coconut milk."
+      },
+      {
+        "name": "Coconut sambol",
+        "local": "Pol sambol",
+        "status": "ask",
+        "note": "Fresh coconut, chilli, onion and lime. Often made with Maldive fish; ask for it without."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Dhal curry",
+        "local": "Parippu",
+        "status": "usually",
+        "note": "Red lentils simmered with coconut milk, turmeric and curry leaves. Served with almost every meal.",
+        "group": "Main dishes"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Rice and curry",
+        "local": "Bath curry",
+        "status": "ask",
+        "note": "Rice with several vegetable curries. Ask which ones have Maldive fish or meat."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Chopped roti stir-fry",
+        "local": "Kottu roti",
+        "status": "ask",
+        "note": "Chopped flatbread stir-fried with vegetables. Usually has egg; ask for vegetable kottu with no egg."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Green bean curry",
+        "local": "Bonchi curry",
+        "status": "usually",
+        "note": "Green beans in coconut milk with spices."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Beetroot curry",
+        "local": "Ratu ala curry",
+        "status": "usually",
+        "note": "Beetroot cooked in coconut milk."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Cashew curry",
+        "local": "Kaju maluwa",
+        "status": "usually",
+        "note": "Cashews simmered in coconut milk, often for special occasions."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Coconut milk rice",
+        "local": "Kiribath",
+        "status": "vegan",
+        "note": "Rice cooked in coconut milk, cut into diamonds. Eaten at New Year and celebrations."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Lentil fritters",
+        "local": "Parippu vadai",
+        "status": "vegan",
+        "note": "Crunchy fried lentil patties sold from street carts and train vendors."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fried chickpeas",
+        "local": "Kadala",
+        "status": "usually",
+        "note": "Chickpeas tempered with chilli, onion and curry leaves. Sold on beaches."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Greens salad",
+        "local": "Gotukola sambol",
+        "status": "usually",
+        "note": "Finely chopped pennywort with coconut and lime."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Flatbread",
+        "local": "Pol roti",
+        "status": "usually",
+        "note": "Coconut and flour flatbread, eaten with sambol."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Coconut treacle sweet",
+        "local": "Kalu dodol",
+        "status": "usually",
+        "note": "Rice flour, coconut milk and palm sugar."
+      },
+      {
+        "group": "Drinks",
+        "name": "Ceylon tea",
+        "local": "Tea",
+        "status": "ask",
+        "note": "Usually served with milk and sugar. Ask for plain tea."
+      },
+      {
+        "group": "Drinks",
+        "name": "King coconut",
+        "local": "Thambili",
+        "status": "vegan",
+        "note": "Orange-skinned coconuts sold at roadside stalls."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Colombo",
+        "text": "Many vegan and vegetarian restaurants, South Indian vegetarian cafés and supermarkets with plant milks."
+      },
+      {
+        "region": "The hill country",
+        "text": "Kandy, Ella and Nuwara Eliya: guesthouse rice and curry is mostly vegetables and dhal. Ask about Maldive fish."
+      },
+      {
+        "region": "The south coast",
+        "text": "Galle, Mirissa and Hiriketiya have many health-food and vegan cafés alongside local rice-and-curry places."
+      },
+      {
+        "region": "The north and Jaffna",
+        "text": "Tamil cooking with lots of vegetarian dishes. Hindu temples and vegetarian restaurants are common."
+      }
+    ],
+    "eating_out": [
+      "Lunchtime rice and curry is the best vegan meal in the country. Ask which curries have Maldive fish.",
+      "In tourist areas, 'vegan' is widely understood. In local places, list what you don't eat.",
+      "Guesthouses will usually cook vegan rice and curry if you ask a day ahead.",
+      "South Indian vegetarian restaurants are reliable for dosa and thali. Ask about ghee."
+    ],
+    "shopping": [
+      "Markets have superb fruit, vegetables, coconuts and spices.",
+      "Supermarkets in towns sell soy milk, lentils, rice and snacks."
+    ],
+    "phrases": [
+      {
+        "en": "No Maldive fish, please.",
+        "local": "උම්බලකඩ දාන්න එපා.",
+        "roman": "Umbalakada daanna epa."
+      },
+      {
+        "en": "No egg, please.",
+        "local": "බිත්තර දාන්න එපා.",
+        "roman": "Biththara daanna epa."
+      },
+      {
+        "en": "No milk, please.",
+        "local": "කිරි දාන්න එපා.",
+        "roman": "Kiri daanna epa."
+      },
+      {
+        "en": "I don't eat meat or fish.",
+        "local": "මම මස් මාළු කන්නේ නැහැ.",
+        "roman": "Mama mas maalu kanne naha."
+      },
+      {
+        "en": "Thank you.",
+        "local": "ස්තුතියි.",
+        "roman": "Sthuthiyi."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Sri Lanka good for vegans?",
+        "a": "Yes. Rice and curry is based on lentils, vegetables and coconut milk. Watch for Maldive fish in sambols and some curries."
+      },
+      {
+        "q": "What is Maldive fish?",
+        "a": "Dried, cured tuna flakes used to season sambols and some vegetable dishes. Ask for food without 'umbalakada'."
+      },
+      {
+        "q": "Are hoppers vegan?",
+        "a": "Plain hoppers usually are: fermented rice flour and coconut milk. Egg hoppers aren't."
+      },
+      {
+        "q": "Is Sri Lankan dhal vegan?",
+        "a": "Usually. It's made with coconut milk rather than butter or ghee."
+      }
+    ]
+  },
+  {
+    "slug": "india",
+    "name": "India",
+    "flag": "IN",
+    "verified": true,
+    "ease": "Easy, but ask about dairy",
+    "summary": "India has more vegetarians than anywhere else, so meat-free food is everywhere. The catch is dairy: ghee, butter, cream, paneer and yoghurt are in many dishes. South Indian food, built on rice, lentils and coconut, is the easiest.",
+    "word": "वीगन (vegan); शुद्ध शाकाहारी (shuddh shakahari, pure vegetarian)",
+    "first_dish": "Masala dosa with sambar for breakfast",
+    "phrase_lang": "Hindi",
+    "phrase": "मैं वीगन हूँ। मैं मांस, मछली, अंडा, दूध, घी, मक्खन, दही और पनीर नहीं खाता/खाती।",
+    "phrase_roman": "Main vegan hoon. Main maans, machhli, anda, doodh, ghee, makkhan, dahi aur paneer nahin khaata/khaati.",
+    "watch": [
+      "Ghee (clarified butter) in dal, rice and sweets",
+      "Butter and cream in North Indian curries",
+      "Paneer and yoghurt (dahi, raita)",
+      "Milk in tea (chai) and most sweets",
+      "Honey in some drinks"
+    ],
+    "dishes": [
+      {
+        "name": "Chickpea curry",
+        "local": "Chana masala (चना मसाला)",
+        "status": "usually",
+        "note": "Chickpeas in a spiced tomato and onion sauce. Ask about ghee or butter."
+      },
+      {
+        "name": "Masala dosa",
+        "local": "Masala dosa",
+        "status": "usually",
+        "note": "A crisp rice and lentil crêpe filled with spiced potato. Ask for it made with oil, not ghee."
+      },
+      {
+        "name": "Idli with sambar",
+        "local": "Idli sambar",
+        "status": "usually",
+        "note": "Steamed rice cakes with lentil and vegetable stew. A South Indian breakfast."
+      },
+      {
+        "name": "Cauliflower and potato",
+        "local": "Aloo gobi (आलू गोभी)",
+        "status": "usually",
+        "note": "A dry curry of potato, cauliflower and spices."
+      },
+      {
+        "name": "Kidney bean curry",
+        "local": "Rajma chawal (राजमा चावल)",
+        "status": "ask",
+        "note": "Kidney beans with rice. Often finished with butter or cream."
+      }
+    ],
+    "more_dishes": [
+      {
+        "group": "Main dishes",
+        "name": "Lentils",
+        "local": "Dal (दाल)",
+        "status": "ask",
+        "note": "Every region has its own. Often finished with ghee; ask for oil."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegetable thali",
+        "local": "Thali",
+        "status": "ask",
+        "note": "A set plate of rice, dal, vegetables and bread. Ask which items have ghee, yoghurt or paneer."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Mixed vegetable curry",
+        "local": "Sabzi (सब्ज़ी)",
+        "status": "usually",
+        "note": "Seasonal vegetables cooked with spices."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Spinach and potato",
+        "local": "Aloo palak (आलू पालक)",
+        "status": "ask",
+        "note": "Palak dishes often have cream or paneer."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Aubergine mash",
+        "local": "Baingan bharta (बैंगन भर्ता)",
+        "status": "usually",
+        "note": "Smoky roasted aubergine with onion, tomato and spices."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Crisp hollow puris",
+        "local": "Pani puri (पानी पूरी)",
+        "status": "usually",
+        "note": "Filled with potato, chickpeas and spiced water. Some versions add yoghurt."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Potato fritters",
+        "local": "Samosa (समोसा)",
+        "status": "usually",
+        "note": "Pastry filled with spiced potato and peas. Some pastry uses ghee."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Vegetable fritters",
+        "local": "Pakora (पकोड़ा)",
+        "status": "usually",
+        "note": "Vegetables in chickpea-flour batter, fried."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Flattened rice",
+        "local": "Poha (पोहा)",
+        "status": "usually",
+        "note": "A breakfast of flattened rice with onion, peanuts and turmeric."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Flatbread",
+        "local": "Roti, chapati (रोटी)",
+        "status": "ask",
+        "note": "Usually just wheat flour and water, but often brushed with ghee. Naan usually contains milk or yoghurt."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fruit",
+        "local": "Phal (फल)",
+        "status": "vegan",
+        "note": "Mango, guava, papaya and bananas from markets and carts."
+      },
+      {
+        "group": "Drinks",
+        "name": "Sweet lime juice",
+        "local": "Mosambi juice",
+        "status": "vegan",
+        "note": "Fresh juice from street stalls."
+      },
+      {
+        "group": "Drinks",
+        "name": "Masala tea",
+        "local": "Chai (चाय)",
+        "status": "ask",
+        "note": "Made with milk. Ask for black tea (kaali chai)."
+      }
+    ],
+    "regions": [
+      {
+        "region": "South India",
+        "text": "Kerala, Tamil Nadu and Karnataka: dosa, idli, sambar and coconut curries. The easiest region for vegans."
+      },
+      {
+        "region": "Rajasthan and Gujarat",
+        "text": "Largely vegetarian, but ghee is generous. Gujarati thalis have many vegan dishes; ask about ghee."
+      },
+      {
+        "region": "Delhi and the north",
+        "text": "Rich, creamy curries. Choose chana, rajma, aloo and sabzi dishes, and ask for no butter or cream."
+      },
+      {
+        "region": "Goa",
+        "text": "Seafood-heavy, but full of vegan cafés in the beach towns."
+      },
+      {
+        "region": "Rishikesh and the Himalaya",
+        "text": "The pilgrimage towns are vegetarian by law or custom, with many vegan cafés."
+      }
+    ],
+    "eating_out": [
+      "Look for 'pure veg' or 'shuddh shakahari' restaurants. They serve no meat or eggs, though dairy is still common.",
+      "Ask for food cooked in oil (tel) rather than ghee.",
+      "South Indian restaurants are the easiest choice anywhere in the country.",
+      "Jain food excludes meat, eggs and root vegetables, but usually includes dairy.",
+      "In packaged food, a green dot means vegetarian, not vegan. Check for milk solids and ghee."
+    ],
+    "shopping": [
+      "Markets have excellent fruit, vegetables, lentils and spices.",
+      "Supermarkets in cities stock soy milk, oat milk and vegan products.",
+      "The green-dot label means vegetarian, which can still include dairy and honey."
+    ],
+    "phrases": [
+      {
+        "en": "No ghee, please. Cook it in oil.",
+        "local": "घी नहीं, तेल में बनाइए।",
+        "roman": "Ghee nahin, tel mein banaiye."
+      },
+      {
+        "en": "No butter or cream, please.",
+        "local": "मक्खन या मलाई नहीं।",
+        "roman": "Makkhan ya malai nahin."
+      },
+      {
+        "en": "No paneer or yoghurt, please.",
+        "local": "पनीर या दही नहीं।",
+        "roman": "Paneer ya dahi nahin."
+      },
+      {
+        "en": "Black tea, no milk.",
+        "local": "बिना दूध की चाय।",
+        "roman": "Bina doodh ki chai."
+      },
+      {
+        "en": "Is there milk in this?",
+        "local": "क्या इसमें दूध है?",
+        "roman": "Kya ismein doodh hai?"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is India good for vegans?",
+        "a": "Yes. Vegetarian food is everywhere, and South Indian food is mostly dairy-free. In the north, ask about ghee, butter, cream and paneer."
+      },
+      {
+        "q": "Is dal vegan?",
+        "a": "The lentils are, but dal is often finished with ghee. Ask for it cooked in oil."
+      },
+      {
+        "q": "Is naan vegan?",
+        "a": "Usually not: naan dough often contains milk or yoghurt. Roti and chapati are usually just flour and water, but may be brushed with ghee."
+      },
+      {
+        "q": "What does 'pure veg' mean in India?",
+        "a": "No meat, fish or eggs. Dairy is still common, so ask."
+      }
+    ]
+  },
+  {
+    "slug": "portugal",
+    "name": "Portugal",
+    "flag": "PT",
+    "verified": true,
+    "ease": "Easy in cities",
+    "summary": "Portugal's traditional food is built around fish, pork and egg-rich sweets, but its soups, breads, olive oil and vegetables make good vegan meals. Lisbon and Porto have plenty of vegan restaurants.",
+    "word": "vegano / vegana",
+    "first_dish": "Vegetable soup and bread at a tasca",
+    "phrase_lang": "Portuguese",
+    "phrase": "Sou vegano. Não como carne, peixe, marisco, ovos, leite, manteiga, queijo nem mel.",
+    "phrase_roman": "",
+    "watch": [
+      "Chouriço in soups and greens",
+      "Meat or fish stock in soups",
+      "Eggs in almost every traditional pastry",
+      "Butter and cheese with bread at the table (couvert)"
+    ],
+    "dishes": [
+      {
+        "name": "Green soup",
+        "local": "Caldo verde",
+        "status": "ask",
+        "note": "Potato, kale and olive oil soup, usually served with a slice of chouriço. Ask for it without."
+      },
+      {
+        "name": "Lupin beans",
+        "local": "Tremoços",
+        "status": "vegan",
+        "note": "Salty yellow beans served free with beer in bars."
+      },
+      {
+        "name": "Corn bread",
+        "local": "Broa de milho",
+        "status": "usually",
+        "note": "A dense maize and rye bread from the north."
+      },
+      {
+        "name": "Roasted chestnuts",
+        "local": "Castanhas assadas",
+        "status": "vegan",
+        "note": "Sold hot from street carts in autumn and winter."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Punched potatoes",
+        "local": "Batatas a murro",
+        "status": "usually",
+        "note": "Small potatoes roasted, smashed and drowned in olive oil and garlic.",
+        "group": "Small plates, snacks and street food"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegetable soup",
+        "local": "Sopa de legumes",
+        "status": "ask",
+        "note": "On every lunch menu. Usually vegetables and olive oil, but some cooks use meat stock."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Chickpea and spinach",
+        "local": "Grão com espinafres",
+        "status": "usually",
+        "note": "Chickpeas with spinach, garlic and olive oil."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Bread soup",
+        "local": "Açorda",
+        "status": "ask",
+        "note": "Alentejo bread soup with garlic and coriander, usually topped with egg."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Bread with greens",
+        "local": "Migas",
+        "status": "ask",
+        "note": "Fried bread with greens, often cooked with pork fat."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Grilled vegetables",
+        "local": "Legumes grelhados",
+        "status": "usually",
+        "note": "Peppers, aubergine and courgette with olive oil."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Olives",
+        "local": "Azeitonas",
+        "status": "vegan",
+        "note": "Marinated olives on every table."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Roasted peppers",
+        "local": "Pimentos assados",
+        "status": "usually",
+        "note": "Peppers with olive oil and garlic."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Bread rolls",
+        "local": "Papo-secos",
+        "status": "usually",
+        "note": "Portugal's everyday white rolls."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fruit",
+        "local": "Fruta",
+        "status": "vegan",
+        "note": "Oranges from the Algarve, pears from the west, figs and cherries in season."
+      },
+      {
+        "group": "Drinks",
+        "name": "Wine",
+        "local": "Vinho",
+        "status": "ask",
+        "note": "Some wines are fined with animal products. Look for 'vinho vegano'."
+      },
+      {
+        "group": "Drinks",
+        "name": "Espresso",
+        "local": "Bica, café",
+        "status": "vegan",
+        "note": "Black espresso. Plant milk is common in city cafés."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Lisbon",
+        "text": "Many vegan restaurants, cafés and bakeries, plus Indian, Nepali and Brazilian places."
+      },
+      {
+        "region": "Porto and the north",
+        "text": "Caldo verde, broa and hearty soups. Porto has a growing vegan scene."
+      },
+      {
+        "region": "The Algarve",
+        "text": "Fish-focused, but beach towns have plenty of vegan cafés and the markets have superb fruit."
+      },
+      {
+        "region": "The Alentejo",
+        "text": "Bread, olive oil and pork country. Ask for açorda without egg and migas without pork."
+      }
+    ],
+    "eating_out": [
+      "The bread, olives and butter brought to the table (couvert) aren't free. Send back what you don't want.",
+      "Lunch menus (prato do dia) always start with soup. Ask whether it's made with meat stock.",
+      "Ask for chouriço to be left off caldo verde and greens.",
+      "Traditional pastries, including pastéis de nata, are made with egg yolks. Vegan bakeries in Lisbon and Porto make vegan versions."
+    ],
+    "shopping": [
+      "Supermarkets sell plant milks, tofu, hummus and vegan ranges.",
+      "Markets (mercados) have excellent fruit, vegetables, olives and bread."
+    ],
+    "phrases": [
+      {
+        "en": "Without chouriço, please.",
+        "local": "Sem chouriço, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "Is the soup made with meat stock?",
+        "local": "A sopa leva caldo de carne?",
+        "roman": ""
+      },
+      {
+        "en": "Without butter or cheese, please.",
+        "local": "Sem manteiga nem queijo, por favor.",
+        "roman": ""
+      },
+      {
+        "en": "Does it have egg?",
+        "local": "Leva ovo?",
+        "roman": ""
+      },
+      {
+        "en": "Do you have a vegan dish?",
+        "local": "Tem algum prato vegano?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Portugal good for vegans?",
+        "a": "Lisbon and Porto are easy. Elsewhere, soups, bread, olives, potatoes and vegetables make good meals; ask about meat stock and chouriço."
+      },
+      {
+        "q": "Is caldo verde vegan?",
+        "a": "The soup itself is usually potato, kale and olive oil, but it's normally served with chouriço. Ask for it without."
+      },
+      {
+        "q": "Are pastéis de nata vegan?",
+        "a": "No, they're made with egg yolks and milk. Vegan bakeries in Lisbon and Porto make plant-based versions."
+      }
+    ]
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "flag": "VN",
+    "verified": true,
+    "ease": "Easy if you find 'chay'",
+    "summary": "Vietnam has a long Buddhist vegetarian tradition. Restaurants marked 'chay' serve plant-based versions of nearly every Vietnamese dish, usually without egg or dairy. In ordinary places, fish sauce (nước mắm) is in almost everything.",
+    "word": "chay (vegetarian, Buddhist); thuần chay (vegan)",
+    "first_dish": "Fresh spring rolls at a chay restaurant",
+    "phrase_lang": "Vietnamese",
+    "phrase": "Tôi ăn thuần chay. Tôi không ăn thịt, cá, hải sản, trứng hay sữa. Xin đừng cho nước mắm.",
+    "phrase_roman": "",
+    "watch": [
+      "Fish sauce (nước mắm) in dressings, dips and stir-fries",
+      "Shrimp paste (mắm tôm) and dried shrimp",
+      "Pork or beef broth in noodle soups",
+      "Pâté and mayonnaise in bánh mì"
+    ],
+    "dishes": [
+      {
+        "name": "Vegetarian pho",
+        "local": "Phở chay",
+        "status": "usually",
+        "note": "Rice noodle soup with a vegetable broth, served at chay restaurants."
+      },
+      {
+        "name": "Tofu in tomato sauce",
+        "local": "Đậu phụ sốt cà chua",
+        "status": "ask",
+        "note": "A home-style dish. Often seasoned with fish sauce outside chay restaurants."
+      },
+      {
+        "name": "Sticky rice",
+        "local": "Xôi",
+        "status": "usually",
+        "note": "A breakfast of sticky rice with peanuts, mung beans or coconut. Some versions have pork or egg."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Fresh spring rolls",
+        "local": "Gỏi cuốn chay",
+        "status": "usually",
+        "note": "Rice paper rolls with tofu, herbs and noodles. Ask for peanut or soy dipping sauce, not fish sauce.",
+        "group": "Small plates, snacks and street food"
+      },
+      {
+        "name": "Vegetarian bánh mì",
+        "local": "Bánh mì chay",
+        "status": "ask",
+        "note": "Ask for tofu or mushroom filling, no pâté and no mayonnaise.",
+        "group": "Small plates, snacks and street food"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Buddhist rice buffet",
+        "local": "Cơm chay",
+        "status": "vegan",
+        "note": "Cheap point-and-pick rice plates at chay restaurants, often near pagodas."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Morning glory with garlic",
+        "local": "Rau muống xào tỏi",
+        "status": "ask",
+        "note": "Usually seasoned with fish sauce or oyster sauce. Ask for soy sauce instead."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegetarian hot pot",
+        "local": "Lẩu chay",
+        "status": "usually",
+        "note": "A shared pot of vegetable broth, mushrooms, tofu and greens at chay restaurants."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Braised tofu",
+        "local": "Đậu kho",
+        "status": "ask",
+        "note": "Tofu braised in soy and caramel. Check for fish sauce."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Crispy pancake",
+        "local": "Bánh xèo chay",
+        "status": "ask",
+        "note": "Turmeric rice-flour pancake with bean sprouts. Usually has shrimp and pork; chay versions don't."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Fried spring rolls",
+        "local": "Chả giò chay",
+        "status": "usually",
+        "note": "Vegetarian versions are filled with taro, mushroom and glass noodles."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Steamed rice rolls",
+        "local": "Bánh cuốn chay",
+        "status": "ask",
+        "note": "Usually filled with pork; ask for the vegetarian version."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Sweet soup",
+        "local": "Chè",
+        "status": "usually",
+        "note": "Beans, jelly and coconut milk, served hot or cold. A few contain condensed milk."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fresh fruit",
+        "local": "Trái cây",
+        "status": "vegan",
+        "note": "Dragon fruit, mango, rambutan and pomelo."
+      },
+      {
+        "group": "Drinks",
+        "name": "Coffee",
+        "local": "Cà phê",
+        "status": "ask",
+        "note": "Usually made with condensed milk. Ask for black (cà phê đen)."
+      },
+      {
+        "group": "Drinks",
+        "name": "Sugarcane juice",
+        "local": "Nước mía",
+        "status": "vegan",
+        "note": "Pressed fresh at street stalls."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Ho Chi Minh City",
+        "text": "Hundreds of chay restaurants, especially around pagodas, plus many vegan cafés."
+      },
+      {
+        "region": "Hanoi and the north",
+        "text": "Plenty of chay restaurants. Street food is fish-sauce heavy, so carry a card."
+      },
+      {
+        "region": "Hội An and Huế",
+        "text": "Huế has a strong Buddhist vegetarian tradition. Hội An has many vegan cafés and cooking classes."
+      },
+      {
+        "region": "The Mekong Delta",
+        "text": "Fruit, rice and vegetables everywhere. Ask about fish sauce in every dish."
+      }
+    ],
+    "eating_out": [
+      "Look for 'chay' on signs and menus. Chay restaurants are usually fully plant-based and often near Buddhist pagodas.",
+      "On the 1st and 15th of each lunar month, many Vietnamese eat chay, and more stalls sell it.",
+      "Outside chay places, fish sauce is the default. Ask 'không nước mắm' (no fish sauce).",
+      "Cooking classes in Hội An and Hanoi often teach vegan versions."
+    ],
+    "shopping": [
+      "Markets sell tofu, fresh herbs, rice paper, noodles and tropical fruit.",
+      "Supermarkets stock soy milk and packaged vegetarian products labelled 'chay'."
+    ],
+    "phrases": [
+      {
+        "en": "No fish sauce, please.",
+        "local": "Không nước mắm.",
+        "roman": ""
+      },
+      {
+        "en": "No meat, please.",
+        "local": "Không thịt.",
+        "roman": ""
+      },
+      {
+        "en": "No egg, please.",
+        "local": "Không trứng.",
+        "roman": ""
+      },
+      {
+        "en": "Is this vegetarian?",
+        "local": "Món này có chay không?",
+        "roman": ""
+      },
+      {
+        "en": "Black coffee, please.",
+        "local": "Cà phê đen.",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Vietnam good for vegans?",
+        "a": "Yes, thanks to its Buddhist chay restaurants, which serve plant-based versions of most Vietnamese dishes. Elsewhere, ask for no fish sauce."
+      },
+      {
+        "q": "What does 'chay' mean?",
+        "a": "Vegetarian food in the Buddhist tradition. It usually excludes eggs and dairy too, but 'thuần chay' is the strict word for vegan."
+      },
+      {
+        "q": "Is pho vegan?",
+        "a": "Standard pho uses beef or chicken broth. Chay restaurants serve phở chay with vegetable broth."
+      }
+    ]
+  },
+  {
+    "slug": "indonesia",
+    "name": "Indonesia",
+    "flag": "ID",
+    "verified": true,
+    "ease": "Easy, especially in Bali",
+    "summary": "Indonesia gave the world tempeh, and tofu and tempeh are everyday protein across the country. Bali, especially Ubud and Canggu, is one of the easiest places in Asia to be vegan. Watch for shrimp paste (terasi) in sambals and peanut sauce.",
+    "word": "vegan; vegetarian",
+    "first_dish": "Tempeh and vegetables with rice",
+    "phrase_lang": "Indonesian",
+    "phrase": "Saya vegan. Saya tidak makan daging, ikan, udang, telur, atau susu. Tolong tanpa terasi dan kecap ikan.",
+    "phrase_roman": "",
+    "watch": [
+      "Shrimp paste (terasi) in sambal and peanut sauce",
+      "Egg added to fried rice, noodles and gado-gado",
+      "Fish crackers (krupuk) on the side",
+      "Chicken stock in soups and fried rice"
+    ],
+    "dishes": [
+      {
+        "name": "Tempeh",
+        "local": "Tempe goreng",
+        "status": "vegan",
+        "note": "Fermented soybean cake, fried until crisp. Indonesian everyday food."
+      },
+      {
+        "name": "Vegetables with peanut sauce",
+        "local": "Gado-gado",
+        "status": "ask",
+        "note": "Vegetables, tofu and tempeh with peanut sauce. Ask for no egg, no krupuk and no terasi."
+      },
+      {
+        "name": "Vegetables in coconut milk",
+        "local": "Sayur lodeh",
+        "status": "ask",
+        "note": "Vegetable stew in coconut milk. Sometimes made with shrimp paste."
+      },
+      {
+        "name": "Banana fritters",
+        "local": "Pisang goreng",
+        "status": "usually",
+        "note": "Banana in batter, fried. Some batters contain egg."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Black rice pudding",
+        "local": "Bubur injin",
+        "status": "usually",
+        "note": "Balinese black sticky rice with palm sugar and coconut milk.",
+        "group": "Bread, breakfast and sweets"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Mixed rice",
+        "local": "Nasi campur",
+        "status": "ask",
+        "note": "Rice with several small dishes. Choose the vegetable, tofu and tempeh ones."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Fried rice",
+        "local": "Nasi goreng",
+        "status": "ask",
+        "note": "Ask for no egg, no chicken and no shrimp paste."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegetables with coconut",
+        "local": "Urap",
+        "status": "ask",
+        "note": "Steamed vegetables with spiced grated coconut. Sometimes seasoned with terasi."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Young jackfruit stew",
+        "local": "Gudeg",
+        "status": "ask",
+        "note": "Yogyakarta's sweet jackfruit stew. Usually served with chicken and egg."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Tofu and tempeh in sweet soy",
+        "local": "Tahu tempe bacem",
+        "status": "usually",
+        "note": "Braised in palm sugar and spices, then fried."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Tofu fritters",
+        "local": "Tahu goreng",
+        "status": "vegan",
+        "note": "Fried tofu, often with chilli."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Corn fritters",
+        "local": "Perkedel jagung",
+        "status": "ask",
+        "note": "Sweetcorn fritters; the batter may contain egg."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Rice cakes",
+        "local": "Klepon",
+        "status": "vegan",
+        "note": "Pandan rice balls filled with palm sugar, rolled in coconut."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Fruit",
+        "local": "Buah",
+        "status": "vegan",
+        "note": "Mangosteen, snake fruit, rambutan and papaya."
+      },
+      {
+        "group": "Drinks",
+        "name": "Fresh coconut",
+        "local": "Kelapa muda",
+        "status": "vegan",
+        "note": "Sold at beaches and roadside stalls."
+      },
+      {
+        "group": "Drinks",
+        "name": "Ginger and turmeric tonic",
+        "local": "Jamu",
+        "status": "usually",
+        "note": "Traditional herbal drink. Some contain honey or egg."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Bali",
+        "text": "Ubud and Canggu are among the most vegan-friendly places in Asia, with many vegan cafés and warungs."
+      },
+      {
+        "region": "Java",
+        "text": "Home of tempeh and gado-gado. Jakarta and Yogyakarta have vegan restaurants."
+      },
+      {
+        "region": "Lombok and the Gili islands",
+        "text": "Smaller, but tourist areas have vegan cafés and plenty of tofu and tempeh."
+      },
+      {
+        "region": "Sumatra",
+        "text": "Padang food is meat-heavy and spicy. Look for tempeh, tofu and vegetable dishes in the display."
+      }
+    ],
+    "eating_out": [
+      "Local warungs (small family restaurants) serve cheap tofu, tempeh and vegetable dishes. Ask about terasi.",
+      "Padang restaurants show dishes in the window; point at the vegetable, tofu and tempeh ones.",
+      "In Bali, 'vegan' is widely understood in cafés and warungs.",
+      "Ask for 'tanpa telur' (no egg) on fried rice and noodles."
+    ],
+    "shopping": [
+      "Markets sell fresh tempeh, tofu, tropical fruit and spices.",
+      "Supermarkets in Bali stock plant milks and vegan products."
+    ],
+    "phrases": [
+      {
+        "en": "No shrimp paste, please.",
+        "local": "Tanpa terasi.",
+        "roman": ""
+      },
+      {
+        "en": "No egg, please.",
+        "local": "Tanpa telur.",
+        "roman": ""
+      },
+      {
+        "en": "No meat or fish, please.",
+        "local": "Tanpa daging dan ikan.",
+        "roman": ""
+      },
+      {
+        "en": "Is there shrimp paste in the sambal?",
+        "local": "Sambalnya pakai terasi?",
+        "roman": ""
+      },
+      {
+        "en": "Do you have vegan food?",
+        "local": "Ada makanan vegan?",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Bali good for vegans?",
+        "a": "Very. Ubud and Canggu have many vegan cafés, and local warungs serve tofu, tempeh and vegetable dishes."
+      },
+      {
+        "q": "Is gado-gado vegan?",
+        "a": "Often not as served: it may include egg, prawn crackers and shrimp paste in the peanut sauce. Ask for it vegan."
+      },
+      {
+        "q": "Is tempeh vegan?",
+        "a": "Yes. It's fermented soybeans."
+      }
+    ]
+  },
+  {
+    "slug": "australia",
+    "name": "Australia",
+    "flag": "AU",
+    "verified": true,
+    "ease": "Very easy",
+    "summary": "Australia is one of the easiest countries in the world to be vegan. Café culture means plant milk and vegan breakfasts almost everywhere, and supermarkets label vegan products clearly. Regional towns are harder than the cities, but rarely difficult.",
+    "word": "vegan",
+    "first_dish": "Smashed avocado on toast in a Melbourne café",
+    "phrase_lang": "English",
+    "phrase": "I'm vegan: no meat, fish, eggs, dairy, butter or honey.",
+    "phrase_roman": "",
+    "watch": [
+      "Butter on toast and in mash",
+      "Honey in smoothies, granola and dressings",
+      "Shared fryers with fish at takeaways",
+      "Gelatine in lollies (sweets)"
+    ],
+    "dishes": [
+      {
+        "name": "Smashed avocado",
+        "local": "Smashed avo on toast",
+        "status": "usually",
+        "note": "The classic café breakfast. Ask for no feta or butter."
+      },
+      {
+        "name": "Vegemite on toast",
+        "local": "Vegemite toast",
+        "status": "vegan",
+        "note": "Vegemite is vegan. Ask for no butter, or for vegan spread."
+      },
+      {
+        "name": "Damper",
+        "local": "Damper",
+        "status": "usually",
+        "note": "Simple bush bread of flour, water and salt, cooked over coals. Some recipes add milk or butter."
+      },
+      {
+        "name": "Mangoes",
+        "local": "Mangoes",
+        "status": "vegan",
+        "note": "Summer means boxes of mangoes from Queensland and the Northern Territory."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Vegan pie",
+        "local": "Meat-free pie",
+        "status": "ask",
+        "note": "Bakeries often sell vegetable or vegan pies. Check the pastry, which may contain butter.",
+        "label": "Vegan versions are widespread",
+        "group": "Main dishes"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegan burger",
+        "local": "Vegan burger",
+        "status": "ask",
+        "note": "On most pub and café menus. Check the bun and sauce."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Thai and Vietnamese food",
+        "local": "Thai, Vietnamese",
+        "status": "ask",
+        "note": "Australia's Asian restaurants usually do tofu versions. Ask for no fish sauce."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Barbecue vegetables",
+        "local": "BBQ",
+        "status": "usually",
+        "note": "Public barbecues in parks are free to use. Bring corn, vegetable skewers and plant-based sausages."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Hot chips",
+        "local": "Chips",
+        "status": "ask",
+        "note": "Check the fryer isn't shared with fish."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Acai bowl",
+        "local": "Acai bowl",
+        "status": "usually",
+        "note": "Ask for no honey."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Banana bread",
+        "local": "Banana bread",
+        "status": "ask",
+        "note": "Café staple; vegan versions are common."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Anzac biscuits",
+        "local": "Anzac biscuits",
+        "status": "ask",
+        "note": "Oats, golden syrup and coconut, but traditionally made with butter. Vegan versions are easy to find."
+      },
+      {
+        "group": "Drinks",
+        "name": "Flat white",
+        "local": "Flat white",
+        "status": "ask",
+        "note": "Order it with soy, oat or almond milk."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Melbourne",
+        "text": "One of the most vegan-friendly cities in the world, with vegan bakeries, pubs and fine dining."
+      },
+      {
+        "region": "Sydney",
+        "text": "Very easy, especially in Newtown and the inner west."
+      },
+      {
+        "region": "Brisbane and Byron Bay",
+        "text": "Byron Bay is full of plant-based cafés. Brisbane has a strong vegan scene."
+      },
+      {
+        "region": "Regional and outback Australia",
+        "text": "Harder. Roadhouses are meat-heavy; supermarkets and bakeries fill the gaps."
+      }
+    ],
+    "eating_out": [
+      "Menus often mark dishes V and VG (or VE) for vegan. Many cafés can make most breakfasts vegan.",
+      "Plant milk is standard in coffee shops, sometimes at extra cost.",
+      "Free public barbecues in parks are perfect for a cheap vegan meal."
+    ],
+    "shopping": [
+      "Major supermarkets have big vegan ranges and label products 'vegan' or 'plant-based'.",
+      "Australia has strict biosecurity rules. Declare all food on arrival, and don't bring in fresh fruit and vegetables."
+    ],
+    "phrases": [
+      {
+        "en": "Is there butter or dairy in this?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is the pastry vegan?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Are the chips cooked in the same oil as fish?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is there honey in the smoothie or granola?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Can I have oat or soy milk?",
+        "local": "",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Australia good for vegans?",
+        "a": "Very. Cities have vegan restaurants and cafés everywhere, and supermarkets label vegan products clearly."
+      },
+      {
+        "q": "Is Vegemite vegan?",
+        "a": "Yes."
+      },
+      {
+        "q": "Can I bring food into Australia?",
+        "a": "You must declare all food when you arrive. Fresh fruit and vegetables are usually not allowed."
+      }
+    ]
+  },
+  {
+    "slug": "new-zealand",
+    "name": "New Zealand",
+    "flag": "NZ",
+    "verified": true,
+    "ease": "Very easy",
+    "summary": "New Zealand is where I'm from, and it's an easy country for vegans. Cafés in every town have plant milk and a vegan option, supermarkets label vegan food, and the produce is superb. Small rural towns are harder, but bakeries and supermarkets fill the gaps.",
+    "word": "vegan",
+    "first_dish": "A vegan pie from a bakery on a road trip",
+    "phrase_lang": "English",
+    "phrase": "I'm vegan: no meat, fish, eggs, dairy, butter or honey.",
+    "phrase_roman": "",
+    "watch": [
+      "Butter on toast and vegetables",
+      "Honey (New Zealand is known for it) in granola, dressings and drinks",
+      "Gelatine in lollies",
+      "Shared fryers at fish and chip shops"
+    ],
+    "dishes": [
+      {
+        "name": "Hot chips",
+        "local": "Chips",
+        "status": "ask",
+        "note": "From fish and chip shops. Ask whether they share oil with fish."
+      },
+      {
+        "name": "Sweet potato fries",
+        "local": "Sweet potato fries",
+        "status": "usually",
+        "note": "A café and pub staple."
+      },
+      {
+        "name": "Feijoas",
+        "local": "Feijoas",
+        "status": "vegan",
+        "note": "Fragrant green fruit that New Zealanders adore, in season from about March to June."
+      },
+      {
+        "name": "Kiwifruit",
+        "local": "Kiwifruit",
+        "status": "vegan",
+        "note": "Green and gold kiwifruit, at their best in winter."
+      }
+    ],
+    "more_dishes": [
+      {
+        "name": "Vegan pie",
+        "local": "Bakery pie",
+        "status": "ask",
+        "note": "New Zealanders love a bakery pie, and many bakeries now sell vegan ones. Check the pastry.",
+        "label": "Vegan versions are widespread",
+        "group": "Main dishes"
+      },
+      {
+        "group": "Main dishes",
+        "name": "Vegan burger",
+        "local": "Vegan burger",
+        "status": "ask",
+        "note": "On most café and pub menus. Check the bun and sauce."
+      },
+      {
+        "group": "Main dishes",
+        "name": "Barbecue",
+        "local": "BBQ",
+        "status": "usually",
+        "note": "Campgrounds and parks have barbecues. Bring corn, skewers and plant-based sausages."
+      },
+      {
+        "group": "Small plates, snacks and street food",
+        "name": "Avocado on toast",
+        "local": "Avocado toast",
+        "status": "usually",
+        "note": "Ask for no butter or feta."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Banana bread",
+        "local": "Banana bread",
+        "status": "ask",
+        "note": "Many cafés have a vegan loaf."
+      },
+      {
+        "group": "Bread, breakfast and sweets",
+        "name": "Hokey pokey ice cream",
+        "local": "Hokey pokey",
+        "status": "ask",
+        "note": "Vanilla ice cream with honeycomb toffee. Dairy-free versions exist in supermarkets."
+      },
+      {
+        "group": "Drinks",
+        "name": "Flat white",
+        "local": "Flat white",
+        "status": "ask",
+        "note": "Order with oat, soy or almond milk."
+      },
+      {
+        "group": "Drinks",
+        "name": "Wine",
+        "local": "Wine",
+        "status": "ask",
+        "note": "Some wines are fined with animal products. Many New Zealand wineries say if a wine is vegan."
+      }
+    ],
+    "regions": [
+      {
+        "region": "Auckland",
+        "text": "The biggest choice: vegan restaurants, bakeries and every Asian cuisine."
+      },
+      {
+        "region": "Wellington",
+        "text": "Compact and very vegan-friendly, with a strong café culture."
+      },
+      {
+        "region": "Christchurch and Queenstown",
+        "text": "Easy, with plenty of vegan options in cafés and restaurants."
+      },
+      {
+        "region": "Rural New Zealand",
+        "text": "Harder. Small-town cafés usually have one vegan option; supermarkets and bakeries are your back-up."
+      }
+    ],
+    "eating_out": [
+      "Menus usually mark dishes V and VG (or VE). Cafés will often adapt dishes.",
+      "Plant milk is standard in coffee shops.",
+      "On road trips, stock up in town supermarkets before heading into rural areas."
+    ],
+    "shopping": [
+      "Major supermarkets have large vegan ranges, clearly labelled.",
+      "Roadside fruit stalls sell seasonal fruit and vegetables, often on an honesty-box system.",
+      "New Zealand has strict biosecurity rules. Declare all food on arrival, and don't bring in fresh fruit and vegetables."
+    ],
+    "phrases": [
+      {
+        "en": "Is there butter or dairy in this?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is the pastry vegan?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Do the chips share oil with fish?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Is there honey in this?",
+        "local": "",
+        "roman": ""
+      },
+      {
+        "en": "Can I have oat or soy milk?",
+        "local": "",
+        "roman": ""
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is New Zealand good for vegans?",
+        "a": "Yes. Cities have plenty of vegan options, cafés everywhere have plant milk, and supermarkets label vegan food clearly."
+      },
+      {
+        "q": "Can I bring food into New Zealand?",
+        "a": "You must declare all food when you arrive, and fresh fruit and vegetables are usually not allowed. Fines apply if you don't declare."
+      },
+      {
+        "q": "Are New Zealand bakery pies vegan?",
+        "a": "Traditional pies have meat and butter pastry, but many bakeries now sell vegan pies. Ask."
+      }
+    ]
   }
 ]

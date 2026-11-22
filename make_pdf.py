@@ -12,11 +12,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 e = html.escape
 LANG = {"French": "fr", "Spanish": "es", "Spanish (Mexico)": "es-MX", "Italian": "it", "Turkish": "tr",
-        "German": "de", "Japanese": "ja", "Greek": "el", "English": "en"}
+        "German": "de", "Japanese": "ja", "Greek": "el", "English": "en", "Thai": "th",
+        "Sinhala": "si", "Hindi": "hi", "Portuguese": "pt-PT", "Vietnamese": "vi", "Indonesian": "id"}
 
 
 def main():
-    cs = sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: c["rank"])
+    cs = sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: (c.get("rank") or 99, c["name"]))
     logo = (ROOT / "static/brand/logo.svg").read_text()
     pages = []
     for c in cs:
@@ -31,7 +32,7 @@ def main():
 <div><h3>Watch for</h3><ul>{''.join(f'<li>{e(w)}</li>' for w in c['watch'])}</ul><p class="word">Word for vegan: <b>{e(c['word'])}</b></p></div></div>
 <p class="foot">veganfoodtravel.com{('/vegan-food-in-' + c['slug'] + '/')} · Recipes vary: always confirm ingredients locally.</p></section>""")
     cover = f"""<section class="page cover"><div class="logo big">{logo}</div><h1>Vegan phrase cards</h1>
-<p class="sub">How to order vegan food in the world's 10 most-visited countries</p>
+<p class="sub">How to order vegan food in {len(cs)} countries</p>
 <ol>{''.join(f"<li>{e(c['name'][0].upper() + c['name'][1:])} <span>{e(c['phrase_lang'])}</span></li>" for c in cs)}</ol>
 <p class="foot">Save this PDF to your phone before you fly. Free from veganfoodtravel.com · hello@veganfoodtravel.com</p></section>"""
     doc = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><style>

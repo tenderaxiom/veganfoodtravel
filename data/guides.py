@@ -6,7 +6,7 @@ GUIDES = [
         "slug": "how-to-ask-for-vegan-food",
         "title": "How to Ask for Vegan Food in Any Country: 3 Questions That Work",
         "h1": "How to ask for vegan food in any country",
-        "description": "The three questions I use to eat vegan anywhere, the hidden ingredients to ask about, and the word for vegan in 9 languages.",
+        "description": "The three questions I use to eat vegan anywhere, the hidden ingredients to ask about, and the word for vegan in 14 languages.",
         "lead": "Ordering vegan abroad isn't about finding a vegan restaurant. It's about knowing which local dishes are already vegan, where animal products hide, and how to ask for one small change.",
         "sections": [
             ("Question 1: What is already vegan here?",
