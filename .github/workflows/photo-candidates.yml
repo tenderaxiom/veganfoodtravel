@@ -1,0 +1,23 @@
+name: Photo candidates
+on:
+  push:
+    branches: [main]
+    paths: ["data/photo_queries.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - run: python scripts/photo_candidates.py
+      - run: |
+          git config user.name "Vegan Food Travel bot"
+          git config user.email "hello@veganfoodtravel.com"
+          git add candidates
+          git diff --cached --quiet || (git commit -m "Photo candidates" && git pull --rebase && git push)
