@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "dist"
 SITE = "https://veganfoodtravel.com"
+GUIDE_LIST = []
 BRAND = "Vegan Food Travel"
 TAGLINE = "Eat like a local. Stay vegan."
 DESCRIPTOR = "The local food of every country, vegan by tradition."
@@ -24,7 +25,7 @@ VEGAN_SINCE = 2015
 TODAY = date.today().isoformat()
 # Date the content last really changed. Bump it (or set "updated" on a country) when you edit content,
 # so "Updated" dates and the sitemap stay honest instead of changing on every rebuild.
-CONTENT_UPDATED = "2026-11-17"
+CONTENT_UPDATED = "2026-11-22"
 
 
 def nice_date(iso):
@@ -142,6 +143,10 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 2px 4px rgba(29,42,34,.08),
 .glance div{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow)}
 .glance b{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 .draft{background:var(--ask);color:var(--ask-ink);border-radius:12px;padding:12px 16px;font-size:14px;margin:22px 0}
+.plan{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:14px 0 30px}
+.plan a{display:block;height:100%;background:var(--card);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);text-decoration:none;color:inherit}
+.plan a:hover{transform:translateY(-2px)}.plan b{display:block;font-family:var(--serif);font-size:19px;margin-bottom:6px;color:var(--brand)}.plan span{font-size:15px;opacity:.8}
+blockquote.script{margin:14px 0;padding:14px 18px;border-left:4px solid var(--accent);background:var(--card);border-radius:10px;font-style:italic}
 .more{list-style:none;padding:0;margin:10px 0 26px;background:var(--card);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
 .more li{display:grid;grid-template-columns:minmax(150px,210px) 1fr;gap:6px 18px;padding:14px 20px;border-top:1px solid rgba(0,0,0,.07)}.more li:first-child{border-top:0}
 .more h4{margin:0;font-size:17px}.more .local{font-size:14px;margin:2px 0 6px;opacity:.75}.more p{margin:0}
@@ -232,7 +237,7 @@ def page(*, path, title, description, body, jsonld=(), indexable=True, og=None, 
 </head>
 <body>
 <header class="site"><div class="wrap"><a class="logo" href="/" aria-label="{BRAND} home"><img src="/brand/logo.svg" alt="{BRAND}" width="206" height="40"></a>
-<nav class="main" aria-label="Main"><a href="/#countries">Countries</a><a href="/phrase-cards/">Phrase cards</a><a href="/about/">About</a><a class="btn sm" href="/free-guide/">Free pack</a></nav></div></header>
+<nav class="main" aria-label="Main"><a href="/#countries">Countries</a><a href="/#guides">Plan your trip</a><a href="/phrase-cards/">Phrase cards</a><a href="/about/">About</a><a class="btn sm" href="/free-guide/">Free pack</a></nav></div></header>
 <main>
 {hero}
 <div class="wrap{' narrow' if narrow else ''}">
@@ -241,7 +246,7 @@ def page(*, path, title, description, body, jsonld=(), indexable=True, og=None, 
 </main>
 <footer class="site"><div class="wrap"><div class="cols">
 <div><img src="/brand/logo-light.svg" alt="{BRAND}" width="230" height="45"><p style="margin-top:12px">{e(DESCRIPTOR)} Written from over 30 years of travel and {YEARS_VEGAN} years vegan.</p></div>
-<div><h2>Explore</h2><ul><li><a href="/#countries">All countries</a></li><li><a href="/phrase-cards/">Phrase cards</a></li><li><a href="/free-guide/">Free pack</a></li></ul></div>
+<div><h2>Explore</h2><ul><li><a href="/#countries">All countries</a></li><li><a href="/phrase-cards/">Phrase cards</a></li><li><a href="/how-to-ask-for-vegan-food/">How to ask for vegan food</a></li><li><a href="/vegan-meals-on-flights/">Vegan meals on flights</a></li><li><a href="/free-guide/">Free pack</a></li></ul></div>
 <div><h2>About</h2><ul><li><a href="/about/">About &amp; how I check</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms &amp; disclosure</a></li><li><a href="/photo-credits/">Photo credits</a></li></ul></div>
 </div><p class="fine">© {YEAR} {BRAND}. Nobody pays to be included. Photos are free-licensed from Wikimedia Commons and credited on each page.</p></div></footer>
 {ERRORS_JS}
@@ -345,6 +350,8 @@ def country_page(c, countries, i):
 {shop_html}
 {phr_html}
 {faq_html}
+<h2 id="plan">Plan your trip to {e(name)}</h2>
+<ul>{guide_links(GUIDE_LIST)}</ul>
 <h2 id="why">Why {e(name)}</h2>
 <p>{e(tname)} is the number {c['rank']} most-visited country in the world, with {c['arrivals_m']} million international arrivals in 2024 (UN Tourism).</p>
 </article>
@@ -375,6 +382,8 @@ def home(countries):
     body = f"""<h2 id="countries">Start with the world's 10 most-visited countries</h2>
 <p class="muted">Ranked by international arrivals in 2024 (UN Tourism). Each guide covers the local dishes, what to watch for, and a phrase card.</p>
 <ul class="grid">{cards}</ul>
+<h2 id="guides">Plan your trip</h2>
+<ul class="plan">{"".join(f'<li><a href="/{g["slug"]}/"><b>{e(g["h1"][0].upper() + g["h1"][1:])}</b><span>{e(g["description"])}</span></a></li>' for g in GUIDE_LIST)}</ul>
 <h2>How it works</h2>
 <ol class="steps"><li><b>Find the dishes that are already vegan.</b><br>Every country has traditional food that never had meat in it. Each guide starts there.</li>
 <li><b>Know what to watch for.</b><br>Fish sauce in Thailand, dashi in Japan, lard in Mexico. The hidden ingredients, named up front.</li>
@@ -539,19 +548,55 @@ HEADERS = """/*
 """
 
 
+def load_guides():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("guides", ROOT / "data/guides.py")
+    mod = importlib.util.module_from_spec(spec); spec.loader.exec_module(mod)
+    return mod.GUIDES
+
+
+def guide_links(guides, exclude=""):
+    return "".join(f'<li><a href="/{g["slug"]}/">{e(g["h1"][0].upper() + g["h1"][1:])}</a></li>' for g in guides if g["slug"] != exclude)
+
+
+def guide_page(g, guides, countries):
+    words = "<table class=\"phrases\"><thead><tr><th>Country</th><th>The word for vegan</th></tr></thead><tbody>" + "".join(
+        f'<tr><td><a href="{country_path(c)}">{e(cap(c["name"]))}</a></td><td>{e(c["word"])}</td></tr>' for c in countries) + "</tbody></table>"
+    secs = "".join(f'<h2>{e(h)}</h2>{html.replace("{WORDS}", words)}' for h, html in g["sections"])
+    faqs = "".join(f"<h3>{e(q)}</h3><p>{e(a)}</p>" for q, a in g["faqs"])
+    path = f"/{g['slug']}/"
+    body = f"""<div class="prose" style="padding-top:40px"><p class="crumbs"><a href="/">Home</a> / <a href="/#guides">Plan your trip</a></p>
+<h1>{e(g['h1'][0].upper() + g['h1'][1:])}</h1>
+<p class="meta">By <a href="/about/">{AUTHOR}</a> · Updated {nice_date(g.get('updated', CONTENT_UPDATED))}</p>
+<p class="lead">{e(g['lead'])}</p>
+{secs}
+<h2 id="quick-answers">Quick answers</h2><div class="faq">{faqs}</div>
+<h2>More trip planning</h2><ul>{guide_links(guides, g['slug'])}<li><a href="/#countries">Country guides: vegan food in the 10 most-visited countries</a></li></ul></div>
+{cta_block(path)}"""
+    article = {"@context": "https://schema.org", "@type": "Article", "headline": g["h1"][0].upper() + g["h1"][1:], "description": g["description"],
+               "inLanguage": "en", "dateModified": g.get("updated", CONTENT_UPDATED), "mainEntityOfPage": SITE + path,
+               "image": f"{SITE}/brand/og.png", "author": person(), "publisher": org()}
+    crumbs = breadcrumb([("Home", "/"), ("Plan your trip", "/#guides"), (g["h1"][0].upper() + g["h1"][1:], path)])
+    return path, page(path=path, title=g["title"], description=g["description"], body=body, jsonld=[article, crumbs], narrow=True)
+
+
 def build():
     countries = sorted(json.loads((ROOT / "data/countries.json").read_text()), key=lambda c: c["rank"])
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "static", OUT)
+    guides = load_guides()
+    global GUIDE_LIST
+    GUIDE_LIST = guides
     pages = [home(countries), about(), phrase_cards(countries), free_guide(), thanks(), unsubscribed(),
-             contact(), privacy(), terms(), photo_credits()] + [country_page(c, countries, i) for i, c in enumerate(countries)]
+             contact(), privacy(), terms(), photo_credits()] + [country_page(c, countries, i) for i, c in enumerate(countries)] + \
+            [guide_page(g, guides, countries) for g in guides]
     for path, content in pages:
         target = OUT / "index.html" if path == "/" else OUT / path.strip("/") / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(content)
     indexable = ["/", "/about/", "/phrase-cards/", "/free-guide/", "/contact/", "/privacy/", "/terms/"] + \
-                [country_path(c) for c in countries if c["verified"]]
+                [country_path(c) for c in countries if c["verified"]] + [f"/{g['slug']}/" for g in guides]
     sm = "\n".join(f"  <url><loc>{SITE}{p}</loc><lastmod>{CONTENT_UPDATED}</lastmod></url>" for p in indexable)
     (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{sm}\n</urlset>\n')
     (OUT / "robots.txt").write_text(ROBOTS)

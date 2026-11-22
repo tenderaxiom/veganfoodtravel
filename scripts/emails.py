@@ -98,7 +98,9 @@ def welcome(step, token):
                   p("<b>1. What is already vegan here?</b> Most food cultures have dishes that never had meat in them: Greek fasting food, Buddhist temple cooking, Italian peasant dishes. Start there."),
                   p("<b>2. What's in the stock or the fat?</b> Butter, lard, fish sauce, meat stock. These are the hidden ingredients, not the obvious ones."),
                   p("<b>3. Can they leave one thing off?</b> Cheese on top, egg on the side, yogurt in the sauce. Asking for one change works far better than asking for a whole new dish."),
-                  btn("See the phrase cards for all 10 countries", f"{SITE}/phrase-cards/"),
+                  p("I've written the full method up, with the word for vegan in 9 languages and the hidden ingredients to ask about."),
+                  btn("How to ask for vegan food anywhere", f"{SITE}/how-to-ask-for-vegan-food/"),
+                  p("Flying soon? Order the VGML meal at least a day ahead. More here: " + SITE + "/vegan-meals-on-flights/"),
                   p("Richard")]
     else:
         s, pre = "Every Sunday: one country, one dish, one phrase", "What to expect from here."
